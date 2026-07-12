@@ -1,0 +1,169 @@
+niche: "misteri dan fenomena aneh di Asia (legenda urban, kejadian misterius, tempat berhantu, ritual aneh, penemuan arkeologi, cerita horor Asia)"
+audience: "orang dewasa Indonesia yang suka cerita misteri, horor, dan fenomena aneh dari seluruh Asia"
+language: id
+
+# ============================================================
+# NEW: Content safety & quality settings
+# ============================================================
+ai_disclosure:
+  enabled: true
+  text: "Konten ini dibuat dengan bantuan AI dan telah ditinjau oleh manusia."
+  # Posisi: "description_only" atau "description_and_title"
+  position: "description_only"
+
+content_variation:
+  enabled: true
+  # Format yang bisa dipilih: list, story, comparison, myth_busting
+  formats: ["list", "story", "comparison", "myth_busting"]
+  # Minimal variasi format setiap 5 video
+  min_format_switch: 5
+
+review:
+  # Mode: "auto" (langsung upload), "draft" (simpan draft dulu), "hybrid" (draft tiap 5 video)
+  mode: "hybrid"
+  draft_dir: "drafts"
+  # Auto approve kalau score >= threshold
+  auto_approve_score: 7
+
+script:
+  model: llama-3.3-70b-versatile
+  target_seconds: 60
+  words_per_second: 2.5
+  # NEW: SEO & uniqueness
+  seo:
+    enabled: true
+    min_title_length: 40
+    max_title_length: 95
+    trending_boost: true
+  # NEW: Fact check
+  fact_check:
+    enabled: true
+    require_sources: false
+
+voice:
+  provider: elevenlabs
+  elevenlabs_model: eleven_multilingual_v2
+  # Voice variety - 2 pria saja, konsisten
+  variety:
+    enabled: true
+    voices:
+      - edge_id: "id-ID-ArdiNeural"
+        elevenlabs_id: "21m00Tcm4TlvDq8ikWAM"
+        name: "Ardi"
+        gender: "male"
+      - edge_id: "id-ID-JakaNeural"
+        elevenlabs_id: "IKne3meq5aSn9XLyUdCD"
+        name: "Jaka"
+        gender: "male"
+    strategy: "round_robin"
+  # Legacy (fallback kalau variety disabled)
+  voice: id-ID-ArdiNeural
+  elevenlabs_voice_id: 21m00Tcm4TlvDq8ikWAM
+  rate: "-12%"
+  pitch: "+0Hz"
+
+music:
+  enabled: true
+  # Source: "local" (folder assets/music), "pixabay" (API)
+  source: "local"
+  local_dir: "assets/music"
+  # Volume: 0.0 - 1.0 (semakin kecil semakin pelan)
+  volume: 0.03
+  # Fade in/out dalam detik
+  fade_in: 2.0
+  fade_out: 3.0
+  # Auto pilih musik berdasarkan mood
+  mood_mapping:
+    list: "upbeat"
+    story: "cinematic"
+    comparison: "neutral"
+    myth_busting: "mysterious"
+
+branding:
+  enabled: true
+  # Intro: video pendek di awal
+  intro:
+    enabled: false
+    path: "assets/branding/intro.mp4"
+    duration: 2.5
+  # Outro: video CTA di akhir
+  outro:
+    enabled: true
+    path: "assets/branding/outro.mp4"
+    duration: 3.0
+    cta_text: "Subscribe untuk fakta unik lainnya!"
+  # Watermark
+  watermark:
+    enabled: true
+    path: "assets/branding/watermark.png"
+    position: "center"
+    opacity: 0.6
+    size: 300
+
+  comment_box:
+    enabled: true
+    position: "bottom"
+    delay_seconds: 1.5
+    font: "Anton"
+    font_size: 26
+    font_color: "black"
+    box_color: "white@0.9"
+    box_radius: 20
+    margin: 40
+    usernames:
+      - "@fakta.unik.hari.ini"
+      - "@sains.cepat"
+      - "@ilmu.random"
+      - "@facts.indo"
+      - "@pengetahuan.umum"
+      - "@daily.science.id"
+      - "@sains.populer"
+      - "@trivia.indonesia"
+    comments:
+      - "Keren banget! Ga nyangka gitu"
+      - "Wajib tahu nih buat semua orang!"
+      - "Fakta yang jarang diketahui orang"
+      - "Ternyata begini ya, mantap!"
+      - "Share ke temen yang belum tau!"
+      - "Baru tau gw, ternyata begitu"
+      - "Wah, ga sangka bisa begitu!"
+      - "Beneran? Cekidot guys!"
+      - "Info penting nih, jangan skip!"
+      - "Setuju gak sama fakta ini?"
+
+captions:
+  whisper_model: base
+  font: "Anton"
+  font_size: 90
+  primary_color: "&H00FFFFFF"
+  outline_color: "&H00000000"
+  outline: 6
+  words_per_caption: 3
+  position_y: 0.55
+
+video:
+  width: 1080
+  height: 1920
+  fps: 30
+
+upload:
+  privacy: "public"
+  category_id: "27"
+  made_for_kids: false
+  channel: "misteriasia"
+  default_tags: ["misteri asia", "fenomena aneh", "horor asia", "legenda urban", "cerita misterius", "tempat berhantu", "ritual aneh", "penemuan arkeologi", "fakta unik", "misteri dunia"]
+  # NEW: Upload schedule
+  schedule:
+    enabled: true
+    # Jam upload optimal (WIB)
+    optimal_hours: [11, 13, 17, 19, 21]
+    # Max video per hari
+    max_per_day: 2
+    # Delay antar video (menit)
+    delay_minutes: 120
+
+comments:
+  model: llama-3.1-8b-instant
+  poll_interval_minutes: 180
+  auto_reply: true
+  delete_spam: true
