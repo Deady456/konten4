@@ -3,7 +3,7 @@ import re
 import time
 from datetime import datetime
 from . import script, voice, captions, visuals, assemble, upload, state
-from . import music, branding, review
+from . import branding, review
 from .config import CONFIG, OUTPUT_DIR
 
 
@@ -35,14 +35,14 @@ def run_once(publish_at: str | None = None, upload_to_youtube: bool = True,
         format_idx = s.get("_format_idx", 0)
         selected_format = formats[format_idx % len(formats)]
         state.update({"_format_idx": format_idx + 1})
-        _log(f"0/7 Content format: {selected_format}")
+        _log(f"0/8 Content format: {selected_format}")
     else:
         selected_format = None
 
     # ============================================================
     # Step 1: Generate script
     # ============================================================
-    _log("1/9 Generating script with LLM")
+    _log("1/8 Generating script with LLM")
     data = script.generate(content_format=selected_format)
     _log(f"    topic: {data['topic']} ({len(data['scenes'])} scenes)")
 
@@ -53,14 +53,14 @@ def run_once(publish_at: str | None = None, upload_to_youtube: bool = True,
     # ============================================================
     # Step 2: Synthesize voiceover (with variety)
     # ============================================================
-    _log("2/9 Synthesizing voiceover")
+    _log("2/8 Synthesizing voiceover")
     voice_mp3 = voice.synth(data["full_text"], work / "voice.mp3")
     _log(f"    voice saved ({voice_mp3.stat().st_size/1024:.0f} KB)")
 
     # ============================================================
     # Step 3: Transcribe for captions
     # ============================================================
-    _log("3/9 Transcribing for word-level captions (Faster-Whisper)")
+    _log("3/8 Transcribing for word-level captions (Faster-Whisper)")
     _log("    loading model (first run downloads)...")
     t0 = time.time()
     words = captions.transcribe_words(voice_mp3, original_text=data["full_text"])
@@ -69,38 +69,27 @@ def run_once(publish_at: str | None = None, upload_to_youtube: bool = True,
     # ============================================================
     # Step 4: Fetch B-roll footage
     # ============================================================
-    _log("4/9 Fetching footage from Pexels")
+    _log("4/8 Fetching footage from Pexels")
     scene_videos = visuals.fetch_for_scenes(data["scenes"], work / "broll")
     _log(f"    {len(scene_videos)} clips ready")
 
     # ============================================================
     # Step 5: Write caption file
     # ============================================================
-    _log("5/9 Writing caption file")
+    _log("5/8 Writing caption file")
     from .config import CONFIG as CFG
     ass_path = captions.write_ass(words, work / "captions.ass",
                                   CFG["video"]["width"], CFG["video"]["height"])
 
     # ============================================================
-    # Step 6: Mix background music
+    # Step 6: Assemble video
     # ============================================================
-    _log("6/9 Mixing background music")
-    # Get audio duration first
-    from .assemble import probe_duration
-    audio_dur = probe_duration(voice_mp3)
-
-    mixed_audio = work / "voice_mixed.aac"
-    music.mix_with_voice(voice_mp3, mixed_audio, audio_dur, data["scenes"])
-
-    # ============================================================
-    # Step 7: Assemble video
-    # ============================================================
-    _log("7/9 Assembling final video with ffmpeg")
+    _log("6/8 Assembling final video with ffmpeg")
     _log("    processing scenes (scale/crop/loop)...")
     t0 = time.time()
     final = assemble.build(
         scene_videos=scene_videos,
-        voice_audio=mixed_audio,  # Use mixed audio instead of raw voice
+        voice_audio=voice_mp3,
         captions_ass=ass_path,
         words=words,
         scenes=data["scenes"],
@@ -113,9 +102,9 @@ def run_once(publish_at: str | None = None, upload_to_youtube: bool = True,
     _log(f"    raw video: {final.name} ({sz:.0f} MB, {dur:.0f}s render)")
 
     # ============================================================
-    # Step 8: Apply branding (intro/outro/watermark)
+    # Step 7: Apply branding (intro/outro/watermark)
     # ============================================================
-    _log("8/9 Applying branding")
+    _log("7/8 Applying branding")
     branded = branding.apply_all(final, work / "branding")
     if branded != final:
         # Move branded to final
@@ -132,7 +121,7 @@ def run_once(publish_at: str | None = None, upload_to_youtube: bool = True,
     _log(f"    final: {final.name} ({sz:.0f} MB)")
 
     # ============================================================
-    # Step 9: Review or Upload
+    # Step 8: Review or Upload
     # ============================================================
     video_id = None
 
@@ -142,13 +131,13 @@ def run_once(publish_at: str | None = None, upload_to_youtube: bool = True,
     needs_review = force_review or review.should_review(video_count)
 
     if needs_review and upload_to_youtube:
-        _log("9/9 Saving draft for review")
+        _log("8/8 Saving draft for review")
         draft_path = review.save_draft(data, final)
         _log(f"    Draft saved: {draft_path.name}")
         _log("    Run: python -m src.review --list  (to see drafts)")
         _log("    Run: python -m src.review --approve <name>  (to approve)")
     elif upload_to_youtube:
-        _log("9/9 Uploading to YouTube")
+        _log("8/8 Uploading to YouTube")
         video_id = upload.upload_video(
             video_path=final,
             title=data["title"],
@@ -158,7 +147,7 @@ def run_once(publish_at: str | None = None, upload_to_youtube: bool = True,
         )
         _log(f"    uploaded: https://youtube.com/shorts/{video_id}")
     else:
-        _log("9/9 Upload skipped (--no-upload)")
+        _log("8/8 Upload skipped (--no-upload)")
 
     # Save state
     state.add_topic(data["topic"])
