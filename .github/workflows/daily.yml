@@ -50,7 +50,7 @@ jobs:
       - name: Decode YouTube credentials
         run: |
           echo "${{ secrets.CLIENT_SECRET_B64 }}" | base64 -d > client_secret.json
-          echo "${{ secrets.TOKEN_B64 }}" | base64 -d > token_default.json
+          echo "${{ secrets.TOKEN_B64 }}" | base64 -d > token_misteriasia.json
 
       - name: Run pipeline
         env:
@@ -74,10 +74,10 @@ jobs:
 
       - name: Commit refreshed token (if changed)
         run: |
-          if git diff --quiet token_default.json 2>/dev/null; then
+          if git diff --quiet token_misteriasia.json 2>/dev/null; then
             echo "Token unchanged"
           else
-            git add token_default.json
+            git add token_misteriasia.json
             git commit -m "auto: refresh YouTube token"
             git push
           fi
