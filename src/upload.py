@@ -23,10 +23,9 @@ def get_service():
     token_path = _token_path()
     creds = None
     if token_path.exists():
-        creds = Credentials.from_authorized_user_file(str(token_path), SCOPES)
+        creds = Credentials.from_authorized_user_file(str(token_path))
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
-            creds.scopes = None  # pakai granted scope asli saat refresh (hindari invalid_scope)
             creds.refresh(Request())
         else:
             flow = InstalledAppFlow.from_client_secrets_file(str(CLIENT_SECRET), SCOPES)
