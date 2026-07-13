@@ -1,6 +1,7 @@
 {
   "used_topics": [
-    "misteri-pasar-malam-taiwan"
+    "misteri-pasar-malam-taiwan",
+    "misteri-gua-berhantu-jepang"
   ],
   "published": [
     {
@@ -12,8 +13,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260713_095826",
+      "topic": "misteri-gua-berhantu-jepang",
+      "title": "Menjelajahi Gua Berhantu di Jepang yang Penuh Misteri",
+      "path": "/home/runner/work/konten4/konten4/output/20260713_095826_misteri-gua-berhantu-jepang/final.mp4",
+      "video_id": "dnVrhGB8WDA",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 1,
-  "_voice_idx": 1
+  "_format_idx": 2,
+  "_voice_idx": 2
 }
