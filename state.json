@@ -1,7 +1,8 @@
 {
   "used_topics": [
     "misteri-pasar-malam-taiwan",
-    "misteri-gua-berhantu-jepang"
+    "misteri-gua-berhantu-jepang",
+    "misteri-pulau-kematian-jepang-vs-pulau-berhantu-indonesia"
   ],
   "published": [
     {
@@ -23,8 +24,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260713_220155",
+      "topic": "misteri-pulau-kematian-jepang-vs-pulau-berhantu-indonesia",
+      "title": "Pulau Kematian Jepang vs Pulau Berhantu Indonesia: Mana yang Lebih Menakutkan?",
+      "path": "/home/runner/work/konten4/konten4/output/20260713_220155_misteri-pulau-kematian-jepang-vs-pulau-berhantu-indonesia/final.mp4",
+      "video_id": "4XhElNWcVTE",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 2,
-  "_voice_idx": 2
+  "_format_idx": 3,
+  "_voice_idx": 3
 }
