@@ -48,8 +48,8 @@ voice:
     enabled: true
     voices:
       - edge_id: "id-ID-ArdiNeural"
-        elevenlabs_id: "21m00Tcm4TlvDq8ikWAM"
-        name: "Ardi"
+        elevenlabs_id: "VR6AewLTigWG4xSOukaG"
+        name: "Arnold"
         gender: "male"
       - edge_id: "id-ID-JakaNeural"
         elevenlabs_id: "ErXwobaYiN019PkySvjV"
@@ -58,7 +58,7 @@ voice:
     strategy: "round_robin"
   # Legacy (fallback kalau variety disabled)
   voice: id-ID-ArdiNeural
-  elevenlabs_voice_id: 21m00Tcm4TlvDq8ikWAM
+  elevenlabs_voice_id: VR6AewLTigWG4xSOukaG
 
 
 
