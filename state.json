@@ -2,7 +2,8 @@
   "used_topics": [
     "misteri-pasar-malam-taiwan",
     "misteri-gua-berhantu-jepang",
-    "misteri-pulau-kematian-jepang-vs-pulau-berhantu-indonesia"
+    "misteri-pulau-kematian-jepang-vs-pulau-berhantu-indonesia",
+    "misteri-budaya-kanibalisme-papua"
   ],
   "published": [
     {
@@ -34,8 +35,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260714_060232",
+      "topic": "misteri-budaya-kanibalisme-papua",
+      "title": "Mitos Kanibalisme di Papua: Fakta Ilmiah yang Mengejutkan",
+      "path": "/home/runner/work/konten4/konten4/output/20260714_060232_misteri-budaya-kanibalisme-papua/final.mp4",
+      "video_id": "hiPjxCbWTx0",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 3,
-  "_voice_idx": 3
+  "_format_idx": 4,
+  "_voice_idx": 4
 }
