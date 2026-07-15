@@ -86,7 +86,7 @@ branding:
 captions:
   whisper_model: base
   font: "Anton"
-  font_size: 90
+  font_size: 65
   primary_color: "&H00FFFFFF"
   outline_color: "&H00000000"
   outline: 6
@@ -113,3 +113,12 @@ upload:
     max_per_day: 2
     # Delay antar video (menit)
     delay_minutes: 120
+hook_text:
+  enabled: true
+  font: "Anton"
+  font_size: 80
+  color: "white"
+  outline_color: "&H00000000"
+  outline: 4
+  position: "center"
+  duration: 3
