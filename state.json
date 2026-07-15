@@ -6,7 +6,8 @@
     "misteri-budaya-kanibalisme-papua",
     "misteri-village-korea",
     "misteri-pegunungan-himalaya",
-    "misteri-pemakaman-terapung"
+    "misteri-pemakaman-terapung",
+    "misteri-danau-berminyak-china"
   ],
   "published": [
     {
@@ -78,8 +79,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260715_230213",
+      "topic": "misteri-danau-berminyak-china",
+      "title": "Bongkar Mitos Danau Berminyak Tiongkok: Apa yang Sebenarnya Terjadi?",
+      "path": "/home/runner/work/konten4/konten4/output/20260715_230213_misteri-danau-berminyak-china/final.mp4",
+      "video_id": "vBRSH50ROOQ",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 7,
-  "_voice_idx": 7
+  "_format_idx": 8,
+  "_voice_idx": 8
 }
