@@ -27,5 +27,6 @@ jobs:
           GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
           GROQ_API_KEY_2: ${{ secrets.GROQ_API_KEY_2 }}
           PEXELS_API_KEY: placeholder
+          ELEVENLABS_API_KEYS: ${{ secrets.ELEVENLABS_API_KEYS }}
           BLOG_ID: '7364215243667063602'
         run: python -m src.blog_poster
