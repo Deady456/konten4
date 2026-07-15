@@ -5,7 +5,8 @@
     "misteri-pulau-kematian-jepang-vs-pulau-berhantu-indonesia",
     "misteri-budaya-kanibalisme-papua",
     "misteri-village-korea",
-    "misteri-pegunungan-himalaya"
+    "misteri-pegunungan-himalaya",
+    "misteri-pemakaman-terapung"
   ],
   "published": [
     {
@@ -67,8 +68,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260715_164847",
+      "topic": "misteri-pemakaman-terapung",
+      "title": "Pemakaman Terapung vs Pemakaman Bawah Tanah: Mana yang Lebih Menakjubkan?",
+      "path": "/home/runner/work/konten4/konten4/output/20260715_164847_misteri-pemakaman-terapung/final.mp4",
+      "video_id": "81hoTihUYA0",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 6,
-  "_voice_idx": 6
+  "_format_idx": 7,
+  "_voice_idx": 7
 }
