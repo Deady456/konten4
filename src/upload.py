@@ -14,7 +14,6 @@ CLIENT_SECRET = ROOT / "client_secret.json"
 
 
 def _token_path() -> Path:
-    """Return token file path based on channel config."""
     channel = CONFIG.get("upload", {}).get("channel", "default")
     return ROOT / f"token_{channel}.json"
 
@@ -23,7 +22,7 @@ def get_service():
     token_path = _token_path()
     creds = None
     if token_path.exists():
-        creds = Credentials.from_authorized_user_file(str(token_path))
+        creds = Credentials.from_authorized_user_file(str(token_path), None)
     if not creds or not creds.valid:
         if creds and creds.expired and creds.refresh_token:
             creds.refresh(Request())
@@ -34,32 +33,11 @@ def get_service():
     return gbuild("youtube", "v3", credentials=creds)
 
 
-def _apply_ai_disclosure(description: str) -> str:
-    """Add AI disclosure to description if enabled."""
-    cfg = CONFIG.get("ai_disclosure", {})
-    if not cfg.get("enabled", False):
-        return description
-
-    disclosure_text = cfg.get("text", "Konten ini dibuat dengan bantuan AI.")
-    position = cfg.get("position", "description_only")
-
-    # Check if disclosure already present
-    if disclosure_text.lower() in description.lower():
-        return description
-
-    # Add disclosure at the end
-    disclosure_block = f"\n\n{'='*40}\n{disclosure_text}\n{'='*40}"
-    return description + disclosure_block
-
-
 def upload_video(video_path: Path, title: str, description: str, tags: list[str],
                  publish_at: str | None = None) -> str:
     yt = get_service()
     up = CONFIG["upload"]
     all_tags = list({*tags, *up["default_tags"]})
-
-    # Apply AI disclosure to description
-    description = _apply_ai_disclosure(description)
 
     status = {"selfDeclaredMadeForKids": up["made_for_kids"]}
     if publish_at:
@@ -82,6 +60,7 @@ def upload_video(video_path: Path, title: str, description: str, tags: list[str]
     resp = None
     while resp is None:
         _, resp = req.next_chunk()
+        
     video_id = resp["id"]
     try:
         import subprocess
@@ -91,10 +70,14 @@ def upload_video(video_path: Path, title: str, description: str, tags: list[str]
             "-vframes", "1", "-q:v", "2", str(thumb_path)
         ], capture_output=True)
         if thumb_path.exists():
-            from googleapiclient.http import MediaFileUpload
             thumb_media = MediaFileUpload(str(thumb_path), mimetype="image/jpeg")
             yt.thumbnails().set(videoId=video_id, media_body=thumb_media).execute()
     except Exception as e:
         print(f"    [Warn] Gagal mengupload custom thumbnail: {e}")
         
     return video_id
+
+
+def delete_video(video_id: str):
+    yt = get_service()
+    yt.videos().delete(id=video_id).execute()
