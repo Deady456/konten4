@@ -181,20 +181,85 @@ def _apply_hook_text(img_path: Path, hook_text: str, width: int, height: int):
     except Exception as e:
         print(f"Failed to apply hook text: {e}")
 
+from .config import GEMINI_API_KEYS
+import json
+import base64
+
+def generate_cloudflare_ai(prompt: str, out_path: Path, width=1080, height=1920) -> bool:
+    account_id = os.environ.get("CLOUDFLARE_ACCOUNT_ID")
+    api_token = os.environ.get("CLOUDFLARE_API_TOKEN")
+    
+    if not account_id or not api_token:
+        print("Cloudflare credentials not found.")
+        return False
+        
+    # Use FLUX.1-Schnell as default model
+    model = "@cf/black-forest-labs/flux-1-schnell"
+    url = f"https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run/{model}"
+    
+    payload = {
+        "prompt": prompt,
+        "width": width,
+        "height": height
+    }
+    
+    headers = {
+        "Authorization": f"Bearer {api_token}",
+        "Content-Type": "application/json"
+    }
+    
+    try:
+        # Request timeout 60s
+        resp = requests.post(url, headers=headers, json=payload, timeout=60)
+        if resp.status_code == 200:
+            # Cloudflare might return bytes directly or JSON depending on the model and content-type request.
+            # But wait, usually the API returns a JSON response containing 'result' which is base64 or an image byte array.
+            # Actually, standard CF AI responses with application/json return JSON with "result": {"image": "base64..."}
+            # Wait, let's just parse the JSON and get the image bytes.
+            # But to be safe if it returns raw bytes, we can check Content-Type.
+            content_type = resp.headers.get('Content-Type', '')
+            if 'image/' in content_type:
+                out_path.write_bytes(resp.content)
+                return True
+            else:
+                data = resp.json()
+                if data.get('success'):
+                    # The result image might be in result.image in base64
+                    if isinstance(data.get('result'), dict) and 'image' in data['result']:
+                        import base64
+                        image_data = data['result']['image']
+                        out_path.write_bytes(base64.b64decode(image_data))
+                        return True
+                    # Or it might return bytes if we passed something else, but we check success
+        print(f"Cloudflare API failed: {resp.status_code} - {resp.text[:200]}")
+    except Exception as e:
+        print(f"Cloudflare API error: {e}")
+        
+    return False
+
 def generate(prompt: str, out_path: Path, width=1080, height=1920, hook_text: str = None) -> Path:
     out_path.parent.mkdir(parents=True, exist_ok=True)
-    url = f"{POLLINATIONS_URL}{requests.utils.quote(prompt)}?width={width}&height={height}&nologo=true"
-    for attempt in range(3):
-        try:
-            resp = requests.get(url, timeout=60)
-            if resp.status_code == 200 and len(resp.content) > 1000:
-                out_path.write_bytes(resp.content)
-                if hook_text:
-                    _apply_hook_text(out_path, hook_text, width, height)
-                return out_path
-        except requests.RequestException:
-            pass
-    _generate_fallback(prompt, out_path, width, height)
+    
+    # Try Cloudflare Workers AI first
+    success = generate_cloudflare_ai(prompt, out_path, width, height)
+    
+    if not success:
+        # Fallback to Pollinations AI
+        url = f"{POLLINATIONS_URL}{requests.utils.quote(prompt)}?width={width}&height={height}&nologo=true"
+        for attempt in range(3):
+            try:
+                resp = requests.get(url, timeout=60)
+                if resp.status_code == 200 and len(resp.content) > 1000:
+                    out_path.write_bytes(resp.content)
+                    success = True
+                    break
+            except requests.RequestException:
+                pass
+                
+    if not success:
+        _generate_fallback(prompt, out_path, width, height)
+        
     if hook_text:
         _apply_hook_text(out_path, hook_text, width, height)
+        
     return out_path
