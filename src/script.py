@@ -62,7 +62,7 @@ def _call_llm(model, max_tokens, response_format, messages, retries=5):
                 contents.append({"role": "model", "parts": [{"text": m["content"]}]})
                 
         # Fix model name just in case it has models/ prefix
-        actual_model = model.replace("models/", "") if "gemini" in model else "gemini-2.5-flash"
+        actual_model = "gemini-2.5-flash"
         
         # Try different API keys on rate limit
         global _key_idx
