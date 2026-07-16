@@ -7,7 +7,8 @@
     "misteri-village-korea",
     "misteri-pegunungan-himalaya",
     "misteri-pemakaman-terapung",
-    "misteri-danau-berminyak-china"
+    "misteri-danau-berminyak-china",
+    "misteri-bayangan-malaysia"
   ],
   "published": [
     {
@@ -89,8 +90,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260716_070201",
+      "topic": "misteri-bayangan-malaysia",
+      "title": "Bayangan Misterius di Malaysia: 3 Fakta Menyeramkan",
+      "path": "/home/runner/work/konten4/konten4/output/20260716_070201_misteri-bayangan-malaysia/final.mp4",
+      "video_id": "wM5FkWKi_Yo",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 8,
-  "_voice_idx": 8
+  "_format_idx": 9,
+  "_voice_idx": 9
 }
