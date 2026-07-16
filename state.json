@@ -8,7 +8,8 @@
     "misteri-pegunungan-himalaya",
     "misteri-pemakaman-terapung",
     "misteri-danau-berminyak-china",
-    "misteri-bayangan-malaysia"
+    "misteri-bayangan-malaysia",
+    "misteri-tembok-besar-nepal"
   ],
   "published": [
     {
@@ -100,8 +101,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260716_150203",
+      "topic": "misteri-tembok-besar-nepal",
+      "title": "Tembok Raksasa yang Hilang di Nepal: Misteri Abad ke-19",
+      "path": "/home/runner/work/konten4/konten4/output/20260716_150203_misteri-tembok-besar-nepal/final.mp4",
+      "video_id": "tVsQVIDXL2k",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 9,
-  "_voice_idx": 9
+  "_format_idx": 10,
+  "_voice_idx": 10
 }
