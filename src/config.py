@@ -21,7 +21,7 @@ OUTPUT_DIR.mkdir(exist_ok=True)
 STATE_FILE = ROOT / "state.json"
 
 PEXELS_API_KEY = os.environ["PEXELS_API_KEY"]
-LLM_PROVIDER = os.environ.get("LLM_PROVIDER", "groq")
+LLM_PROVIDER = os.environ.get("LLM_PROVIDER", "gemini")
 
 if LLM_PROVIDER == "gemini":
     LLM_API_KEY = os.environ["GEMINI_API_KEY"]
