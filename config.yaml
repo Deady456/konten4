@@ -26,7 +26,7 @@ review:
   auto_approve_score: 7
 
 script:
-  model: gemini-1.5-flash
+  model: llama-3.3-70b-versatile
   target_seconds: 60
   words_per_second: 2.5
   # NEW: SEO & uniqueness
