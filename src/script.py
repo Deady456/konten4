@@ -119,6 +119,14 @@ def _call_llm(model, max_tokens, response_format, messages, retries=5):
                     response_format=response_format, messages=messages,
                 )
             except RateLimitError as e:
+                global _key_idx
+                global _client
+                if _key_idx < len(LLM_API_KEYS) - 1:
+                    _key_idx += 1
+                    print(f"  Rate limited, switching to Groq key {_key_idx+1}/{len(LLM_API_KEYS)}")
+                    _client = OpenAI(api_key=LLM_API_KEYS[_key_idx], base_url=LLM_BASE_URL)
+                    continue
+                
                 if attempt < retries - 1:
                     _wait = 2 ** attempt
                     print(f"  Rate limited (retry {attempt+1}/{retries} in {_wait}s): {e}")
