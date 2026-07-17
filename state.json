@@ -13,7 +13,8 @@
     "misteri-festival-thailand-vs-indonesia",
     "misteri-banjir-bulanan-thailand",
     "misteri-eksplorasi-gua-mumbai",
-    "misteri-kepulauan-andaman"
+    "misteri-kepulauan-andaman",
+    "misteri-kota-kuno-angkor-vs-kota-kuno-borobudur"
   ],
   "published": [
     {
@@ -155,8 +156,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260717_203650",
+      "topic": "misteri-kota-kuno-angkor-vs-kota-kuno-borobudur",
+      "title": "Kota Kuno Angkor vs Borobudur: Mana yang Lebih Misterius?",
+      "path": "/home/runner/work/konten4/konten4/output/20260717_203650_misteri-kota-kuno-angkor-vs-kota-kuno-borobudur/final.mp4",
+      "video_id": "-NLmekh72RI",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 14,
-  "_voice_idx": 14
+  "_format_idx": 15,
+  "_voice_idx": 15
 }
