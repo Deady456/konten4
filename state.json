@@ -11,7 +11,8 @@
     "misteri-bayangan-malaysia",
     "misteri-tembok-besar-nepal",
     "misteri-festival-thailand-vs-indonesia",
-    "misteri-banjir-bulanan-thailand"
+    "misteri-banjir-bulanan-thailand",
+    "misteri-eksplorasi-gua-mumbai"
   ],
   "published": [
     {
@@ -133,8 +134,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260717_200841",
+      "topic": "misteri-eksplorasi-gua-mumbai",
+      "title": "Fakta Menarik di Balik Gua Mumbai yang Masih Tersembunyi",
+      "path": "/home/runner/work/konten4/konten4/output/20260717_200841_misteri-eksplorasi-gua-mumbai/final.mp4",
+      "video_id": "b543R_Bmy4U",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 12,
-  "_voice_idx": 12
+  "_format_idx": 13,
+  "_voice_idx": 13
 }
