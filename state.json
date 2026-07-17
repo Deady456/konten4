@@ -14,7 +14,8 @@
     "misteri-banjir-bulanan-thailand",
     "misteri-eksplorasi-gua-mumbai",
     "misteri-kepulauan-andaman",
-    "misteri-kota-kuno-angkor-vs-kota-kuno-borobudur"
+    "misteri-kota-kuno-angkor-vs-kota-kuno-borobudur",
+    "misteri-pulau-tengkorak-filipina"
   ],
   "published": [
     {
@@ -166,8 +167,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260717_230157",
+      "topic": "misteri-pulau-tengkorak-filipina",
+      "title": "Mengungkap Misteri Pulau Tengkorak Filipina",
+      "path": "/home/runner/work/konten4/konten4/output/20260717_230157_misteri-pulau-tengkorak-filipina/final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 15,
-  "_voice_idx": 15
+  "_format_idx": 16,
+  "_voice_idx": 16
 }
