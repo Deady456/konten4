@@ -9,7 +9,9 @@
     "misteri-pemakaman-terapung",
     "misteri-danau-berminyak-china",
     "misteri-bayangan-malaysia",
-    "misteri-tembok-besar-nepal"
+    "misteri-tembok-besar-nepal",
+    "misteri-festival-thailand-vs-indonesia",
+    "misteri-banjir-bulanan-thailand"
   ],
   "published": [
     {
@@ -111,8 +113,28 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260717_032224",
+      "topic": "misteri-festival-thailand-vs-indonesia",
+      "title": "Festival Thaipusam vs Festival Galungan: Mana yang Lebih Mengerikan?",
+      "path": "/home/runner/work/konten4/konten4/output/20260717_032224_misteri-festival-thailand-vs-indonesia/final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
+    },
+    {
+      "ts": "20260717_070207",
+      "topic": "misteri-banjir-bulanan-thailand",
+      "title": "Benarkah Banjir Bulanan di Thailand Terjadi karena Kutukan?",
+      "path": "/home/runner/work/konten4/konten4/output/20260717_070207_misteri-banjir-bulanan-thailand/final.mp4",
+      "video_id": "lQoGOU4339Q",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 10,
-  "_voice_idx": 10
+  "_format_idx": 12,
+  "_voice_idx": 12
 }

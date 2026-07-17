@@ -1,8 +1,8 @@
-import argparse
+﻿import argparse
 import re
 import time
 from datetime import datetime
-from . import script, voice, captions, visuals, assemble, upload, state
+from . import script, voice, captions, visuals, assemble, upload, state, visuals_ai
 from . import branding, review
 from .config import CONFIG, OUTPUT_DIR
 
@@ -89,6 +89,19 @@ def run_once(publish_at: str | None = None, upload_to_youtube: bool = True,
                                   CFG["video"]["width"], CFG["video"]["height"])
 
     # ============================================================
+    # Step 5.5: Generate AI Thumbnail Hook
+    # ============================================================
+    _log("5.5/8 Generating AI thumbnail with Pollinations")
+    try:
+        from . import visuals_ai
+        thumbnail_img = work / "thumbnail.jpg"
+        hook_text_ai = data.get("thumbnail_text", data["title"])
+        visuals_ai.generate(prompt=hook_text_ai, out_path=thumbnail_img, hook_text=hook_text_ai)
+    except Exception as e:
+        _log(f"    Failed to generate thumbnail: {e}")
+        thumbnail_img = None
+
+    # ============================================================
     # Step 6: Assemble video
     # ============================================================
     _log("6/8 Assembling final video with ffmpeg")
@@ -104,6 +117,7 @@ def run_once(publish_at: str | None = None, upload_to_youtube: bool = True,
         work_dir=work / "ffmpeg",
         videos_per_scene=2,
         hook_text=data.get("thumbnail_text", data["title"]),
+        thumbnail_img=thumbnail_img,
     )
     dur = time.time() - t0
     sz = final.stat().st_size / (1024 * 1024)
@@ -195,3 +209,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
