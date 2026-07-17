@@ -130,6 +130,11 @@ def _call_llm(model, max_tokens, response_format, messages, retries=5):
                 else:
                     raise
             except Exception as e:
+                if _key_idx < len(LLM_API_KEYS) - 1:
+                    _key_idx += 1
+                    print(f"  Auth/error, switching to Groq key {_key_idx+1}/{len(LLM_API_KEYS)}")
+                    _client = OpenAI(api_key=LLM_API_KEYS[_key_idx], base_url=LLM_BASE_URL)
+                    continue
                 if attempt < retries - 1:
                     _wait = 2 ** attempt
                     print(f"  LLM error (retry {attempt+1}/{retries} in {_wait}s): {e}")
@@ -301,3 +306,4 @@ def generate(content_format: str = None) -> dict:
 
     print("    WARNING: could not generate unique/long enough script after 4 attempts, publishing anyway")
     return data
+
