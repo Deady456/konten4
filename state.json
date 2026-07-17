@@ -12,7 +12,8 @@
     "misteri-tembok-besar-nepal",
     "misteri-festival-thailand-vs-indonesia",
     "misteri-banjir-bulanan-thailand",
-    "misteri-eksplorasi-gua-mumbai"
+    "misteri-eksplorasi-gua-mumbai",
+    "misteri-kepulauan-andaman"
   ],
   "published": [
     {
@@ -144,8 +145,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260717_201956",
+      "topic": "misteri-kepulauan-andaman",
+      "title": "Mengungkap Misteri Kepulauan Andaman: Rahasia yang Tersembunyi",
+      "path": "/home/runner/work/konten4/konten4/output/20260717_201956_misteri-kepulauan-andaman/final.mp4",
+      "video_id": "98NmkRYWEko",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 13,
-  "_voice_idx": 13
+  "_format_idx": 14,
+  "_voice_idx": 14
 }
