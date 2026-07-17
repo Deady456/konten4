@@ -1,4 +1,4 @@
-﻿import json
+import json
 import subprocess
 from pathlib import Path
 from .config import CONFIG, ROOT
@@ -185,7 +185,8 @@ def build(
         ], f"thumbnail prep ({thumb_dur:.1f}s)")
         prepped.append(thumb_out)
         durations.insert(0, thumb_dur)
-    for i, (src, dur) in enumerate(zip(scene_videos, durations)):
+    dur_offset = 1 if thumbnail_img and thumbnail_img.exists() else 0
+    for i, (src, dur) in enumerate(zip(scene_videos, durations[dur_offset:])):
         out = work_dir / f"prep_{i:02d}.mp4"
         _prep_scene_clip(src, dur, out, w, h, fps)
         prepped.append(out)
@@ -307,5 +308,6 @@ Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
         str(out_path),
     ], "final render (video+audio+captions)")
     return out_path
+
 
 
