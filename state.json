@@ -16,7 +16,8 @@
     "misteri-kepulauan-andaman",
     "misteri-kota-kuno-angkor-vs-kota-kuno-borobudur",
     "misteri-pulau-tengkorak-filipina",
-    "misteri-terowongan-bawah-laut-china"
+    "misteri-terowongan-bawah-laut-china",
+    "misteri-kota-maty-afghanistan"
   ],
   "published": [
     {
@@ -188,8 +189,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260718_150322",
+      "topic": "misteri-kota-maty-afghanistan",
+      "title": "Mengungkap Misteri Kota Mati di Afghanistan",
+      "path": "/home/runner/work/konten4/konten4/output/20260718_150322_misteri-kota-maty-afghanistan/final.mp4",
+      "video_id": "MJr5_AoO5gI",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 17,
-  "_voice_idx": 17
+  "_format_idx": 18,
+  "_voice_idx": 18
 }
