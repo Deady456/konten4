@@ -15,7 +15,8 @@
     "misteri-eksplorasi-gua-mumbai",
     "misteri-kepulauan-andaman",
     "misteri-kota-kuno-angkor-vs-kota-kuno-borobudur",
-    "misteri-pulau-tengkorak-filipina"
+    "misteri-pulau-tengkorak-filipina",
+    "misteri-terowongan-bawah-laut-china"
   ],
   "published": [
     {
@@ -177,8 +178,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260718_070230",
+      "topic": "misteri-terowongan-bawah-laut-china",
+      "title": "Mengungkap Misteri Terowongan Bawah Laut China",
+      "path": "/home/runner/work/konten4/konten4/output/20260718_070230_misteri-terowongan-bawah-laut-china/final.mp4",
+      "video_id": "ncKkY9E0Sa8",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 16,
-  "_voice_idx": 16
+  "_format_idx": 17,
+  "_voice_idx": 17
 }
