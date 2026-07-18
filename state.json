@@ -17,7 +17,8 @@
     "misteri-kota-kuno-angkor-vs-kota-kuno-borobudur",
     "misteri-pulau-tengkorak-filipina",
     "misteri-terowongan-bawah-laut-china",
-    "misteri-kota-maty-afghanistan"
+    "misteri-kota-maty-afghanistan",
+    "misteri-piramida-borobudur-vs-piramida-tertinggal-china"
   ],
   "published": [
     {
@@ -199,8 +200,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260718_170901",
+      "topic": "misteri-piramida-borobudur-vs-piramida-tertinggal-china",
+      "title": "Piramida Borobudur vs Piramida Tertinggal China: Mana yang Lebih Misterius?",
+      "path": "/home/runner/work/konten4/konten4/output/20260718_170901_misteri-piramida-borobudur-vs-piramida-tertinggal-china/final.mp4",
+      "video_id": "0Ow0Pgx1YxY",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 18,
-  "_voice_idx": 18
+  "_format_idx": 19,
+  "_voice_idx": 19
 }
