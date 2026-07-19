@@ -19,7 +19,8 @@
     "misteri-terowongan-bawah-laut-china",
     "misteri-kota-maty-afghanistan",
     "misteri-piramida-borobudur-vs-piramida-tertinggal-china",
-    "misteri-kuil-berlian-myanmar"
+    "misteri-kuil-berlian-myanmar",
+    "misteri-penemuan-arkeologi-di-kamboja"
   ],
   "published": [
     {
@@ -221,8 +222,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260719_070401",
+      "topic": "misteri-penemuan-arkeologi-di-kamboja",
+      "title": "Misteri Angkor Wat: 5 Penemuan Arkeologi Paling Menghebohkan",
+      "path": "/home/runner/work/konten4/konten4/output/20260719_070401_misteri-penemuan-arkeologi-di-kamboja/final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 20,
-  "_voice_idx": 20
+  "_format_idx": 21,
+  "_voice_idx": 21
 }
