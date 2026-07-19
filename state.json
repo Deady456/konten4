@@ -21,7 +21,8 @@
     "misteri-piramida-borobudur-vs-piramida-tertinggal-china",
     "misteri-kuil-berlian-myanmar",
     "misteri-penemuan-arkeologi-di-kamboja",
-    "misteri-pulau-yonaguni-jepang"
+    "misteri-pulau-yonaguni-jepang",
+    "misteri-patung-tersembunyi-laos"
   ],
   "published": [
     {
@@ -241,8 +242,16 @@
       "path": "/home/runner/work/konten4/konten4/output/20260719_150756_misteri-pulau-yonaguni-jepang/final.mp4",
       "video_id": "FxK5iDjWKDA",
       "publish_at": null
+    },
+    {
+      "ts": "20260719_230608",
+      "topic": "misteri-patung-tersembunyi-laos",
+      "title": "Patung Misterius di Hutan Laos: Apa Rahasia di Baliknya?",
+      "path": "/home/runner/work/konten4/konten4/output/20260719_230608_misteri-patung-tersembunyi-laos/final.mp4",
+      "video_id": "pQ53McCx8EU",
+      "publish_at": null
     }
   ],
-  "_format_idx": 22,
-  "_voice_idx": 23
+  "_format_idx": 23,
+  "_voice_idx": 25
 }
