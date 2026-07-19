@@ -20,7 +20,8 @@
     "misteri-kota-maty-afghanistan",
     "misteri-piramida-borobudur-vs-piramida-tertinggal-china",
     "misteri-kuil-berlian-myanmar",
-    "misteri-penemuan-arkeologi-di-kamboja"
+    "misteri-penemuan-arkeologi-di-kamboja",
+    "misteri-pulau-yonaguni-jepang"
   ],
   "published": [
     {
@@ -232,8 +233,16 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260719_150756",
+      "topic": "misteri-pulau-yonaguni-jepang",
+      "title": "Pulau Misterius Yonaguni yang Tersembunyi di Laut Jepang",
+      "path": "/home/runner/work/konten4/konten4/output/20260719_150756_misteri-pulau-yonaguni-jepang/final.mp4",
+      "video_id": "FxK5iDjWKDA",
+      "publish_at": null
     }
   ],
-  "_format_idx": 21,
-  "_voice_idx": 21
+  "_format_idx": 22,
+  "_voice_idx": 23
 }
