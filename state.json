@@ -24,7 +24,8 @@
     "misteri-pulau-yonaguni-jepang",
     "misteri-patung-tersembunyi-laos",
     "misteri-desa-terisolasi-bhutan",
-    "misteri-penemuan-kapal-kuno-india"
+    "misteri-penemuan-kapal-kuno-india",
+    "misteri-kepulauan-terpencil-timor-leste"
   ],
   "published": [
     {
@@ -270,8 +271,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260720_230315",
+      "topic": "misteri-kepulauan-terpencil-timor-leste",
+      "title": "Misteri Kepulauan Terpencil Di Timor Leste, Apakah Ini Gerbang Ke Alam Gaib?",
+      "path": "/home/runner/work/konten4/konten4/output/20260720_230315_misteri-kepulauan-terpencil-timor-leste/final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 25,
-  "_voice_idx": 28
+  "_format_idx": 26,
+  "_voice_idx": 29
 }
