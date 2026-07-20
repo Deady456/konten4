@@ -23,7 +23,8 @@
     "misteri-penemuan-arkeologi-di-kamboja",
     "misteri-pulau-yonaguni-jepang",
     "misteri-patung-tersembunyi-laos",
-    "misteri-desa-terisolasi-bhutan"
+    "misteri-desa-terisolasi-bhutan",
+    "misteri-penemuan-kapal-kuno-india"
   ],
   "published": [
     {
@@ -259,8 +260,18 @@
       "path": "/home/runner/work/konten4/konten4/output/20260720_070706_misteri-desa-terisolasi-bhutan/final.mp4",
       "video_id": "6z5xdCqZr8Y",
       "publish_at": null
+    },
+    {
+      "ts": "20260720_150246",
+      "topic": "misteri-penemuan-kapal-kuno-india",
+      "title": "Misteri Kapal Kuno India yang Hilang Selama Berabad-Abad",
+      "path": "/home/runner/work/konten4/konten4/output/20260720_150246_misteri-penemuan-kapal-kuno-india/final.mp4",
+      "video_id": "aye1-YdXKdc",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 24,
-  "_voice_idx": 27
+  "_format_idx": 25,
+  "_voice_idx": 28
 }
