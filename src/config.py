@@ -24,7 +24,7 @@ _pexels_keys = []
 for k, v in os.environ.items():
     if k.startswith("PEXELS_API_KEY") and v.strip():
         import re
-        _pexels_keys.extend([x.strip().strip('\"').strip('\'') for x in re.split(r'[,\\n]+', v) if x.strip()])
+        _pexels_keys.extend([x.strip().strip('\"').strip('\'') for x in re.split(r',|\n|\\n', v) if x.strip()])
 PEXELS_API_KEYS = _pexels_keys if _pexels_keys else ["dummy_key"]
 _cfg_model = CONFIG.get("script", {}).get("model", "")
 LLM_PROVIDER = os.environ.get("LLM_PROVIDER", "gemini" if "gemini" in _cfg_model.lower() else "groq")
@@ -39,7 +39,7 @@ elif LLM_PROVIDER == "groq":
     _keys = []
     for k, v in os.environ.items():
         if k.startswith("GROQ_API_KEY") and v.strip():
-            _keys.extend([x.strip().strip('\"').strip('\'') for x in re.split(r'[,\\n]+', v) if x.strip()])
+            _keys.extend([x.strip().strip('\"').strip('\'') for x in re.split(r',|\n|\\n', v) if x.strip()])
     LLM_API_KEYS = _keys if _keys else ["dummy"]
     LLM_API_KEY = LLM_API_KEYS[0]
     LLM_BASE_URL = "https://api.groq.com/openai/v1"
