@@ -22,7 +22,8 @@
     "misteri-kuil-berlian-myanmar",
     "misteri-penemuan-arkeologi-di-kamboja",
     "misteri-pulau-yonaguni-jepang",
-    "misteri-patung-tersembunyi-laos"
+    "misteri-patung-tersembunyi-laos",
+    "misteri-desa-terisolasi-bhutan"
   ],
   "published": [
     {
@@ -250,8 +251,16 @@
       "path": "/home/runner/work/konten4/konten4/output/20260719_230608_misteri-patung-tersembunyi-laos/final.mp4",
       "video_id": "pQ53McCx8EU",
       "publish_at": null
+    },
+    {
+      "ts": "20260720_070706",
+      "topic": "misteri-desa-terisolasi-bhutan",
+      "title": "Desa Tersembunyi di Bhutan: Misteri yang Belum Terpecahkan",
+      "path": "/home/runner/work/konten4/konten4/output/20260720_070706_misteri-desa-terisolasi-bhutan/final.mp4",
+      "video_id": "6z5xdCqZr8Y",
+      "publish_at": null
     }
   ],
-  "_format_idx": 23,
-  "_voice_idx": 25
+  "_format_idx": 24,
+  "_voice_idx": 27
 }
