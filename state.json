@@ -26,7 +26,8 @@
     "misteri-desa-terisolasi-bhutan",
     "misteri-penemuan-kapal-kuno-india",
     "misteri-kepulauan-terpencil-timor-leste",
-    "misteri-penjara-terlarang-korea-utara-vs-penjara-terlarang-china"
+    "misteri-penjara-terlarang-korea-utara-vs-penjara-terlarang-china",
+    "misteri-tanah-suci-tibet"
   ],
   "published": [
     {
@@ -292,8 +293,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260721_070258",
+      "topic": "misteri-tanah-suci-tibet",
+      "title": "Tibet: Mitos Tanah Suci atau Sarang Misteri?",
+      "path": "/home/runner/work/konten4/konten4/output/20260721_070258_misteri-tanah-suci-tibet/final.mp4",
+      "video_id": "xfRkP_nnl3A",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 27,
-  "_voice_idx": 30
+  "_format_idx": 28,
+  "_voice_idx": 31
 }
