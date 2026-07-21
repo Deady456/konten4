@@ -28,7 +28,8 @@
     "misteri-kepulauan-terpencil-timor-leste",
     "misteri-penjara-terlarang-korea-utara-vs-penjara-terlarang-china",
     "misteri-tanah-suci-tibet",
-    "misteri-kuburan-terbangun-mongolia"
+    "misteri-kuburan-terbangun-mongolia",
+    "misteri-pulau-berlian-vietnam"
   ],
   "published": [
     {
@@ -314,8 +315,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260721_230219",
+      "topic": "misteri-pulau-berlian-vietnam",
+      "title": "Rahasia Pulau Berlian Vietnam yang Hilang",
+      "path": "/home/runner/work/konten4/konten4/output/20260721_230219_misteri-pulau-berlian-vietnam/final.mp4",
+      "video_id": "bb6XD3h6RWM",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 29,
-  "_voice_idx": 32
+  "_format_idx": 30,
+  "_voice_idx": 33
 }
