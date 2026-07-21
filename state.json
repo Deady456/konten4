@@ -25,7 +25,8 @@
     "misteri-patung-tersembunyi-laos",
     "misteri-desa-terisolasi-bhutan",
     "misteri-penemuan-kapal-kuno-india",
-    "misteri-kepulauan-terpencil-timor-leste"
+    "misteri-kepulauan-terpencil-timor-leste",
+    "misteri-penjara-terlarang-korea-utara-vs-penjara-terlarang-china"
   ],
   "published": [
     {
@@ -281,8 +282,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260721_004506",
+      "topic": "misteri-penjara-terlarang-korea-utara-vs-penjara-terlarang-china",
+      "title": "Penjara Rahasia Korea Utara Vs China, Mana yang Paling Mengerikan?",
+      "path": "/home/runner/work/konten4/konten4/output/20260721_004506_misteri-penjara-terlarang-korea-utara-vs-penjara-terlarang-c/final.mp4",
+      "video_id": "KVPFCUsS6lA",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 26,
-  "_voice_idx": 29
+  "_format_idx": 27,
+  "_voice_idx": 30
 }
