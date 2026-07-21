@@ -27,7 +27,8 @@
     "misteri-penemuan-kapal-kuno-india",
     "misteri-kepulauan-terpencil-timor-leste",
     "misteri-penjara-terlarang-korea-utara-vs-penjara-terlarang-china",
-    "misteri-tanah-suci-tibet"
+    "misteri-tanah-suci-tibet",
+    "misteri-kuburan-terbangun-mongolia"
   ],
   "published": [
     {
@@ -303,8 +304,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260721_150401",
+      "topic": "misteri-kuburan-terbangun-mongolia",
+      "title": "Mengenal Kuburan Terbangun Mongolia, Tempat Pemakaman Aneh di Asia",
+      "path": "/home/runner/work/konten4/konten4/output/20260721_150401_misteri-kuburan-terbangun-mongolia/final.mp4",
+      "video_id": "OFm9WUNtIuI",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 28,
-  "_voice_idx": 31
+  "_format_idx": 29,
+  "_voice_idx": 32
 }
