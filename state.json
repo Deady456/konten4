@@ -30,7 +30,8 @@
     "misteri-tanah-suci-tibet",
     "misteri-kuburan-terbangun-mongolia",
     "misteri-pulau-berlian-vietnam",
-    "misteri-ritual-suci-di-kamboja-vs-ritual-suci-di-thailand"
+    "misteri-ritual-suci-di-kamboja-vs-ritual-suci-di-thailand",
+    "misteri-kekuatan-piramida-bangunan-kuno"
   ],
   "published": [
     {
@@ -336,8 +337,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260722_150407",
+      "topic": "misteri-kekuatan-piramida-bangunan-kuno",
+      "title": "Mengungkap Rahasia Kekuatan Piramida di Asia",
+      "path": "/home/runner/work/konten4/konten4/output/20260722_150407_misteri-kekuatan-piramida-bangunan-kuno/final.mp4",
+      "video_id": "POVj_6FUK3I",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 31,
-  "_voice_idx": 34
+  "_format_idx": 32,
+  "_voice_idx": 35
 }
