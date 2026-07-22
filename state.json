@@ -31,7 +31,8 @@
     "misteri-kuburan-terbangun-mongolia",
     "misteri-pulau-berlian-vietnam",
     "misteri-ritual-suci-di-kamboja-vs-ritual-suci-di-thailand",
-    "misteri-kekuatan-piramida-bangunan-kuno"
+    "misteri-kekuatan-piramida-bangunan-kuno",
+    "misteri-situs-purbakala-sri-lanka"
   ],
   "published": [
     {
@@ -347,8 +348,16 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260722_230614",
+      "topic": "misteri-situs-purbakala-sri-lanka",
+      "title": "Misteri Situs Purbakala Sigiriya di Sri Lanka: Menara Melayang di Atas Batu",
+      "path": "/home/runner/work/konten4/konten4/output/20260722_230614_misteri-situs-purbakala-sri-lanka/final.mp4",
+      "video_id": "jJsXRRcekks",
+      "publish_at": null
     }
   ],
-  "_format_idx": 32,
-  "_voice_idx": 35
+  "_format_idx": 33,
+  "_voice_idx": 37
 }
