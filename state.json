@@ -29,7 +29,8 @@
     "misteri-penjara-terlarang-korea-utara-vs-penjara-terlarang-china",
     "misteri-tanah-suci-tibet",
     "misteri-kuburan-terbangun-mongolia",
-    "misteri-pulau-berlian-vietnam"
+    "misteri-pulau-berlian-vietnam",
+    "misteri-ritual-suci-di-kamboja-vs-ritual-suci-di-thailand"
   ],
   "published": [
     {
@@ -325,8 +326,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260722_070345",
+      "topic": "misteri-ritual-suci-di-kamboja-vs-ritual-suci-di-thailand",
+      "title": "Ritual Suci Kamboja Vs Thailand: Apa Yang Membuatnya Berbeda?",
+      "path": "/home/runner/work/konten4/konten4/output/20260722_070345_misteri-ritual-suci-di-kamboja-vs-ritual-suci-di-thailand/final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 30,
-  "_voice_idx": 33
+  "_format_idx": 31,
+  "_voice_idx": 34
 }
