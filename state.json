@@ -32,7 +32,8 @@
     "misteri-pulau-berlian-vietnam",
     "misteri-ritual-suci-di-kamboja-vs-ritual-suci-di-thailand",
     "misteri-kekuatan-piramida-bangunan-kuno",
-    "misteri-situs-purbakala-sri-lanka"
+    "misteri-situs-purbakala-sri-lanka",
+    "misteri-pantai-berlampu-jepang"
   ],
   "published": [
     {
@@ -356,8 +357,16 @@
       "path": "/home/runner/work/konten4/konten4/output/20260722_230614_misteri-situs-purbakala-sri-lanka/final.mp4",
       "video_id": "jJsXRRcekks",
       "publish_at": null
+    },
+    {
+      "ts": "20260723_070335",
+      "topic": "misteri-pantai-berlampu-jepang",
+      "title": "Pantai Berlampu Misterius di Jepang: Apa yang Tersembunyi?",
+      "path": "/home/runner/work/konten4/konten4/output/20260723_070335_misteri-pantai-berlampu-jepang/final.mp4",
+      "video_id": "Ij5feckm4Fo",
+      "publish_at": null
     }
   ],
-  "_format_idx": 33,
-  "_voice_idx": 37
+  "_format_idx": 34,
+  "_voice_idx": 39
 }
