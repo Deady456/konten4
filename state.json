@@ -34,7 +34,8 @@
     "misteri-kekuatan-piramida-bangunan-kuno",
     "misteri-situs-purbakala-sri-lanka",
     "misteri-pantai-berlampu-jepang",
-    "misteri-kota-hantu-vs-kota-mimpi"
+    "misteri-kota-hantu-vs-kota-mimpi",
+    "misteri-hutan-bercahaya-borneo"
   ],
   "published": [
     {
@@ -376,8 +377,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260723_230507",
+      "topic": "misteri-hutan-bercahaya-borneo",
+      "title": "Mengungkap Misteri Hutan Bercahaya Borneo",
+      "path": "/home/runner/work/konten4/konten4/output/20260723_230507_misteri-hutan-bercahaya-borneo/final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 35,
-  "_voice_idx": 40
+  "_format_idx": 36,
+  "_voice_idx": 41
 }
