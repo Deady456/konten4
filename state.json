@@ -33,7 +33,8 @@
     "misteri-ritual-suci-di-kamboja-vs-ritual-suci-di-thailand",
     "misteri-kekuatan-piramida-bangunan-kuno",
     "misteri-situs-purbakala-sri-lanka",
-    "misteri-pantai-berlampu-jepang"
+    "misteri-pantai-berlampu-jepang",
+    "misteri-kota-hantu-vs-kota-mimpi"
   ],
   "published": [
     {
@@ -365,8 +366,18 @@
       "path": "/home/runner/work/konten4/konten4/output/20260723_070335_misteri-pantai-berlampu-jepang/final.mp4",
       "video_id": "Ij5feckm4Fo",
       "publish_at": null
+    },
+    {
+      "ts": "20260723_150242",
+      "topic": "misteri-kota-hantu-vs-kota-mimpi",
+      "title": "Misteri Kota Hantu Taiwan Vs Kota Mimpi Singapura",
+      "path": "/home/runner/work/konten4/konten4/output/20260723_150242_misteri-kota-hantu-vs-kota-mimpi/final.mp4",
+      "video_id": "iohY_bn0Yy4",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 34,
-  "_voice_idx": 39
+  "_format_idx": 35,
+  "_voice_idx": 40
 }
