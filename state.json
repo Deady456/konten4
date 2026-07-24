@@ -35,7 +35,8 @@
     "misteri-situs-purbakala-sri-lanka",
     "misteri-pantai-berlampu-jepang",
     "misteri-kota-hantu-vs-kota-mimpi",
-    "misteri-hutan-bercahaya-borneo"
+    "misteri-hutan-bercahaya-borneo",
+    "misteri-gua-luminous"
   ],
   "published": [
     {
@@ -387,8 +388,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260724_004819",
+      "topic": "misteri-gua-luminous",
+      "title": "Gua Misterius di Asia yang Bersinar",
+      "path": "/home/runner/work/konten4/konten4/output/20260724_004819_misteri-gua-luminous/final.mp4",
+      "video_id": "hI4-3OEfiyc",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 36,
-  "_voice_idx": 41
+  "_format_idx": 37,
+  "_voice_idx": 42
 }
