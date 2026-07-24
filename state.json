@@ -36,7 +36,8 @@
     "misteri-pantai-berlampu-jepang",
     "misteri-kota-hantu-vs-kota-mimpi",
     "misteri-hutan-bercahaya-borneo",
-    "misteri-gua-luminous"
+    "misteri-gua-luminous",
+    "misteri-pulau-naga-brunei"
   ],
   "published": [
     {
@@ -398,8 +399,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260724_070259",
+      "topic": "misteri-pulau-naga-brunei",
+      "title": "Pulau Naga yang Hilang di Brunei: Misteri yang Belum Terpecahkan",
+      "path": "/home/runner/work/konten4/konten4/output/20260724_070259_misteri-pulau-naga-brunei/final.mp4",
+      "video_id": "xkcVLczvFsg",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 37,
-  "_voice_idx": 42
+  "_format_idx": 38,
+  "_voice_idx": 43
 }
