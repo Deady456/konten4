@@ -38,7 +38,8 @@
     "misteri-hutan-bercahaya-borneo",
     "misteri-gua-luminous",
     "misteri-pulau-naga-brunei",
-    "misteri-penanggalan-vs-kyuketsuki"
+    "misteri-penanggalan-vs-kyuketsuki",
+    "misteri-hutan-tersembunyi-laos"
   ],
   "published": [
     {
@@ -420,8 +421,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260724_230332",
+      "topic": "misteri-hutan-tersembunyi-laos",
+      "title": "Mengungkap Misteri Hutan Tersembunyi di Laos",
+      "path": "/home/runner/work/konten4/konten4/output/20260724_230332_misteri-hutan-tersembunyi-laos/final.mp4",
+      "video_id": "ERZOiEmF2tA",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 39,
-  "_voice_idx": 44
+  "_format_idx": 40,
+  "_voice_idx": 45
 }
