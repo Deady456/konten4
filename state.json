@@ -37,7 +37,8 @@
     "misteri-kota-hantu-vs-kota-mimpi",
     "misteri-hutan-bercahaya-borneo",
     "misteri-gua-luminous",
-    "misteri-pulau-naga-brunei"
+    "misteri-pulau-naga-brunei",
+    "misteri-penanggalan-vs-kyuketsuki"
   ],
   "published": [
     {
@@ -409,8 +410,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260724_150441",
+      "topic": "misteri-penanggalan-vs-kyuketsuki",
+      "title": "Mengungkap Misteri Penanggalan vs Kyuketsuki: Dua Entitas Supernatural Paling Mengerikan di Asia",
+      "path": "/home/runner/work/konten4/konten4/output/20260724_150441_misteri-penanggalan-vs-kyuketsuki/final.mp4",
+      "video_id": "URgtmKLogmU",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 38,
-  "_voice_idx": 43
+  "_format_idx": 39,
+  "_voice_idx": 44
 }
