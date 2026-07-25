@@ -41,7 +41,8 @@
     "misteri-penanggalan-vs-kyuketsuki",
     "misteri-hutan-tersembunyi-laos",
     "misteri-fenomena-cahaya-aneh-di-langit-asia",
-    "misteri-penemuan-reruntuhan-kapal-perang-jepang-di-pulau-palau"
+    "misteri-penemuan-reruntuhan-kapal-perang-jepang-di-pulau-palau",
+    "misteri-kota-terapung-vs-kota-bawah-tanah-asia"
   ],
   "published": [
     {
@@ -453,8 +454,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260725_230456",
+      "topic": "misteri-kota-terapung-vs-kota-bawah-tanah-asia",
+      "title": "Kota Terapung vs Kota Bawah Tanah: Misteri Dua Kota Aneh di Asia",
+      "path": "/home/runner/work/konten4/konten4/output/20260725_230456_misteri-kota-terapung-vs-kota-bawah-tanah-asia/final.mp4",
+      "video_id": "nfy-BUyn3U0",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 42,
-  "_voice_idx": 47
+  "_format_idx": 43,
+  "_voice_idx": 48
 }
