@@ -40,7 +40,8 @@
     "misteri-pulau-naga-brunei",
     "misteri-penanggalan-vs-kyuketsuki",
     "misteri-hutan-tersembunyi-laos",
-    "misteri-fenomena-cahaya-aneh-di-langit-asia"
+    "misteri-fenomena-cahaya-aneh-di-langit-asia",
+    "misteri-penemuan-reruntuhan-kapal-perang-jepang-di-pulau-palau"
   ],
   "published": [
     {
@@ -442,8 +443,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260725_150457",
+      "topic": "misteri-penemuan-reruntuhan-kapal-perang-jepang-di-pulau-palau",
+      "title": "Misteri Reruntuhan Kapal Perang Jepang di Pulau Palau",
+      "path": "/home/runner/work/konten4/konten4/output/20260725_150457_misteri-penemuan-reruntuhan-kapal-perang-jepang-di-pulau-pal/final.mp4",
+      "video_id": "ZK6Qc79z4uQ",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 41,
-  "_voice_idx": 46
+  "_format_idx": 42,
+  "_voice_idx": 47
 }
