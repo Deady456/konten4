@@ -39,7 +39,8 @@
     "misteri-gua-luminous",
     "misteri-pulau-naga-brunei",
     "misteri-penanggalan-vs-kyuketsuki",
-    "misteri-hutan-tersembunyi-laos"
+    "misteri-hutan-tersembunyi-laos",
+    "misteri-fenomena-cahaya-aneh-di-langit-asia"
   ],
   "published": [
     {
@@ -431,8 +432,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260725_070141",
+      "topic": "misteri-fenomena-cahaya-aneh-di-langit-asia",
+      "title": "Misteri Cahaya Aneh di Langit Asia: 5 Fakta Menarik",
+      "path": "/home/runner/work/konten4/konten4/output/20260725_070141_misteri-fenomena-cahaya-aneh-di-langit-asia/final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 40,
-  "_voice_idx": 45
+  "_format_idx": 41,
+  "_voice_idx": 46
 }
