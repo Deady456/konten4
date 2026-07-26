@@ -43,7 +43,8 @@
     "misteri-fenomena-cahaya-aneh-di-langit-asia",
     "misteri-penemuan-reruntuhan-kapal-perang-jepang-di-pulau-palau",
     "misteri-kota-terapung-vs-kota-bawah-tanah-asia",
-    "misteri-sungai-meleleh-tibet"
+    "misteri-sungai-meleleh-tibet",
+    "misteri-dan-fenomena-aneh-di-asia-legenda-urban"
   ],
   "published": [
     {
@@ -475,8 +476,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260726_150258",
+      "topic": "misteri-dan-fenomena-aneh-di-asia-legenda-urban",
+      "title": "Misteri Desa Terkutuk di Nepal: Fakta Mengenaskan",
+      "path": "/home/runner/work/konten4/konten4/output/20260726_150258_misteri-dan-fenomena-aneh-di-asia-legenda-urban/final.mp4",
+      "video_id": "91cv03rVk6c",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 44,
-  "_voice_idx": 49
+  "_format_idx": 45,
+  "_voice_idx": 50
 }
