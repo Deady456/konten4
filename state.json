@@ -44,7 +44,8 @@
     "misteri-penemuan-reruntuhan-kapal-perang-jepang-di-pulau-palau",
     "misteri-kota-terapung-vs-kota-bawah-tanah-asia",
     "misteri-sungai-meleleh-tibet",
-    "misteri-dan-fenomena-aneh-di-asia-legenda-urban"
+    "misteri-dan-fenomena-aneh-di-asia-legenda-urban",
+    "misteri-peta-tersembunyi-nepal"
   ],
   "published": [
     {
@@ -486,8 +487,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260726_230427",
+      "topic": "misteri-peta-tersembunyi-nepal",
+      "title": "Misteri Peta Tersembunyi di Nepal: Tercari di Balik Gunung Everest",
+      "path": "/home/runner/work/konten4/konten4/output/20260726_230427_misteri-peta-tersembunyi-nepal/final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 45,
-  "_voice_idx": 50
+  "_format_idx": 46,
+  "_voice_idx": 51
 }
