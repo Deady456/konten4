@@ -42,7 +42,8 @@
     "misteri-hutan-tersembunyi-laos",
     "misteri-fenomena-cahaya-aneh-di-langit-asia",
     "misteri-penemuan-reruntuhan-kapal-perang-jepang-di-pulau-palau",
-    "misteri-kota-terapung-vs-kota-bawah-tanah-asia"
+    "misteri-kota-terapung-vs-kota-bawah-tanah-asia",
+    "misteri-sungai-meleleh-tibet"
   ],
   "published": [
     {
@@ -464,8 +465,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260726_070437",
+      "topic": "misteri-sungai-meleleh-tibet",
+      "title": "Sungai Meleleh di Tibet: Mitos atau Fakta?",
+      "path": "/home/runner/work/konten4/konten4/output/20260726_070437_misteri-sungai-meleleh-tibet/final.mp4",
+      "video_id": "zRmA7qU1E4o",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 43,
-  "_voice_idx": 48
+  "_format_idx": 44,
+  "_voice_idx": 49
 }
