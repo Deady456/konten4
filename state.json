@@ -47,7 +47,8 @@
     "misteri-dan-fenomena-aneh-di-asia-legenda-urban",
     "misteri-peta-tersembunyi-nepal",
     "misteri-kekuatan-piramida-borobudur-dan-angkor-wat",
-    "misteri-pulau-bintan"
+    "misteri-pulau-bintan",
+    "misteri-pulau-komodo-indonesia-vs-pulau-ular-brazil"
   ],
   "published": [
     {
@@ -519,8 +520,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260727_230519",
+      "topic": "misteri-pulau-komodo-indonesia-vs-pulau-ular-brazil",
+      "title": "5 Misteri Menarik Pulau Komodo Indonesia dan Pulau Ular Brazil",
+      "path": "/home/runner/work/konten4/konten4/output/20260727_230519_misteri-pulau-komodo-indonesia-vs-pulau-ular-brazil/final.mp4",
+      "video_id": "hjh2oc3ql0Y",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 48,
-  "_voice_idx": 53
+  "_format_idx": 49,
+  "_voice_idx": 54
 }
