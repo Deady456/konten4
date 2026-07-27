@@ -46,7 +46,8 @@
     "misteri-sungai-meleleh-tibet",
     "misteri-dan-fenomena-aneh-di-asia-legenda-urban",
     "misteri-peta-tersembunyi-nepal",
-    "misteri-kekuatan-piramida-borobudur-dan-angkor-wat"
+    "misteri-kekuatan-piramida-borobudur-dan-angkor-wat",
+    "misteri-pulau-bintan"
   ],
   "published": [
     {
@@ -508,8 +509,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260727_150440",
+      "topic": "misteri-pulau-bintan",
+      "title": "Misteri Pulau Bintan: Antara Legenda dan Fakta Ilmiah",
+      "path": "/home/runner/work/konten4/konten4/output/20260727_150440_misteri-pulau-bintan/final.mp4",
+      "video_id": "SQYbGNmec_A",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 47,
-  "_voice_idx": 52
+  "_format_idx": 48,
+  "_voice_idx": 53
 }
