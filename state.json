@@ -45,7 +45,8 @@
     "misteri-kota-terapung-vs-kota-bawah-tanah-asia",
     "misteri-sungai-meleleh-tibet",
     "misteri-dan-fenomena-aneh-di-asia-legenda-urban",
-    "misteri-peta-tersembunyi-nepal"
+    "misteri-peta-tersembunyi-nepal",
+    "misteri-kekuatan-piramida-borobudur-dan-angkor-wat"
   ],
   "published": [
     {
@@ -497,8 +498,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260727_070333",
+      "topic": "misteri-kekuatan-piramida-borobudur-dan-angkor-wat",
+      "title": "Mengungkap Misteri Kekuatan Dua Piramida Terbesar Asia: Borobudur vs Angkor Wat",
+      "path": "/home/runner/work/konten4/konten4/output/20260727_070333_misteri-kekuatan-piramida-borobudur-dan-angkor-wat/final.mp4",
+      "video_id": "YvNFJUFMxY0",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 46,
-  "_voice_idx": 51
+  "_format_idx": 47,
+  "_voice_idx": 52
 }
