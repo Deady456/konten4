@@ -50,7 +50,8 @@
     "misteri-pulau-bintan",
     "misteri-pulau-komodo-indonesia-vs-pulau-ular-brazil",
     "misteri-gua-es-kristal-malaysia",
-    "misteri-kota-gerbang-vs-kota-pintu"
+    "misteri-kota-gerbang-vs-kota-pintu",
+    "misteri-pasir-hidup-malaysia"
   ],
   "published": [
     {
@@ -552,8 +553,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260728_230459",
+      "topic": "misteri-pasir-hidup-malaysia",
+      "title": "Misteri Pasir Hidup di Malaysia: Fakta Ilmiah yang Mengejutkan",
+      "path": "/home/runner/work/konten4/konten4/output/20260728_230459_misteri-pasir-hidup-malaysia/final.mp4",
+      "video_id": "X5lApZ834Mg",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 51,
-  "_voice_idx": 56
+  "_format_idx": 52,
+  "_voice_idx": 57
 }
