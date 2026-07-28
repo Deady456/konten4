@@ -49,7 +49,8 @@
     "misteri-kekuatan-piramida-borobudur-dan-angkor-wat",
     "misteri-pulau-bintan",
     "misteri-pulau-komodo-indonesia-vs-pulau-ular-brazil",
-    "misteri-gua-es-kristal-malaysia"
+    "misteri-gua-es-kristal-malaysia",
+    "misteri-kota-gerbang-vs-kota-pintu"
   ],
   "published": [
     {
@@ -541,8 +542,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260728_150524",
+      "topic": "misteri-kota-gerbang-vs-kota-pintu",
+      "title": "Kota Gerbang vs Kota Pintu: Dua Kota Misterius di Asia yang Tersembunyi dari Dunia",
+      "path": "/home/runner/work/konten4/konten4/output/20260728_150524_misteri-kota-gerbang-vs-kota-pintu/final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 50,
-  "_voice_idx": 55
+  "_format_idx": 51,
+  "_voice_idx": 56
 }
