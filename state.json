@@ -48,7 +48,8 @@
     "misteri-peta-tersembunyi-nepal",
     "misteri-kekuatan-piramida-borobudur-dan-angkor-wat",
     "misteri-pulau-bintan",
-    "misteri-pulau-komodo-indonesia-vs-pulau-ular-brazil"
+    "misteri-pulau-komodo-indonesia-vs-pulau-ular-brazil",
+    "misteri-gua-es-kristal-malaysia"
   ],
   "published": [
     {
@@ -530,8 +531,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260728_070329",
+      "topic": "misteri-gua-es-kristal-malaysia",
+      "title": "Gua Es Kristal Malaysia: Misteri Tersembunyi di Balik Dinding Es",
+      "path": "/home/runner/work/konten4/konten4/output/20260728_070329_misteri-gua-es-kristal-malaysia/final.mp4",
+      "video_id": "EpiUFz9TtjE",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 49,
-  "_voice_idx": 54
+  "_format_idx": 50,
+  "_voice_idx": 55
 }
