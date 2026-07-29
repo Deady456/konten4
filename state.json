@@ -53,7 +53,8 @@
     "misteri-kota-gerbang-vs-kota-pintu",
     "misteri-pasir-hidup-malaysia",
     "misteri-arsitektur-kuno-di-afghanistan",
-    "misteri-penemuan-jasad-mumi-di-gua-garam-iran"
+    "misteri-penemuan-jasad-mumi-di-gua-garam-iran",
+    "misteri-kebudayaan-jejaring-terowongan-vs-kebudayaan-jejaring-jalan-kaum-inca"
   ],
   "published": [
     {
@@ -585,8 +586,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260729_230327",
+      "topic": "misteri-kebudayaan-jejaring-terowongan-vs-kebudayaan-jejaring-jalan-kaum-inca",
+      "title": "Terowongan Bawah Tanah vs Jalan Kaum Inca: mana yang lebih misterius?",
+      "path": "/home/runner/work/konten4/konten4/output/20260729_230327_misteri-kebudayaan-jejaring-terowongan-vs-kebudayaan-jejarin/final.mp4",
+      "video_id": "vUPd9aj_Ang",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 54,
-  "_voice_idx": 59
+  "_format_idx": 55,
+  "_voice_idx": 60
 }
