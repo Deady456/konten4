@@ -52,7 +52,8 @@
     "misteri-gua-es-kristal-malaysia",
     "misteri-kota-gerbang-vs-kota-pintu",
     "misteri-pasir-hidup-malaysia",
-    "misteri-arsitektur-kuno-di-afghanistan"
+    "misteri-arsitektur-kuno-di-afghanistan",
+    "misteri-penemuan-jasad-mumi-di-gua-garam-iran"
   ],
   "published": [
     {
@@ -574,8 +575,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260729_150530",
+      "topic": "misteri-penemuan-jasad-mumi-di-gua-garam-iran",
+      "title": "Misteri Mumi Gua Garam Iran: Penemuan yang Menggegerkan",
+      "path": "/home/runner/work/konten4/konten4/output/20260729_150530_misteri-penemuan-jasad-mumi-di-gua-garam-iran/final.mp4",
+      "video_id": "Ryt0oG11GlA",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 53,
-  "_voice_idx": 58
+  "_format_idx": 54,
+  "_voice_idx": 59
 }
