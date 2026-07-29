@@ -51,7 +51,8 @@
     "misteri-pulau-komodo-indonesia-vs-pulau-ular-brazil",
     "misteri-gua-es-kristal-malaysia",
     "misteri-kota-gerbang-vs-kota-pintu",
-    "misteri-pasir-hidup-malaysia"
+    "misteri-pasir-hidup-malaysia",
+    "misteri-arsitektur-kuno-di-afghanistan"
   ],
   "published": [
     {
@@ -563,8 +564,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260729_070147",
+      "topic": "misteri-arsitektur-kuno-di-afghanistan",
+      "title": "Misteri Arsitektur Kuno di Afghanistan: 5 Fakta Mengagumkan",
+      "path": "/home/runner/work/konten4/konten4/output/20260729_070147_misteri-arsitektur-kuno-di-afghanistan/final.mp4",
+      "video_id": "iODXv1Fm8JI",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 52,
-  "_voice_idx": 57
+  "_format_idx": 53,
+  "_voice_idx": 58
 }
