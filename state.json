@@ -56,7 +56,8 @@
     "misteri-penemuan-jasad-mumi-di-gua-garam-iran",
     "misteri-kebudayaan-jejaring-terowongan-vs-kebudayaan-jejaring-jalan-kaum-inca",
     "misteri-danau-kausar",
-    "misteri-penemuan-batu-mulya-bercahaya-di-gua-thailand"
+    "misteri-penemuan-batu-mulya-bercahaya-di-gua-thailand",
+    "misteri-kepulauan-yap"
   ],
   "published": [
     {
@@ -618,8 +619,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260730_230441",
+      "topic": "misteri-kepulauan-yap",
+      "title": "Misteri Kepulauan Yap: Pulau Dengan Uang Batu Raksasa",
+      "path": "/home/runner/work/konten4/konten4/output/20260730_230441_misteri-kepulauan-yap/final.mp4",
+      "video_id": "xUtsi3ehJNk",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 57,
-  "_voice_idx": 62
+  "_format_idx": 58,
+  "_voice_idx": 63
 }
