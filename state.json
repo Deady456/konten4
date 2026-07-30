@@ -54,7 +54,8 @@
     "misteri-pasir-hidup-malaysia",
     "misteri-arsitektur-kuno-di-afghanistan",
     "misteri-penemuan-jasad-mumi-di-gua-garam-iran",
-    "misteri-kebudayaan-jejaring-terowongan-vs-kebudayaan-jejaring-jalan-kaum-inca"
+    "misteri-kebudayaan-jejaring-terowongan-vs-kebudayaan-jejaring-jalan-kaum-inca",
+    "misteri-danau-kausar"
   ],
   "published": [
     {
@@ -596,8 +597,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260730_070445",
+      "topic": "misteri-danau-kausar",
+      "title": "Mengungkap Misteri Danau Kausar: Ternyata Ini Yang Sebenarnya Terjadi",
+      "path": "/home/runner/work/konten4/konten4/output/20260730_070445_misteri-danau-kausar/final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 55,
-  "_voice_idx": 60
+  "_format_idx": 56,
+  "_voice_idx": 61
 }
