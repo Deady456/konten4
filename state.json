@@ -55,7 +55,8 @@
     "misteri-arsitektur-kuno-di-afghanistan",
     "misteri-penemuan-jasad-mumi-di-gua-garam-iran",
     "misteri-kebudayaan-jejaring-terowongan-vs-kebudayaan-jejaring-jalan-kaum-inca",
-    "misteri-danau-kausar"
+    "misteri-danau-kausar",
+    "misteri-penemuan-batu-mulya-bercahaya-di-gua-thailand"
   ],
   "published": [
     {
@@ -607,8 +608,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260730_150430",
+      "topic": "misteri-penemuan-batu-mulya-bercahaya-di-gua-thailand",
+      "title": "5 Fakta Misterius Batu Mulya Bercahaya di Gua Thailand",
+      "path": "/home/runner/work/konten4/konten4/output/20260730_150430_misteri-penemuan-batu-mulya-bercahaya-di-gua-thailand/final.mp4",
+      "video_id": "ECBmoOcjGUc",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 56,
-  "_voice_idx": 61
+  "_format_idx": 57,
+  "_voice_idx": 62
 }
