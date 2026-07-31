@@ -57,7 +57,8 @@
     "misteri-kebudayaan-jejaring-terowongan-vs-kebudayaan-jejaring-jalan-kaum-inca",
     "misteri-danau-kausar",
     "misteri-penemuan-batu-mulya-bercahaya-di-gua-thailand",
-    "misteri-kepulauan-yap"
+    "misteri-kepulauan-yap",
+    "misteri-pulau-solusi-vs-pulau-penghukuman"
   ],
   "published": [
     {
@@ -629,8 +630,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260731_070348",
+      "topic": "misteri-pulau-solusi-vs-pulau-penghukuman",
+      "title": "Pulau Penyelamat Vs Pulau Hukuman: Fakta Mengejutkan",
+      "path": "/home/runner/work/konten4/konten4/output/20260731_070348_misteri-pulau-solusi-vs-pulau-penghukuman/final.mp4",
+      "video_id": "HisvFu1jhdY",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 58,
-  "_voice_idx": 63
+  "_format_idx": 59,
+  "_voice_idx": 64
 }
