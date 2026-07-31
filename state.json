@@ -59,7 +59,8 @@
     "misteri-penemuan-batu-mulya-bercahaya-di-gua-thailand",
     "misteri-kepulauan-yap",
     "misteri-pulau-solusi-vs-pulau-penghukuman",
-    "misteri-terowongan-bawah-laut-china"
+    "misteri-terowongan-bawah-laut-china",
+    "misteri-pantai-pasir-bunyi"
   ],
   "published": [
     {
@@ -651,8 +652,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260731_230439",
+      "topic": "misteri-pantai-pasir-bunyi",
+      "title": "Pantai Pasir Bunyi di Asia: 5 Fakta Mengagumkan",
+      "path": "/home/runner/work/konten4/konten4/output/20260731_230439_misteri-pantai-pasir-bunyi/final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 60,
-  "_voice_idx": 65
+  "_format_idx": 61,
+  "_voice_idx": 66
 }
