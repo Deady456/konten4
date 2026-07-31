@@ -58,7 +58,8 @@
     "misteri-danau-kausar",
     "misteri-penemuan-batu-mulya-bercahaya-di-gua-thailand",
     "misteri-kepulauan-yap",
-    "misteri-pulau-solusi-vs-pulau-penghukuman"
+    "misteri-pulau-solusi-vs-pulau-penghukuman",
+    "misteri-terowongan-bawah-laut-china"
   ],
   "published": [
     {
@@ -640,8 +641,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260731_150520",
+      "topic": "misteri-terowongan-bawah-laut-china",
+      "title": "Mengungkap Misteri Terowongan Bawah Laut China Yang Menghebohkan",
+      "path": "/home/runner/work/konten4/konten4/output/20260731_150520_misteri-terowongan-bawah-laut-china/final.mp4",
+      "video_id": "yAzsbM2ipN8",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 59,
-  "_voice_idx": 64
+  "_format_idx": 60,
+  "_voice_idx": 65
 }
