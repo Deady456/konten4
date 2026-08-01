@@ -62,7 +62,8 @@
     "misteri-terowongan-bawah-laut-china",
     "misteri-pantai-pasir-bunyi",
     "misteri-patung-kuno-mengapung",
-    "misteri-pulau-dua-musim-vs-pulau-tanpa-musim"
+    "misteri-pulau-dua-musim-vs-pulau-tanpa-musim",
+    "misteri-pedang-legenda-asia"
   ],
   "published": [
     {
@@ -684,8 +685,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260801_230356",
+      "topic": "misteri-pedang-legenda-asia",
+      "title": "Pedang Legenda Asia: Mitos Atau Fakta Ilmiah?",
+      "path": "/home/runner/work/konten4/konten4/output/20260801_230356_misteri-pedang-legenda-asia/final.mp4",
+      "video_id": "i_-SheeksEI",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 63,
-  "_voice_idx": 68
+  "_format_idx": 64,
+  "_voice_idx": 69
 }
