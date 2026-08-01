@@ -61,7 +61,8 @@
     "misteri-pulau-solusi-vs-pulau-penghukuman",
     "misteri-terowongan-bawah-laut-china",
     "misteri-pantai-pasir-bunyi",
-    "misteri-patung-kuno-mengapung"
+    "misteri-patung-kuno-mengapung",
+    "misteri-pulau-dua-musim-vs-pulau-tanpa-musim"
   ],
   "published": [
     {
@@ -673,8 +674,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260801_150342",
+      "topic": "misteri-pulau-dua-musim-vs-pulau-tanpa-musim",
+      "title": "Pulau Dua Musim Vs Pulau Tanpa Musim: Misteri Alam Asia Yang Bikin Penasaran",
+      "path": "/home/runner/work/konten4/konten4/output/20260801_150342_misteri-pulau-dua-musim-vs-pulau-tanpa-musim/final.mp4",
+      "video_id": "43FuNStyZak",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 62,
-  "_voice_idx": 67
+  "_format_idx": 63,
+  "_voice_idx": 68
 }
