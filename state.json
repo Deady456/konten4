@@ -60,7 +60,8 @@
     "misteri-kepulauan-yap",
     "misteri-pulau-solusi-vs-pulau-penghukuman",
     "misteri-terowongan-bawah-laut-china",
-    "misteri-pantai-pasir-bunyi"
+    "misteri-pantai-pasir-bunyi",
+    "misteri-patung-kuno-mengapung"
   ],
   "published": [
     {
@@ -662,8 +663,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260801_070334",
+      "topic": "misteri-patung-kuno-mengapung",
+      "title": "Patung Kuno Mengapung di Asia: Misteri yang Belum Terpecahkan",
+      "path": "/home/runner/work/konten4/konten4/output/20260801_070334_misteri-patung-kuno-mengapung/final.mp4",
+      "video_id": "qynLRW_wMng",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 61,
-  "_voice_idx": 66
+  "_format_idx": 62,
+  "_voice_idx": 67
 }
