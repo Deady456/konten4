@@ -65,7 +65,8 @@
     "misteri-pulau-dua-musim-vs-pulau-tanpa-musim",
     "misteri-pedang-legenda-asia",
     "misteri-kepulauan-nan-madol",
-    "misteri-tanah-labuhan-merah"
+    "misteri-tanah-labuhan-merah",
+    "misteri-pulau-pohon-batu-vs-pulau-pasir-terbang"
   ],
   "published": [
     {
@@ -717,8 +718,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260802_230337",
+      "topic": "misteri-pulau-pohon-batu-vs-pulau-pasir-terbang",
+      "title": "Pulau Pohon Batu vs Pulau Pasir Terbang: Misteri Dua Pulau Aneh di Asia",
+      "path": "/home/runner/work/konten4/konten4/output/20260802_230337_misteri-pulau-pohon-batu-vs-pulau-pasir-terbang/final.mp4",
+      "video_id": "64W1OSdRajA",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 66,
-  "_voice_idx": 71
+  "_format_idx": 67,
+  "_voice_idx": 72
 }
