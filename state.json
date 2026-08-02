@@ -64,7 +64,8 @@
     "misteri-patung-kuno-mengapung",
     "misteri-pulau-dua-musim-vs-pulau-tanpa-musim",
     "misteri-pedang-legenda-asia",
-    "misteri-kepulauan-nan-madol"
+    "misteri-kepulauan-nan-madol",
+    "misteri-tanah-labuhan-merah"
   ],
   "published": [
     {
@@ -706,8 +707,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260802_150408",
+      "topic": "misteri-tanah-labuhan-merah",
+      "title": "Misteri Tanah Labuhan Merah: Petualangan Menuju Kawasan Aneh Di Asia",
+      "path": "/home/runner/work/konten4/konten4/output/20260802_150408_misteri-tanah-labuhan-merah/final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 65,
-  "_voice_idx": 70
+  "_format_idx": 66,
+  "_voice_idx": 71
 }
