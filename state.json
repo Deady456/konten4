@@ -63,7 +63,8 @@
     "misteri-pantai-pasir-bunyi",
     "misteri-patung-kuno-mengapung",
     "misteri-pulau-dua-musim-vs-pulau-tanpa-musim",
-    "misteri-pedang-legenda-asia"
+    "misteri-pedang-legenda-asia",
+    "misteri-kepulauan-nan-madol"
   ],
   "published": [
     {
@@ -695,8 +696,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260802_070323",
+      "topic": "misteri-kepulauan-nan-madol",
+      "title": "Mengungkap Misteri Kepulauan Nan Madol",
+      "path": "/home/runner/work/konten4/konten4/output/20260802_070323_misteri-kepulauan-nan-madol/final.mp4",
+      "video_id": "wJS-nIffUzU",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 64,
-  "_voice_idx": 69
+  "_format_idx": 65,
+  "_voice_idx": 70
 }
