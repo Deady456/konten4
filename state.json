@@ -66,7 +66,8 @@
     "misteri-pedang-legenda-asia",
     "misteri-kepulauan-nan-madol",
     "misteri-tanah-labuhan-merah",
-    "misteri-pulau-pohon-batu-vs-pulau-pasir-terbang"
+    "misteri-pulau-pohon-batu-vs-pulau-pasir-terbang",
+    "misteri-penemuan-kota-hilang-di-gurun-gobi"
   ],
   "published": [
     {
@@ -728,8 +729,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260803_070459",
+      "topic": "misteri-penemuan-kota-hilang-di-gurun-gobi",
+      "title": "Mengungkap Kota Hilang Gobi: Fakta Ilmiah vs Legenda",
+      "path": "/home/runner/work/konten4/konten4/output/20260803_070459_misteri-penemuan-kota-hilang-di-gurun-gobi/final.mp4",
+      "video_id": "UrqSOh0N34I",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 67,
-  "_voice_idx": 72
+  "_format_idx": 68,
+  "_voice_idx": 73
 }
