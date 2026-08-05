@@ -67,7 +67,8 @@
     "misteri-kepulauan-nan-madol",
     "misteri-tanah-labuhan-merah",
     "misteri-pulau-pohon-batu-vs-pulau-pasir-terbang",
-    "misteri-penemuan-kota-hilang-di-gurun-gobi"
+    "misteri-penemuan-kota-hilang-di-gurun-gobi",
+    "misteri-pulau-tidak-terdaftar-di-peta"
   ],
   "published": [
     {
@@ -739,8 +740,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260805_112754",
+      "topic": "misteri-pulau-tidak-terdaftar-di-peta",
+      "title": "Pulau Misterius di Asia yang Tidak Terdaftar di Peta",
+      "path": "/home/runner/work/konten4/konten4/output/20260805_112754_misteri-pulau-tidak-terdaftar-di-peta/final.mp4",
+      "video_id": "Cw4aceo4xkA",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 68,
-  "_voice_idx": 73
+  "_format_idx": 69,
+  "_voice_idx": 74
 }
