@@ -68,7 +68,8 @@
     "misteri-tanah-labuhan-merah",
     "misteri-pulau-pohon-batu-vs-pulau-pasir-terbang",
     "misteri-penemuan-kota-hilang-di-gurun-gobi",
-    "misteri-pulau-tidak-terdaftar-di-peta"
+    "misteri-pulau-tidak-terdaftar-di-peta",
+    "misteri-danau-mati-india"
   ],
   "published": [
     {
@@ -750,8 +751,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260806_123721",
+      "topic": "misteri-danau-mati-india",
+      "title": "Danau Maut di India yang Mengubah Hewan menjadi Batu",
+      "path": "/home/runner/work/konten4/konten4/output/20260806_123721_misteri-danau-mati-india/final.mp4",
+      "video_id": "6LDqzxJeTmE",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 69,
-  "_voice_idx": 74
+  "_format_idx": 70,
+  "_voice_idx": 75
 }
