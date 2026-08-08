@@ -1,7 +1,8 @@
 {
   "used_topics": [
     "misteri-dan-fenomena-aneh-di-Asia",
-    "penemuan-misterius-di-pulau-jepang"
+    "penemuan-misterius-di-pulau-jepang",
+    "misteri-dan-fenomena-aneh-di-malaysia-vs-filipina"
   ],
   "published": [
     {
@@ -23,8 +24,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260808_103503",
+      "topic": "misteri-dan-fenomena-aneh-di-malaysia-vs-filipina",
+      "title": "Misteri Berhantu di Malaysia vs Filipina, Mana yang Lebih Menakutkan?",
+      "path": "/home/runner/work/konten4/konten4/output/20260808_103503_misteri-dan-fenomena-aneh-di-malaysia-vs-filipina/final.mp4",
+      "video_id": "ra7gZPfM1H0",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 2,
-  "_voice_idx": 2
+  "_format_idx": 3,
+  "_voice_idx": 3
 }
