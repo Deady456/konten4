@@ -1,6 +1,7 @@
 {
   "used_topics": [
-    "misteri-dan-fenomena-aneh-di-Asia"
+    "misteri-dan-fenomena-aneh-di-Asia",
+    "penemuan-misterius-di-pulau-jepang"
   ],
   "published": [
     {
@@ -12,8 +13,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260808_095454",
+      "topic": "penemuan-misterius-di-pulau-jepang",
+      "title": "Mengungkap Misteri Pulau Jepang yang Hilang",
+      "path": "/home/runner/work/konten4/konten4/output/20260808_095454_penemuan-misterius-di-pulau-jepang/final.mp4",
+      "video_id": "nM6qUoUVYkc",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 1,
-  "_voice_idx": 1
+  "_format_idx": 2,
+  "_voice_idx": 2
 }
