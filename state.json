@@ -2,7 +2,8 @@
   "used_topics": [
     "misteri-dan-fenomena-aneh-di-Asia",
     "penemuan-misterius-di-pulau-jepang",
-    "misteri-dan-fenomena-aneh-di-malaysia-vs-filipina"
+    "misteri-dan-fenomena-aneh-di-malaysia-vs-filipina",
+    "misteri-pulau-borobudur"
   ],
   "published": [
     {
@@ -34,8 +35,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260809_123127",
+      "topic": "misteri-pulau-borobudur",
+      "title": "Mengungkap Mitos Pulau Borobudur Yang Belum Terpecahkan",
+      "path": "/home/runner/work/konten4/konten4/output/20260809_123127_misteri-pulau-borobudur/final.mp4",
+      "video_id": "lJWz690pZOk",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 3,
-  "_voice_idx": 3
+  "_format_idx": 4,
+  "_voice_idx": 4
 }
