@@ -4,7 +4,8 @@
     "penemuan-misterius-di-pulau-jepang",
     "misteri-dan-fenomena-aneh-di-malaysia-vs-filipina",
     "misteri-pulau-borobudur",
-    "misteri-dan-fenomena-aneh-di-thailand"
+    "misteri-dan-fenomena-aneh-di-thailand",
+    "misteri-dan-fenomena-aneh-di-nepal"
   ],
   "published": [
     {
@@ -56,8 +57,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260810_223330",
+      "topic": "misteri-dan-fenomena-aneh-di-nepal",
+      "title": "Menyelami Misteri Lembah Mustang di Nepal",
+      "path": "/home/runner/work/konten4/konten4/output/20260810_223330_misteri-dan-fenomena-aneh-di-nepal/final.mp4",
+      "video_id": "q3Vzppt_Z9M",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 5,
-  "_voice_idx": 5
+  "_format_idx": 6,
+  "_voice_idx": 6
 }
