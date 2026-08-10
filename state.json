@@ -3,7 +3,8 @@
     "misteri-dan-fenomena-aneh-di-Asia",
     "penemuan-misterius-di-pulau-jepang",
     "misteri-dan-fenomena-aneh-di-malaysia-vs-filipina",
-    "misteri-pulau-borobudur"
+    "misteri-pulau-borobudur",
+    "misteri-dan-fenomena-aneh-di-thailand"
   ],
   "published": [
     {
@@ -45,8 +46,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260810_031558",
+      "topic": "misteri-dan-fenomena-aneh-di-thailand",
+      "title": "Mengungkap Misteri Di Balik Ritual Aneh Thailand",
+      "path": "/home/runner/work/konten4/konten4/output/20260810_031558_misteri-dan-fenomena-aneh-di-thailand/final.mp4",
+      "video_id": "iENqIvItWr0",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 4,
-  "_voice_idx": 4
+  "_format_idx": 5,
+  "_voice_idx": 5
 }
