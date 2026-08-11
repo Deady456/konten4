@@ -5,7 +5,8 @@
     "misteri-dan-fenomena-aneh-di-malaysia-vs-filipina",
     "misteri-pulau-borobudur",
     "misteri-dan-fenomena-aneh-di-thailand",
-    "misteri-dan-fenomena-aneh-di-nepal"
+    "misteri-dan-fenomena-aneh-di-nepal",
+    "misteri-dan-fenomena-aneh-di-korea-utara-vs-korea-selatan"
   ],
   "published": [
     {
@@ -67,8 +68,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260811_070523",
+      "topic": "misteri-dan-fenomena-aneh-di-korea-utara-vs-korea-selatan",
+      "title": "Misteri di Korea: Utara vs Selatan, Mana yang Lebih Aneh?",
+      "path": "/home/runner/work/konten4/konten4/output/20260811_070523_misteri-dan-fenomena-aneh-di-korea-utara-vs-korea-selatan/final.mp4",
+      "video_id": "oAv6Qgfquu8",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 6,
-  "_voice_idx": 6
+  "_format_idx": 7,
+  "_voice_idx": 7
 }
