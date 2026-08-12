@@ -8,7 +8,8 @@
     "misteri-dan-fenomena-aneh-di-nepal",
     "misteri-dan-fenomena-aneh-di-korea-utara-vs-korea-selatan",
     "misteri-dan-fenomena-aneh-di-himalaya",
-    "misteri-dan-fenomena-aneh-di-azerbaijan"
+    "misteri-dan-fenomena-aneh-di-azerbaijan",
+    "misteri-dan-fenomena-aneh-di-mongolia"
   ],
   "published": [
     {
@@ -100,8 +101,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260812_234628",
+      "topic": "misteri-dan-fenomena-aneh-di-mongolia",
+      "title": "Mengungkap Misteri Genghis Khan di Mongolia",
+      "path": "/home/runner/work/konten4/konten4/output/20260812_234628_misteri-dan-fenomena-aneh-di-mongolia/final.mp4",
+      "video_id": "FOkGAWMBYMY",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 9,
-  "_voice_idx": 9
+  "_format_idx": 10,
+  "_voice_idx": 10
 }
