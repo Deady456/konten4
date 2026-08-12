@@ -6,7 +6,8 @@
     "misteri-pulau-borobudur",
     "misteri-dan-fenomena-aneh-di-thailand",
     "misteri-dan-fenomena-aneh-di-nepal",
-    "misteri-dan-fenomena-aneh-di-korea-utara-vs-korea-selatan"
+    "misteri-dan-fenomena-aneh-di-korea-utara-vs-korea-selatan",
+    "misteri-dan-fenomena-aneh-di-himalaya"
   ],
   "published": [
     {
@@ -78,8 +79,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260812_114845",
+      "topic": "misteri-dan-fenomena-aneh-di-himalaya",
+      "title": "Bongkar Mitos Gunung Everest: Apakah Ada Kawasan Mati?",
+      "path": "/home/runner/work/konten4/konten4/output/20260812_114845_misteri-dan-fenomena-aneh-di-himalaya/final.mp4",
+      "video_id": "Rs5VcMDirOU",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 7,
-  "_voice_idx": 7
+  "_format_idx": 8,
+  "_voice_idx": 8
 }
