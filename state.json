@@ -9,7 +9,8 @@
     "misteri-dan-fenomena-aneh-di-korea-utara-vs-korea-selatan",
     "misteri-dan-fenomena-aneh-di-himalaya",
     "misteri-dan-fenomena-aneh-di-azerbaijan",
-    "misteri-dan-fenomena-aneh-di-mongolia"
+    "misteri-dan-fenomena-aneh-di-mongolia",
+    "misteri-penjara-bawah-tanah-di-cina-vs-india"
   ],
   "published": [
     {
@@ -111,8 +112,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260813_141009",
+      "topic": "misteri-penjara-bawah-tanah-di-cina-vs-india",
+      "title": "Penjara Bawah Tanah Cina vs India: Misteri yang Tersisa",
+      "path": "/home/runner/work/konten4/konten4/output/20260813_141009_misteri-penjara-bawah-tanah-di-cina-vs-india/final.mp4",
+      "video_id": "Ptw0c0ClWek",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 10,
-  "_voice_idx": 10
+  "_format_idx": 11,
+  "_voice_idx": 11
 }
