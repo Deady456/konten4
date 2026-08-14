@@ -11,7 +11,8 @@
     "misteri-dan-fenomena-aneh-di-azerbaijan",
     "misteri-dan-fenomena-aneh-di-mongolia",
     "misteri-penjara-bawah-tanah-di-cina-vs-india",
-    "misteri-dan-fenomena-aneh-di-kamboja"
+    "misteri-dan-fenomena-aneh-di-kamboja",
+    "misteri-dan-fenomena-aneh-di-tibet"
   ],
   "published": [
     {
@@ -133,8 +134,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260814_114939",
+      "topic": "misteri-dan-fenomena-aneh-di-tibet",
+      "title": "Misteri Danau Namtso: Danau Tertinggi di Dunia yang Tersembunyi",
+      "path": "/home/runner/work/konten4/konten4/output/20260814_114939_misteri-dan-fenomena-aneh-di-tibet/final.mp4",
+      "video_id": "ABck4IidM58",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 12,
-  "_voice_idx": 12
+  "_format_idx": 14,
+  "_voice_idx": 13
 }
