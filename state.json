@@ -12,7 +12,8 @@
     "misteri-dan-fenomena-aneh-di-mongolia",
     "misteri-penjara-bawah-tanah-di-cina-vs-india",
     "misteri-dan-fenomena-aneh-di-kamboja",
-    "misteri-dan-fenomena-aneh-di-tibet"
+    "misteri-dan-fenomena-aneh-di-tibet",
+    "misteri-dan-fenomena-aneh-di-sri-lanka-vs-bhutan"
   ],
   "published": [
     {
@@ -144,8 +145,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260814_234710",
+      "topic": "misteri-dan-fenomena-aneh-di-sri-lanka-vs-bhutan",
+      "title": "Sri Lanka vs Bhutan: Negara Asia Dengan Misteri Paling Menarik",
+      "path": "/home/runner/work/konten4/konten4/output/20260814_234710_misteri-dan-fenomena-aneh-di-sri-lanka-vs-bhutan/final.mp4",
+      "video_id": "q7wEaapXpIM",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 14,
-  "_voice_idx": 13
+  "_format_idx": 15,
+  "_voice_idx": 14
 }
