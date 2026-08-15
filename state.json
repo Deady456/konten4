@@ -13,7 +13,8 @@
     "misteri-penjara-bawah-tanah-di-cina-vs-india",
     "misteri-dan-fenomena-aneh-di-kamboja",
     "misteri-dan-fenomena-aneh-di-tibet",
-    "misteri-dan-fenomena-aneh-di-sri-lanka-vs-bhutan"
+    "misteri-dan-fenomena-aneh-di-sri-lanka-vs-bhutan",
+    "misteri-dan-fenomena-aneh-di-vietnam"
   ],
   "published": [
     {
@@ -155,8 +156,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260815_234634",
+      "topic": "misteri-dan-fenomena-aneh-di-vietnam",
+      "title": "Membongkar Mitos Hantu di Vietnam",
+      "path": "/home/runner/work/konten4/konten4/output/20260815_234634_misteri-dan-fenomena-aneh-di-vietnam/final.mp4",
+      "video_id": "YUxQZdzZ0_g",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 15,
-  "_voice_idx": 14
+  "_format_idx": 16,
+  "_voice_idx": 15
 }
