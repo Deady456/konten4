@@ -14,7 +14,8 @@
     "misteri-dan-fenomena-aneh-di-kamboja",
     "misteri-dan-fenomena-aneh-di-tibet",
     "misteri-dan-fenomena-aneh-di-sri-lanka-vs-bhutan",
-    "misteri-dan-fenomena-aneh-di-vietnam"
+    "misteri-dan-fenomena-aneh-di-vietnam",
+    "misteri-dan-fenomena-aneh-di-laos"
   ],
   "published": [
     {
@@ -166,8 +167,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260816_234732",
+      "topic": "misteri-dan-fenomena-aneh-di-laos",
+      "title": "Terungkap! 7 Misteri Mengguncang Laos yang Belum Pernah Terungkap Publik",
+      "path": "/home/runner/work/konten4/konten4/output/20260816_234732_misteri-dan-fenomena-aneh-di-laos/final.mp4",
+      "video_id": "QjdIvW-4Oh0",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 16,
-  "_voice_idx": 15
+  "_format_idx": 17,
+  "_voice_idx": 16
 }
