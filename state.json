@@ -15,7 +15,8 @@
     "misteri-dan-fenomena-aneh-di-tibet",
     "misteri-dan-fenomena-aneh-di-sri-lanka-vs-bhutan",
     "misteri-dan-fenomena-aneh-di-vietnam",
-    "misteri-dan-fenomena-aneh-di-laos"
+    "misteri-dan-fenomena-aneh-di-laos",
+    "misteri-dan-fenomena-aneh-di-myanmar-inle-lake-floating-stones"
   ],
   "published": [
     {
@@ -177,8 +178,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260817_114725",
+      "topic": "misteri-dan-fenomena-aneh-di-myanmar-inle-lake-floating-stones",
+      "title": "Mengapa Batu Mengapung di Danau Inle, Myanmar? Fenomena yang Membingungkan!",
+      "path": "/home/runner/work/konten4/konten4/output/20260817_114725_misteri-dan-fenomena-aneh-di-myanmar-inle-lake-floating-ston/final.mp4",
+      "video_id": "JFW459txQzo",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 17,
-  "_voice_idx": 16
+  "_format_idx": 18,
+  "_voice_idx": 17
 }
