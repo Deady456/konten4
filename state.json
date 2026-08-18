@@ -16,7 +16,8 @@
     "misteri-dan-fenomena-aneh-di-sri-lanka-vs-bhutan",
     "misteri-dan-fenomena-aneh-di-vietnam",
     "misteri-dan-fenomena-aneh-di-laos",
-    "misteri-dan-fenomena-aneh-di-myanmar-inle-lake-floating-stones"
+    "misteri-dan-fenomena-aneh-di-myanmar-inle-lake-floating-stones",
+    "kawah-ijen-vs-kawah-daikoku-api-biru"
   ],
   "published": [
     {
@@ -188,8 +189,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260817_234747",
+      "topic": "kawah-ijen-vs-kawah-daikoku-api-biru",
+      "title": "Kawah Ijen vs Kawah Daikoku: Misteri Api Biru yang Membara di Asia",
+      "path": "/home/runner/work/konten4/konten4/output/20260817_234747_kawah-ijen-vs-kawah-daikoku-api-biru/final.mp4",
+      "video_id": "IY_WMucPll4",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 18,
-  "_voice_idx": 17
+  "_format_idx": 19,
+  "_voice_idx": 18
 }
