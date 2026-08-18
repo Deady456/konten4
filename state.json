@@ -17,7 +17,8 @@
     "misteri-dan-fenomena-aneh-di-vietnam",
     "misteri-dan-fenomena-aneh-di-laos",
     "misteri-dan-fenomena-aneh-di-myanmar-inle-lake-floating-stones",
-    "kawah-ijen-vs-kawah-daikoku-api-biru"
+    "kawah-ijen-vs-kawah-daikoku-api-biru",
+    "misteri-hutan-bambu-jepang"
   ],
   "published": [
     {
@@ -199,8 +200,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260818_115011",
+      "topic": "misteri-hutan-bambu-jepang",
+      "title": "Mitos Hantu di Hutan Bambu Jepang: Fakta Ilmiah yang Mengejutkan",
+      "path": "/home/runner/work/konten4/konten4/output/20260818_115011_misteri-hutan-bambu-jepang/final.mp4",
+      "video_id": "8zoM0zw94iw",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 19,
-  "_voice_idx": 18
+  "_format_idx": 20,
+  "_voice_idx": 19
 }
