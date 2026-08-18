@@ -18,7 +18,8 @@
     "misteri-dan-fenomena-aneh-di-laos",
     "misteri-dan-fenomena-aneh-di-myanmar-inle-lake-floating-stones",
     "kawah-ijen-vs-kawah-daikoku-api-biru",
-    "misteri-hutan-bambu-jepang"
+    "misteri-hutan-bambu-jepang",
+    "misteri-lampu-mengapung-di-danau-lugu"
   ],
   "published": [
     {
@@ -210,8 +211,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260819_001415",
+      "topic": "misteri-lampu-mengapung-di-danau-lugu",
+      "title": "Misteri Lampu Mengapung di Danau Lugu: Fenomena Biru yang Membingungkan Ilmuwan",
+      "path": "C:\\Users\\Administrator\\Desktop\\patch_temp2\\konten4\\output\\20260819_001415_misteri-lampu-mengapung-di-danau-lugu\\final.mp4",
+      "video_id": null,
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 20,
-  "_voice_idx": 19
+  "_format_idx": 21,
+  "_voice_idx": 20
 }

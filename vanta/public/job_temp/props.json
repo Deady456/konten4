@@ -1,0 +1,841 @@
+{
+  "title": "LAMPU MISTERI DANAU",
+  "voice_audio": "job_temp/voice.mp3",
+  "broll": [
+    "job_temp/vid_0.mp4",
+    "job_temp/vid_1.mp4",
+    "job_temp/vid_2.mp4",
+    "job_temp/vid_3.mp4",
+    "job_temp/vid_4.mp4",
+    "job_temp/vid_5.mp4",
+    "job_temp/vid_6.mp4",
+    "job_temp/vid_7.mp4",
+    "job_temp/vid_8.mp4",
+    "job_temp/vid_9.mp4",
+    "job_temp/vid_10.mp4",
+    "job_temp/vid_11.mp4",
+    "job_temp/vid_12.mp4",
+    "job_temp/vid_13.mp4",
+    "job_temp/vid_14.mp4",
+    "job_temp/vid_15.mp4",
+    "job_temp/vid_16.mp4",
+    "job_temp/vid_17.mp4",
+    "job_temp/vid_18.mp4",
+    "job_temp/vid_19.mp4",
+    "job_temp/vid_20.mp4",
+    "job_temp/vid_21.mp4",
+    "job_temp/vid_22.mp4",
+    "job_temp/vid_23.mp4",
+    "job_temp/vid_24.mp4",
+    "job_temp/vid_25.mp4",
+    "job_temp/vid_26.mp4"
+  ],
+  "words": [
+    {
+      "word": "LAMPU",
+      "start": 0.0,
+      "end": 0.58
+    },
+    {
+      "word": "MISTERI",
+      "start": 0.58,
+      "end": 0.94
+    },
+    {
+      "word": "DANAU",
+      "start": 0.94,
+      "end": 1.34
+    },
+    {
+      "word": "...",
+      "start": 2.0,
+      "end": 2.48
+    },
+    {
+      "word": "Apa",
+      "start": 2.48,
+      "end": 2.64
+    },
+    {
+      "word": "yang",
+      "start": 2.64,
+      "end": 3.08
+    },
+    {
+      "word": "sebenarnya",
+      "start": 3.08,
+      "end": 3.52
+    },
+    {
+      "word": "terjadi",
+      "start": 3.52,
+      "end": 3.7
+    },
+    {
+      "word": "di",
+      "start": 3.7,
+      "end": 3.94
+    },
+    {
+      "word": "Danau",
+      "start": 3.94,
+      "end": 4.22
+    },
+    {
+      "word": "Lugu,",
+      "start": 4.74,
+      "end": 4.96
+    },
+    {
+      "word": "tempat",
+      "start": 4.96,
+      "end": 5.26
+    },
+    {
+      "word": "lampu",
+      "start": 5.26,
+      "end": 5.58
+    },
+    {
+      "word": "misterius",
+      "start": 5.58,
+      "end": 6.0
+    },
+    {
+      "word": "mengapung",
+      "start": 6.0,
+      "end": 6.32
+    },
+    {
+      "word": "setiap",
+      "start": 6.32,
+      "end": 6.64
+    },
+    {
+      "word": "malam?",
+      "start": 7.58,
+      "end": 8.2
+    },
+    {
+      "word": "Satu.",
+      "start": 9.0,
+      "end": 9.48
+    },
+    {
+      "word": "Lampu",
+      "start": 9.48,
+      "end": 9.66
+    },
+    {
+      "word": "biru",
+      "start": 9.66,
+      "end": 10.12
+    },
+    {
+      "word": "kehijauan",
+      "start": 10.12,
+      "end": 10.46
+    },
+    {
+      "word": "muncul",
+      "start": 10.46,
+      "end": 10.82
+    },
+    {
+      "word": "sejak",
+      "start": 10.82,
+      "end": 11.08
+    },
+    {
+      "word": " 2012",
+      "start": 11.08,
+      "end": 11.76
+    },
+    {
+      "word": " mengundang",
+      "start": 11.76,
+      "end": 12.7
+    },
+    {
+      "word": " perhatian",
+      "start": 12.7,
+      "end": 13.1
+    },
+    {
+      "word": " ilmuan",
+      "start": 13.1,
+      "end": 13.58
+    },
+    {
+      "word": "tahun",
+      "start": 13.58,
+      "end": 15.06
+    },
+    {
+      "word": " Para",
+      "start": 15.89,
+      "end": 16.26
+    },
+    {
+      "word": " peneliti",
+      "start": 16.26,
+      "end": 16.62
+    },
+    {
+      "word": " dari",
+      "start": 16.62,
+      "end": 16.84
+    },
+    {
+      "word": " Universitasi",
+      "start": 16.84,
+      "end": 17.5
+    },
+    {
+      "word": " Unnan",
+      "start": 17.5,
+      "end": 17.7
+    },
+    {
+      "word": " mencetak",
+      "start": 17.7,
+      "end": 18.14
+    },
+    {
+      "word": " bahwa",
+      "start": 18.14,
+      "end": 18.5
+    },
+    {
+      "word": " cahaya",
+      "start": 18.5,
+      "end": 18.84
+    },
+    {
+      "word": " muncul",
+      "start": 18.84,
+      "end": 19.12
+    },
+    {
+      "word": " tepat",
+      "start": 19.12,
+      "end": 19.4
+    },
+    {
+      "word": " pada",
+      "start": 19.4,
+      "end": 19.64
+    },
+    {
+      "word": " pukul",
+      "start": 19.64,
+      "end": 19.94
+    },
+    {
+      "word": " 12",
+      "start": 19.94,
+      "end": 20.22
+    },
+    {
+      "word": " malam",
+      "start": 20.22,
+      "end": 20.76
+    },
+    {
+      "word": " berkelip",
+      "start": 20.76,
+      "end": 21.4
+    },
+    {
+      "word": " seperti",
+      "start": 21.4,
+      "end": 21.56
+    },
+    {
+      "word": " pulsa",
+      "start": 21.56,
+      "end": 22.06
+    },
+    {
+      "word": " bioluminesensi",
+      "start": 22.06,
+      "end": 22.84
+    },
+    {
+      "word": " alami",
+      "start": 22.84,
+      "end": 23.18
+    },
+    {
+      "word": " Tiga",
+      "start": 23.98,
+      "end": 24.72
+    },
+    {
+      "word": " Teori",
+      "start": 25.67,
+      "end": 26.04
+    },
+    {
+      "word": " pertama",
+      "start": 26.04,
+      "end": 26.34
+    },
+    {
+      "word": " menyatakan",
+      "start": 26.34,
+      "end": 26.84
+    },
+    {
+      "word": " bahwa",
+      "start": 26.84,
+      "end": 27.24
+    },
+    {
+      "word": " lampu",
+      "start": 27.24,
+      "end": 27.54
+    },
+    {
+      "word": " berasal",
+      "start": 27.54,
+      "end": 27.92
+    },
+    {
+      "word": " dari",
+      "start": 27.92,
+      "end": 28.08
+    },
+    {
+      "word": " ganggang",
+      "start": 28.08,
+      "end": 28.42
+    },
+    {
+      "word": " phosphoresen",
+      "start": 28.42,
+      "end": 28.96
+    },
+    {
+      "word": " yang",
+      "start": 28.96,
+      "end": 29.12
+    },
+    {
+      "word": " beriaksi",
+      "start": 29.12,
+      "end": 29.48
+    },
+    {
+      "word": " dengan",
+      "start": 29.48,
+      "end": 29.76
+    },
+    {
+      "word": " suhu",
+      "start": 29.76,
+      "end": 30.0
+    },
+    {
+      "word": " rendah",
+      "start": 30.0,
+      "end": 30.3
+    },
+    {
+      "word": " di",
+      "start": 30.3,
+      "end": 30.44
+    },
+    {
+      "word": " kedalaman",
+      "start": 30.44,
+      "end": 30.86
+    },
+    {
+      "word": " 17",
+      "start": 30.86,
+      "end": 31.12
+    },
+    {
+      "word": " meter",
+      "start": 31.12,
+      "end": 31.66
+    },
+    {
+      "word": " 4",
+      "start": 32.44,
+      "end": 33.12
+    },
+    {
+      "word": " Namun,",
+      "start": 34.02,
+      "end": 34.7
+    },
+    {
+      "word": " penduduk",
+      "start": 35.02,
+      "end": 35.42
+    },
+    {
+      "word": " setempat",
+      "start": 35.42,
+      "end": 35.7
+    },
+    {
+      "word": " menceritakan",
+      "start": 35.7,
+      "end": 36.16
+    },
+    {
+      "word": " legenda",
+      "start": 36.16,
+      "end": 36.56
+    },
+    {
+      "word": " tentang",
+      "start": 36.56,
+      "end": 36.84
+    },
+    {
+      "word": " Rohair",
+      "start": 36.84,
+      "end": 37.3
+    },
+    {
+      "word": " bernamanian",
+      "start": 37.3,
+      "end": 37.92
+    },
+    {
+      "word": " yang",
+      "start": 37.92,
+      "end": 38.08
+    },
+    {
+      "word": " muncul",
+      "start": 38.08,
+      "end": 38.4
+    },
+    {
+      "word": " saat",
+      "start": 38.4,
+      "end": 38.66
+    },
+    {
+      "word": " bulan",
+      "start": 38.66,
+      "end": 38.92
+    },
+    {
+      "word": "-purnama",
+      "start": 38.92,
+      "end": 39.32
+    },
+    {
+      "word": " untuk",
+      "start": 39.32,
+      "end": 39.66
+    },
+    {
+      "word": " menuntung",
+      "start": 39.66,
+      "end": 39.98
+    },
+    {
+      "word": " pelout",
+      "start": 39.98,
+      "end": 40.28
+    },
+    {
+      "word": " yang",
+      "start": 40.28,
+      "end": 40.48
+    },
+    {
+      "word": " hilang",
+      "start": 40.48,
+      "end": 40.9
+    },
+    {
+      "word": " 5",
+      "start": 40.9,
+      "end": 42.26
+    },
+    {
+      "word": " Penelitian",
+      "start": 43.12,
+      "end": 43.8
+    },
+    {
+      "word": " sonar",
+      "start": 43.8,
+      "end": 44.14
+    },
+    {
+      "word": " menunjukkan",
+      "start": 44.14,
+      "end": 44.66
+    },
+    {
+      "word": " adanya",
+      "start": 44.66,
+      "end": 44.94
+    },
+    {
+      "word": " objek",
+      "start": 44.94,
+      "end": 45.34
+    },
+    {
+      "word": " pada",
+      "start": 45.34,
+      "end": 45.56
+    },
+    {
+      "word": " berukuran",
+      "start": 45.56,
+      "end": 45.96
+    },
+    {
+      "word": " satu",
+      "start": 45.96,
+      "end": 46.18
+    },
+    {
+      "word": " meter",
+      "start": 46.18,
+      "end": 46.44
+    },
+    {
+      "word": " yang",
+      "start": 46.44,
+      "end": 46.64
+    },
+    {
+      "word": " bergerat",
+      "start": 46.64,
+      "end": 46.94
+    },
+    {
+      "word": " perlahan",
+      "start": 46.94,
+      "end": 47.34
+    },
+    {
+      "word": " di",
+      "start": 47.34,
+      "end": 47.44
+    },
+    {
+      "word": " bawah",
+      "start": 47.44,
+      "end": 47.62
+    },
+    {
+      "word": " cahaya",
+      "start": 47.62,
+      "end": 48.08
+    },
+    {
+      "word": " menambah",
+      "start": 48.08,
+      "end": 48.88
+    },
+    {
+      "word": " misteri",
+      "start": 48.88,
+      "end": 49.6
+    },
+    {
+      "word": " 6",
+      "start": 49.6,
+      "end": 50.64
+    },
+    {
+      "word": " Pada",
+      "start": 51.64,
+      "end": 51.98
+    },
+    {
+      "word": " bulan",
+      "start": 51.98,
+      "end": 52.22
+    },
+    {
+      "word": " agustus",
+      "start": 52.22,
+      "end": 52.56
+    },
+    {
+      "word": "sejak",
+      "start": 52.56,
+      "end": 52.8
+    },
+    {
+      "word": " 2025,",
+      "start": 52.8,
+      "end": 53.54
+    },
+    {
+      "word": " Tim",
+      "start": 54.3,
+      "end": 54.44
+    },
+    {
+      "word": " Diver",
+      "start": 54.44,
+      "end": 54.68
+    },
+    {
+      "word": " menemukan",
+      "start": 54.68,
+      "end": 55.1
+    },
+    {
+      "word": " Parti",
+      "start": 55.1,
+      "end": 55.44
+    },
+    {
+      "word": " Kelloggam",
+      "start": 55.44,
+      "end": 55.82
+    },
+    {
+      "word": " ringan",
+      "start": 55.82,
+      "end": 56.24
+    },
+    {
+      "word": " kemungkinan",
+      "start": 56.24,
+      "end": 57.08
+    },
+    {
+      "word": " sisa",
+      "start": 57.08,
+      "end": 57.3
+    },
+    {
+      "word": " alat",
+      "start": 57.3,
+      "end": 57.56
+    },
+    {
+      "word": " militer",
+      "start": 57.56,
+      "end": 57.8
+    },
+    {
+      "word": " lama",
+      "start": 57.8,
+      "end": 58.02
+    },
+    {
+      "word": " yang",
+      "start": 58.02,
+      "end": 58.26
+    },
+    {
+      "word": " bocor",
+      "start": 58.26,
+      "end": 58.68
+    },
+    {
+      "word": " 7",
+      "start": 59.44,
+      "end": 60.06
+    },
+    {
+      "word": " Meskipun",
+      "start": 61.1,
+      "end": 61.72
+    },
+    {
+      "word": " ada",
+      "start": 61.72,
+      "end": 61.9
+    },
+    {
+      "word": " penjelasan",
+      "start": 61.9,
+      "end": 62.36
+    },
+    {
+      "word": " ilmiah",
+      "start": 62.36,
+      "end": 62.88
+    },
+    {
+      "word": " warga",
+      "start": 62.88,
+      "end": 63.54
+    },
+    {
+      "word": " masih",
+      "start": 63.54,
+      "end": 63.8
+    },
+    {
+      "word": " melaporkan",
+      "start": 63.8,
+      "end": 64.24
+    },
+    {
+      "word": " suara",
+      "start": 64.24,
+      "end": 64.44
+    },
+    {
+      "word": "muncul",
+      "start": 64.44,
+      "end": 64.7
+    },
+    {
+      "word": " menyerupain",
+      "start": 64.7,
+      "end": 65.18
+    },
+    {
+      "word": " nyanyian",
+      "start": 65.18,
+      "end": 65.52
+    },
+    {
+      "word": " kuno",
+      "start": 65.52,
+      "end": 65.74
+    },
+    {
+      "word": " bersamaan",
+      "start": 65.74,
+      "end": 66.22
+    },
+    {
+      "word": " dengan",
+      "start": 66.22,
+      "end": 66.52
+    },
+    {
+      "word": " munculnya",
+      "start": 66.52,
+      "end": 67.0
+    },
+    {
+      "word": " lampu",
+      "start": 67.0,
+      "end": 67.54
+    },
+    {
+      "word": " 8",
+      "start": 68.2,
+      "end": 68.82
+    },
+    {
+      "word": " Sampai",
+      "start": 69.74,
+      "end": 70.36
+    },
+    {
+      "word": " kini",
+      "start": 70.36,
+      "end": 70.72
+    },
+    {
+      "word": " dan",
+      "start": 70.99,
+      "end": 71.3
+    },
+    {
+      "word": " au",
+      "start": 71.3,
+      "end": 71.46
+    },
+    {
+      "word": " lugu",
+      "start": 71.46,
+      "end": 71.66
+    },
+    {
+      "word": " tetap",
+      "start": 71.66,
+      "end": 71.94
+    },
+    {
+      "word": " menjadi",
+      "start": 71.94,
+      "end": 72.22
+    },
+    {
+      "word": " tempat",
+      "start": 72.22,
+      "end": 72.54
+    },
+    {
+      "word": " yang",
+      "start": 72.54,
+      "end": 72.7
+    },
+    {
+      "word": " memiket",
+      "start": 72.7,
+      "end": 73.02
+    },
+    {
+      "word": " antara",
+      "start": 73.02,
+      "end": 73.3
+    },
+    {
+      "word": " signs",
+      "start": 73.3,
+      "end": 73.58
+    },
+    {
+      "word": " dan",
+      "start": 73.58,
+      "end": 73.84
+    },
+    {
+      "word": " mitos",
+      "start": 73.84,
+      "end": 74.28
+    },
+    {
+      "word": " mengundang",
+      "start": 74.28,
+      "end": 75.04
+    },
+    {
+      "word": " lebih",
+      "start": 75.04,
+      "end": 75.18
+    },
+    {
+      "word": " banyak",
+      "start": 75.18,
+      "end": 75.46
+    },
+    {
+      "word": " penjelasjahan",
+      "start": 75.46,
+      "end": 76.08
+    },
+    {
+      "word": " di",
+      "start": 76.08,
+      "end": 76.24
+    },
+    {
+      "word": " masa",
+      "start": 76.24,
+      "end": 76.42
+    },
+    {
+      "word": " depan",
+      "start": 76.42,
+      "end": 76.84
+    }
+  ],
+  "durationInSeconds": 77.84
+}
