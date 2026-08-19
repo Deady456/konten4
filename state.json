@@ -20,7 +20,8 @@
     "kawah-ijen-vs-kawah-daikoku-api-biru",
     "misteri-hutan-bambu-jepang",
     "misteri-lampu-mengapung-di-danau-lugu",
-    "misteri-desa-hantu-kuldhara-india"
+    "misteri-desa-hantu-kuldhara-india",
+    "misteri-rs-gonjiam-vs-rs-changi-lama"
   ],
   "published": [
     {
@@ -232,8 +233,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260819_114653",
+      "topic": "misteri-rs-gonjiam-vs-rs-changi-lama",
+      "title": "Misteri RS Gonjiam vs RS Changi Lama: Mana Tempat Paling Berhantu di Asia?",
+      "path": "/home/runner/work/konten4/konten4/output/20260819_114653_misteri-rs-gonjiam-vs-rs-changi-lama/final.mp4",
+      "video_id": "c-hjphMFy3w",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 22,
-  "_voice_idx": 21
+  "_format_idx": 23,
+  "_voice_idx": 22
 }
