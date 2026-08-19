@@ -19,7 +19,8 @@
     "misteri-dan-fenomena-aneh-di-myanmar-inle-lake-floating-stones",
     "kawah-ijen-vs-kawah-daikoku-api-biru",
     "misteri-hutan-bambu-jepang",
-    "misteri-lampu-mengapung-di-danau-lugu"
+    "misteri-lampu-mengapung-di-danau-lugu",
+    "misteri-desa-hantu-kuldhara-india"
   ],
   "published": [
     {
@@ -221,8 +222,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260819_055754",
+      "topic": "misteri-desa-hantu-kuldhara-india",
+      "title": "Misteri Desa Kuldhara: Ratusan Warga Lenyap dalam Satu Malam Tanpa Jejak",
+      "path": "/home/runner/work/konten4/konten4/output/20260819_055754_misteri-desa-hantu-kuldhara-india/final.mp4",
+      "video_id": "ajYAYguT_E0",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 21,
-  "_voice_idx": 20
+  "_format_idx": 22,
+  "_voice_idx": 21
 }
