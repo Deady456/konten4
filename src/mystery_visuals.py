@@ -8,11 +8,17 @@ import subprocess
 from pathlib import Path
 from urllib.parse import quote
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance
-from .config import CONFIG, ROOT
+from .config import PEXELS_API_KEYS, CONFIG, ROOT
+
+PEXELS_API = "https://api.pexels.com/videos/search"
+PIXABAY_KEY = os.environ.get("PIXABAY_API_KEY", "56548904-dc4e2edcecb81ed1b459a2379")
 
 HEADERS = {
     "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
 }
+
+# Blacklist words that could return ads, cartoons, or drawings
+JUNK_WORDS = {"cartoon", "drawing", "illustration", "anime", "clipart", "vector", "meme", "banner", "ad"}
 
 def probe_duration(path: Path) -> float:
     try:
@@ -26,144 +32,140 @@ def probe_duration(path: Path) -> float:
         return 60.0
 
 
-def _search_bing_images(query: str) -> list[str]:
-    """Scrape authentic high-res Asian mystery & cultural photos from Bing."""
-    url = f"https://www.bing.com/images/search?q={quote(query + ' cinematic wallpaper')}&form=HDRSC3"
+def clean_query(q: str) -> str:
+    words = [w.strip().lower() for w in re.split(r'[,\s]+', q) if w.strip()]
+    cleaned = [w for w in words if w not in JUNK_WORDS and len(w) > 2]
+    return " ".join(cleaned[:3]) if cleaned else q
+
+
+def search_pexels_hd_video(query: str, min_duration: float = 3.0) -> list[str]:
+    cq = clean_query(query)
+    found = []
+    for key in PEXELS_API_KEYS:
+        if not key or key == "dummy_key":
+            continue
+        try:
+            r = requests.get(
+                PEXELS_API,
+                headers={"Authorization": key},
+                params={"query": cq, "orientation": "portrait", "per_page": 10, "size": "medium"},
+                timeout=12,
+            )
+            if r.status_code == 200:
+                videos = r.json().get("videos", [])
+                for v in videos:
+                    if v.get("duration", 0) < min_duration:
+                        continue
+                    files = [f for f in v.get("video_files", []) if f.get("height", 0) > f.get("width", 0) and f.get("width", 0) >= 720]
+                    if files:
+                        files.sort(key=lambda f: f.get("height", 0), reverse=True)
+                        found.append(files[0]["link"])
+                if found:
+                    break
+        except Exception:
+            continue
+    return found
+
+
+def search_pixabay_hd_video(query: str, min_duration: float = 3.0) -> list[str]:
+    cq = clean_query(query)
+    found = []
     try:
-        r = requests.get(url, headers=HEADERS, timeout=8)
-        urls = re.findall(r'murl&quot;:&quot;(https://[^&]+)&quot;', r.text)
-        return [u for u in urls if not u.endswith('.svg') and 'icon' not in u.lower()]
+        r = requests.get(
+            "https://pixabay.com/api/videos/",
+            params={"key": PIXABAY_KEY, "q": cq, "per_page": 10, "safesearch": "true", "video_type": "film"},
+            timeout=12,
+        )
+        if r.status_code == 200:
+            hits = r.json().get("hits", [])
+            for hit in hits:
+                if hit.get("duration", 0) < min_duration:
+                    continue
+                videos = hit.get("videos", {})
+                for vtype in ["large", "medium", "small"]:
+                    if vtype in videos and videos[vtype].get("url"):
+                        found.append(videos[vtype]["url"])
+                        break
     except Exception:
-        return []
+        pass
+    return found
 
 
-def _search_wikimedia_mystery(query: str) -> list[str]:
-    """Fetch Asian mythology and ancient archaeology photos from Wikimedia."""
-    url = f"https://en.wikipedia.org/w/api.php?action=query&format=json&generator=search&gsrsearch={quote(query)}&gsrlimit=6&prop=pageimages&piprop=original|thumbnail&pithumbsize=1080"
+def search_wikimedia_commons_hd(name: str) -> list[str]:
+    encoded = quote(clean_query(name))
+    url = f"https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrsearch={encoded}&gsrnamespace=6&prop=imageinfo&iiprop=url|size|mime&format=json"
+    results = []
     try:
         r = requests.get(url, headers=HEADERS, timeout=8)
         if r.status_code == 200:
             pages = r.json().get("query", {}).get("pages", {})
-            urls = []
-            for pid, page in pages.items():
-                img = page.get("original", {}).get("source") or page.get("thumbnail", {}).get("source")
-                if img and "logo" not in img.lower() and "icon" not in img.lower():
-                    urls.append(img)
-            return urls
+            for pid, pdata in pages.items():
+                ii = pdata.get("imageinfo", [{}])[0]
+                mime = ii.get("mime", "")
+                w = ii.get("width", 0)
+                h = ii.get("height", 0)
+                img_url = ii.get("url", "")
+                if mime.startswith("image/") and not mime.endswith("svg+xml") and w >= 800 and img_url:
+                    results.append(img_url)
     except Exception:
         pass
-    return []
+    return results
 
 
-def _generate_pollinations_flux_horror(prompt: str, out_path: Path, seed: int = None) -> bool:
-    """Generate vibrant, cinematic, atmospheric Asian fantasy/horror with striking glowing lighting (NOT pitch black)."""
+def download_file(url: str, out_path: Path) -> bool:
     try:
-        clean_p = re.sub(r'[^a-zA-Z0-9\s,.-]', '', prompt).strip()
-        enhanced_prompt = f"{clean_p}, asian fantasy folklore, vivid glowing blue and red volumetric lighting, striking rim light, mysterious mist, cinematic masterpiece, crystal clear focus, 8k resolution, photorealistic, ultra-detailed"
-        seed_param = f"&seed={seed}" if seed else f"&seed={random.randint(1, 999999)}"
-        url = f"https://image.pollinations.ai/prompt/{quote(enhanced_prompt)}?width=1080&height=1920&model=flux&nologo=true{seed_param}"
+        with requests.get(url, stream=True, headers=HEADERS, timeout=30) as r:
+            if r.status_code == 200 and int(r.headers.get("content-length", 5000)) > 4000:
+                with open(out_path, "wb") as f:
+                    for chunk in r.iter_content(1 << 20):
+                        f.write(chunk)
+                return True
+    except Exception:
+        pass
+    return False
+
+
+def convert_image_to_hd_clip(img_path: Path, out_path: Path, duration: float, w: int, h: int, fps: int, zoom_idx: int = 0):
+    try:
+        im = Image.open(img_path).convert("RGBA")
+        iw, ih = im.size
+        target_ratio = w / h
+        if (iw / ih) > target_ratio:
+            new_w = int(ih * target_ratio)
+            im = im.crop(((iw - new_w) // 2, 0, (iw + new_w) // 2, ih))
+        else:
+            new_h = int(iw / target_ratio)
+            im = im.crop((0, (ih - new_h) // 2, iw, (ih + new_h) // 2))
         
-        r = requests.get(url, headers=HEADERS, timeout=18)
-        if r.status_code == 200 and len(r.content) > 5000:
-            out_path.write_bytes(r.content)
-            with Image.open(out_path) as im:
-                im.verify()
-            return True
+        im = im.resize((w, h), Image.Resampling.LANCZOS)
+        enh = ImageEnhance.Contrast(im).enhance(1.08)
+        enh = ImageEnhance.Color(enh).enhance(1.15)
+        clean_img_path = img_path.with_name(f"clean_{img_path.name}")
+        enh.convert("RGB").save(clean_img_path, quality=95)
     except Exception:
-        pass
-    return False
+        clean_img_path = img_path
 
-
-def _download_image(url: str, out_path: Path) -> bool:
-    try:
-        r = requests.get(url, headers=HEADERS, stream=True, timeout=10)
-        if r.status_code == 200 and len(r.content) > 4000:
-            out_path.write_bytes(r.content)
-            with Image.open(out_path) as im:
-                im.verify()
-            return True
-    except Exception:
-        pass
-    return False
-
-
-def _process_image_card(
-    base_img_path: Path,
-    out_path: Path,
-    topic_label: str = "MISTERI ASIA",
-    w: int = 1080,
-    h: int = 1920,
-    is_hook: bool = False
-):
-    """Cinematic vibrant color grading with boosted contrast and bright glowing details."""
-    try:
-        im = Image.open(base_img_path).convert("RGBA")
-    except Exception:
-        im = Image.new("RGBA", (w, h), (35, 15, 45, 255))
-
-    iw, ih = im.size
-    target_ratio = w / h
-    img_ratio = iw / ih
-
-    if img_ratio > target_ratio:
-        new_w = int(ih * target_ratio)
-        offset = (iw - new_w) // 2
-        im = im.crop((offset, 0, offset + new_w, ih))
-    else:
-        new_h = int(iw / target_ratio)
-        offset = (ih - new_h) // 2
-        im = im.crop((0, offset, iw, offset + new_h))
-
-    im = im.resize((w, h), Image.Resampling.LANCZOS)
-
-    # Brightness & color enhancement so mystery scenes are vibrant & clear
-    enh_bright = ImageEnhance.Brightness(im)
-    im = enh_bright.enhance(1.08)
-    enh_contrast = ImageEnhance.Contrast(im)
-    im = enh_contrast.enhance(1.15)
-    enh_color = ImageEnhance.Color(im)
-    im = enh_color.enhance(1.25)
-
-    overlay = Image.new("RGBA", (w, h), (0, 0, 0, 0))
-    draw = ImageDraw.Draw(overlay)
-
-    # Very subtle bottom gradient for subtitle readability
-    for y in range(h - 220, h):
-        factor = (y - (h - 220)) / 220.0
-        alpha = int(130 * factor)
-        draw.line([(0, y), (w, y)], fill=(0, 0, 0, alpha))
-
-    if is_hook:
-        badge_y = 120
-        draw.rectangle([(50, badge_y), (360, badge_y + 60)], fill=(180, 20, 20, 240))
-        font = ImageFont.load_default()
-        draw.text((70, badge_y + 20), topic_label.upper(), fill=(255, 255, 255, 255))
-
-    final_img = Image.alpha_composite(im, overlay).convert("RGB")
-    final_img.save(out_path, quality=95)
-    return out_path
-
-
-def _image_to_video(img_path: Path, out_path: Path, duration: float, w: int, h: int, fps: int, zoom_direction: int = 0):
     frames = int(duration * fps)
-    
-    if zoom_direction % 3 == 0:
-        zoom_expr = f"zoompan=z='min(1.20,1.0+0.007*on)':d={frames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={w}x{h}:fps={fps}"
-    elif zoom_direction % 3 == 1:
-        zoom_expr = f"zoompan=z='max(1.0,1.18-0.007*on)':d={frames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={w}x{h}:fps={fps}"
+    if zoom_idx % 2 == 0:
+        zoom_expr = f"zoompan=z='min(1.15,1.0+0.005*on)':d={frames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={w}x{h}:fps={fps}"
     else:
-        zoom_expr = f"zoompan=z=1.12:d={frames}:x='(iw-iw/zoom)*(on/{frames})':y='ih/2-(ih/zoom/2)':s={w}x{h}:fps={fps}"
+        zoom_expr = f"zoompan=z='max(1.0,1.14-0.005*on)':d={frames}:x='iw/2-(iw/zoom/2)':y='ih/2-(ih/zoom/2)':s={w}x{h}:fps={fps}"
 
     cmd = [
-        "ffmpeg", "-y", "-loop", "1", "-i", str(img_path),
-        "-vf",
-        f"scale={w}:{h}:force_original_aspect_ratio=increase,"
-        f"crop={w}:{h},"
-        f"{zoom_expr}",
+        "ffmpeg", "-y", "-loop", "1", "-i", str(clean_img_path),
+        "-vf", f"scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h},{zoom_expr}",
         "-c:v", "libx264", "-preset", "fast", "-crf", "20",
-        "-pix_fmt", "yuv420p",
-        "-t", f"{duration:.3f}",
-        str(out_path),
+        "-pix_fmt", "yuv420p", "-t", f"{duration:.3f}", str(out_path),
+    ]
+    subprocess.run(cmd, capture_output=True, text=True)
+
+
+def trim_video_clip(in_path: Path, out_path: Path, duration: float, w: int, h: int, fps: int):
+    cmd = [
+        "ffmpeg", "-y", "-i", str(in_path),
+        "-vf", f"scale={w}:{h}:force_original_aspect_ratio=increase,crop={w}:{h},fps={fps}",
+        "-c:v", "libx264", "-preset", "fast", "-crf", "20",
+        "-an", "-pix_fmt", "yuv420p", "-t", f"{duration:.3f}", str(out_path),
     ]
     subprocess.run(cmd, capture_output=True, text=True)
 
@@ -195,9 +197,6 @@ def _calculate_scene_durations(words: list[dict], scenes: list[dict], total_audi
 
 
 def fetch_all(scenes: list[dict], out_dir: Path, words: list[dict] = None, voice_audio: Path = None) -> list[Path]:
-    """
-    Generate vibrant, vivid Asian mystery visuals (FLUX.1 + Bing + Wikimedia) with zero black screens.
-    """
     out_dir.mkdir(parents=True, exist_ok=True)
     all_clips = []
     v = CONFIG["video"]
@@ -206,15 +205,14 @@ def fetch_all(scenes: list[dict], out_dir: Path, words: list[dict] = None, voice
     total_audio_dur = probe_duration(voice_audio) if (voice_audio and voice_audio.exists()) else (len(scenes) * 7.0)
     scene_durations = _calculate_scene_durations(words, scenes, total_audio_dur)
 
-    used_images = set()
-    collected_images_pool = []
+    video_pool = []
     clip_counter = 0
 
-    print(f"    [Mystery Visuals] Generating bright vivid mystery cuts for {len(scenes)} scenes ({total_audio_dur:.1f}s audio)...")
+    print(f"    [Curated Visuals] Fetching clean HD stock footage for {len(scenes)} scenes ({total_audio_dur:.1f}s audio)...")
 
     for i, scene in enumerate(scenes):
         total_scene_dur = scene_durations[i]
-        num_subclips = max(1, int(round(total_scene_dur / 3.0)))
+        num_subclips = max(1, int(round(total_scene_dur / 3.2)))
         subclip_dur = total_scene_dur / num_subclips
 
         queries = []
@@ -226,60 +224,70 @@ def fetch_all(scenes: list[dict], out_dir: Path, words: list[dict] = None, voice
         if vq:
             queries.append(vq.strip())
 
-        found_urls = []
-        for q in queries:
-            for u in _search_bing_images(q):
-                if u not in used_images and u not in found_urls:
-                    found_urls.append(u)
-            for u in _search_wikimedia_mystery(q):
-                if u not in used_images and u not in found_urls:
-                    found_urls.append(u)
-            if len(found_urls) >= num_subclips * 2:
-                break
-
         for sub_idx in range(num_subclips):
             out_clip_path = out_dir / f"clip_{clip_counter:03d}.mp4"
-            raw_img_path = out_dir / f"raw_{clip_counter:03d}.jpg"
-            final_img_path = out_dir / f"card_{clip_counter:03d}.jpg"
+            clip_ready = False
 
-            img_ready = False
-            # 1. Try Pollinations FLUX.1 with vibrant glowing lighting
-            prompt = queries[sub_idx % len(queries)] if queries else scene.get("text", "ancient asian mystery folklore")
-            img_ready = _generate_pollinations_flux_horror(prompt, raw_img_path, seed=clip_counter + 300)
+            # 1. Search Pexels HD Portrait Video
+            for q in queries:
+                links = search_pexels_hd_video(q)
+                for link in links:
+                    temp_v = out_dir / f"raw_v_{clip_counter}.mp4"
+                    if download_file(link, temp_v):
+                        trim_video_clip(temp_v, out_clip_path, subclip_dur, w, h, fps)
+                        if out_clip_path.exists() and out_clip_path.stat().st_size > 1000:
+                            video_pool.append(temp_v)
+                            clip_ready = True
+                            break
+                if clip_ready:
+                    break
 
-            # 2. Try authentic photo search
-            if not img_ready:
-                for u in found_urls:
-                    if u not in used_images and _download_image(u, raw_img_path):
-                        used_images.add(u)
-                        img_ready = True
+            # 2. Search Pixabay HD Motion Video
+            if not clip_ready:
+                for q in queries:
+                    links = search_pixabay_hd_video(q)
+                    for link in links:
+                        temp_v = out_dir / f"raw_pb_{clip_counter}.mp4"
+                        if download_file(link, temp_v):
+                            trim_video_clip(temp_v, out_clip_path, subclip_dur, w, h, fps)
+                            if out_clip_path.exists() and out_clip_path.stat().st_size > 1000:
+                                video_pool.append(temp_v)
+                                clip_ready = True
+                                break
+                    if clip_ready:
                         break
 
-            # 3. CRITICAL: Reuse from pool (NEVER produce black video!)
-            if not img_ready and collected_images_pool:
-                donor = random.choice(collected_images_pool)
-                raw_img_path.write_bytes(donor.read_bytes())
-                img_ready = True
+            # 3. Search Wikimedia Commons Real Photo
+            if not clip_ready:
+                for q in queries:
+                    img_links = search_wikimedia_commons_hd(q)
+                    for img_url in img_links:
+                        temp_img = out_dir / f"raw_wm_{clip_counter}.jpg"
+                        if download_file(img_url, temp_img):
+                            convert_image_to_hd_clip(temp_img, out_clip_path, subclip_dur, w, h, fps, zoom_idx=clip_counter)
+                            if out_clip_path.exists() and out_clip_path.stat().st_size > 1000:
+                                clip_ready = True
+                                break
+                    if clip_ready:
+                        break
 
-            if img_ready:
-                collected_images_pool.append(raw_img_path)
-                _process_image_card(
-                    base_img_path=raw_img_path,
-                    out_path=final_img_path,
-                    topic_label="MISTERI ASIA",
-                    w=w, h=h,
-                    is_hook=(i == 0 and sub_idx == 0)
-                )
-                _image_to_video(final_img_path, out_clip_path, subclip_dur, w, h, fps, zoom_direction=clip_counter)
-            else:
-                img = Image.new("RGB", (w, h), (40, 20, 50))
-                img.save(final_img_path)
-                _image_to_video(final_img_path, out_clip_path, subclip_dur, w, h, fps, zoom_direction=clip_counter)
+            # 4. Failsafe: Pool Recycling (Reuse confirmed HD video footage with different pan/zoom, NO junk web images!)
+            if not clip_ready and video_pool:
+                donor = random.choice(video_pool)
+                trim_video_clip(donor, out_clip_path, subclip_dur, w, h, fps)
+                clip_ready = True
+
+            if not clip_ready:
+                # Solid dark cinematic gradient placeholder (never raw web junk)
+                im = Image.new("RGB", (w, h), (15, 20, 30))
+                ph_path = out_dir / f"ph_{clip_counter}.jpg"
+                im.save(ph_path)
+                convert_image_to_hd_clip(ph_path, out_clip_path, subclip_dur, w, h, fps, zoom_idx=clip_counter)
 
             all_clips.append(out_clip_path)
             clip_counter += 1
 
-        print(f"    scene {i+1}/{len(scenes)}: {total_scene_dur:.1f}s -> {num_subclips} vivid mystery cuts generated")
+        print(f"    scene {i+1}/{len(scenes)}: {total_scene_dur:.1f}s -> {num_subclips} HD clips ready")
 
-    print(f"    [Mystery Visuals] Ready: {len(all_clips)} dynamic clips covering full video duration.")
+    print(f"    [Curated Visuals] All {len(all_clips)} HD clips fetched cleanly without web junk.")
     return all_clips

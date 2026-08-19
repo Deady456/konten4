@@ -86,7 +86,7 @@ branding:
 captions:
   whisper_model: base
   font: "Anton"
-  font_size: 56
+  font_size: 44
   primary_color: "&H0000FFFF"
   outline_color: "&H00000000"
   outline: 5
@@ -116,7 +116,7 @@ upload:
 hook_text:
   enabled: true
   font: "Anton"
-  font_size: 56
+  font_size: 44
   color: "white"
   outline_color: "&H00000000"
   outline: 5
