@@ -21,7 +21,8 @@
     "misteri-hutan-bambu-jepang",
     "misteri-lampu-mengapung-di-danau-lugu",
     "misteri-desa-hantu-kuldhara-india",
-    "misteri-rs-gonjiam-vs-rs-changi-lama"
+    "misteri-rs-gonjiam-vs-rs-changi-lama",
+    "misteri-laut-setan-jepang-myth-busting"
   ],
   "published": [
     {
@@ -243,8 +244,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260819_234735",
+      "topic": "misteri-laut-setan-jepang-myth-busting",
+      "title": "Misteri Laut Setan Jepang Bikin Merinding! Naga Laut Atau Gunung Berapi?",
+      "path": "/home/runner/work/konten4/konten4/output/20260819_234735_misteri-laut-setan-jepang-myth-busting/final.mp4",
+      "video_id": "WCAZeRruNRk",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 23,
-  "_voice_idx": 22
+  "_format_idx": 24,
+  "_voice_idx": 23
 }
