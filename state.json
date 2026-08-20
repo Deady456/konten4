@@ -22,7 +22,8 @@
     "misteri-lampu-mengapung-di-danau-lugu",
     "misteri-desa-hantu-kuldhara-india",
     "misteri-rs-gonjiam-vs-rs-changi-lama",
-    "misteri-laut-setan-jepang-myth-busting"
+    "misteri-laut-setan-jepang-myth-busting",
+    "misteri-desa-jatinga-burung-bunuh-diri-india"
   ],
   "published": [
     {
@@ -254,8 +255,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260820_114736",
+      "topic": "misteri-desa-jatinga-burung-bunuh-diri-india",
+      "title": "Misteri Desa Jatinga: Fenomena Aneh Ratusan Burung Mati Misterius di India",
+      "path": "/home/runner/work/konten4/konten4/output/20260820_114736_misteri-desa-jatinga-burung-bunuh-diri-india/final.mp4",
+      "video_id": "AUESgxITuOY",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 24,
-  "_voice_idx": 23
+  "_format_idx": 25,
+  "_voice_idx": 24
 }
