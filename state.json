@@ -25,7 +25,8 @@
     "misteri-laut-setan-jepang-myth-busting",
     "misteri-desa-jatinga-burung-bunuh-diri-india",
     "misteri-danau-roopkund-tengkorak-himalaya",
-    "misteri-peti-mati-gantung-bo-vs-sagada"
+    "misteri-peti-mati-gantung-bo-vs-sagada",
+    "misteri-kematian-kipas-angin-korea-myth-busting"
   ],
   "published": [
     {
@@ -287,8 +288,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260821_234706",
+      "topic": "misteri-kematian-kipas-angin-korea-myth-busting",
+      "title": "Mitos Misteri Kematian Kipas Angin Korea Selatan: Kebenaran Ilmiah di Baliknya",
+      "path": "/home/runner/work/konten4/konten4/output/20260821_234706_misteri-kematian-kipas-angin-korea-myth-busting/final.mp4",
+      "video_id": "q6UbbyVXsvQ",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 27,
-  "_voice_idx": 26
+  "_format_idx": 28,
+  "_voice_idx": 27
 }
