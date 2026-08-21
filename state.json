@@ -24,7 +24,8 @@
     "misteri-rs-gonjiam-vs-rs-changi-lama",
     "misteri-laut-setan-jepang-myth-busting",
     "misteri-desa-jatinga-burung-bunuh-diri-india",
-    "misteri-danau-roopkund-tengkorak-himalaya"
+    "misteri-danau-roopkund-tengkorak-himalaya",
+    "misteri-peti-mati-gantung-bo-vs-sagada"
   ],
   "published": [
     {
@@ -276,8 +277,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260821_114641",
+      "topic": "misteri-peti-mati-gantung-bo-vs-sagada",
+      "title": "Misteri Peti Mati Gantung Bo Tiongkok vs Sagada Filipina",
+      "path": "/home/runner/work/konten4/konten4/output/20260821_114641_misteri-peti-mati-gantung-bo-vs-sagada/final.mp4",
+      "video_id": "TAOBWj_0AeQ",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 26,
-  "_voice_idx": 25
+  "_format_idx": 27,
+  "_voice_idx": 26
 }
