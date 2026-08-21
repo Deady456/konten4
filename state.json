@@ -23,7 +23,8 @@
     "misteri-desa-hantu-kuldhara-india",
     "misteri-rs-gonjiam-vs-rs-changi-lama",
     "misteri-laut-setan-jepang-myth-busting",
-    "misteri-desa-jatinga-burung-bunuh-diri-india"
+    "misteri-desa-jatinga-burung-bunuh-diri-india",
+    "misteri-danau-roopkund-tengkorak-himalaya"
   ],
   "published": [
     {
@@ -265,8 +266,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260820_234642",
+      "topic": "misteri-danau-roopkund-tengkorak-himalaya",
+      "title": "Misteri Danau Roopkund: Teka-Teki Ratusan Tengkorak di Puncak Himalaya",
+      "path": "/home/runner/work/konten4/konten4/output/20260820_234642_misteri-danau-roopkund-tengkorak-himalaya/final.mp4",
+      "video_id": "VtHRn5joM_Y",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 25,
-  "_voice_idx": 24
+  "_format_idx": 26,
+  "_voice_idx": 25
 }
