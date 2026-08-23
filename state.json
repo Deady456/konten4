@@ -26,7 +26,8 @@
     "misteri-desa-jatinga-burung-bunuh-diri-india",
     "misteri-danau-roopkund-tengkorak-himalaya",
     "misteri-peti-mati-gantung-bo-vs-sagada",
-    "misteri-kematian-kipas-angin-korea-myth-busting"
+    "misteri-kematian-kipas-angin-korea-myth-busting",
+    "fenomena-kematian-misterius-di-asia"
   ],
   "published": [
     {
@@ -298,8 +299,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260823_183918",
+      "topic": "fenomena-kematian-misterius-di-asia",
+      "title": "tiga Tempat Mencekam di Asia dengan Tradisi Kematian Paling Aneh!",
+      "path": "/home/runner/work/konten4/konten4/output/20260823_183918_fenomena-kematian-misterius-di-asia/final.mp4",
+      "video_id": "WlXdVn6OJ6Y",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 28,
-  "_voice_idx": 27
+  "_format_idx": 29,
+  "_voice_idx": 28
 }
