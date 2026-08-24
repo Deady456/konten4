@@ -28,7 +28,8 @@
     "misteri-peti-mati-gantung-bo-vs-sagada",
     "misteri-kematian-kipas-angin-korea-myth-busting",
     "fenomena-kematian-misterius-di-asia",
-    "misteri-sumur-barhout-sumur-neraka-yaman"
+    "misteri-sumur-barhout-sumur-neraka-yaman",
+    "misteri-mumi-sokushinbutsu-vs-mumi-patung-liuquan"
   ],
   "published": [
     {
@@ -320,8 +321,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260824_114706",
+      "topic": "misteri-mumi-sokushinbutsu-vs-mumi-patung-liuquan",
+      "title": "Sokushinbutsu Jepang vs Mumi Patung Cina: Ritual Pengawetan Paling Mengerikan di Asia!",
+      "path": "/home/runner/work/konten4/konten4/output/20260824_114706_misteri-mumi-sokushinbutsu-vs-mumi-patung-liuquan/final.mp4",
+      "video_id": "PEJIQ5zZhyc",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 30,
-  "_voice_idx": 29
+  "_format_idx": 31,
+  "_voice_idx": 30
 }
