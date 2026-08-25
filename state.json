@@ -31,7 +31,8 @@
     "misteri-sumur-barhout-sumur-neraka-yaman",
     "misteri-mumi-sokushinbutsu-vs-mumi-patung-liuquan",
     "misteri-bukit-magnet-ladakh-myth-busting",
-    "misteri-benteng-bhangarh-paling-berhantu-india"
+    "misteri-benteng-bhangarh-paling-berhantu-india",
+    "misteri-pulau-hashima-jepang"
   ],
   "published": [
     {
@@ -353,8 +354,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260825_234802",
+      "topic": "misteri-pulau-hashima-jepang",
+      "title": "Misteri Pulau Hashima Jepang: Kota Hantu Tengah Laut yang Ditinggalkan",
+      "path": "/home/runner/work/konten4/konten4/output/20260825_234802_misteri-pulau-hashima-jepang/final.mp4",
+      "video_id": "utFoDm53Z1Y",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 33,
-  "_voice_idx": 32
+  "_format_idx": 34,
+  "_voice_idx": 33
 }
