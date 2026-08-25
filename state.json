@@ -30,7 +30,8 @@
     "fenomena-kematian-misterius-di-asia",
     "misteri-sumur-barhout-sumur-neraka-yaman",
     "misteri-mumi-sokushinbutsu-vs-mumi-patung-liuquan",
-    "misteri-bukit-magnet-ladakh-myth-busting"
+    "misteri-bukit-magnet-ladakh-myth-busting",
+    "misteri-benteng-bhangarh-paling-berhantu-india"
   ],
   "published": [
     {
@@ -342,8 +343,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260825_114654",
+      "topic": "misteri-benteng-bhangarh-paling-berhantu-india",
+      "title": "Misteri Benteng Bhangarh: Tempat Paling Berhantu dan Terlarang di India",
+      "path": "/home/runner/work/konten4/konten4/output/20260825_114654_misteri-benteng-bhangarh-paling-berhantu-india/final.mp4",
+      "video_id": "RG2x6DRJ9Bk",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 32,
-  "_voice_idx": 31
+  "_format_idx": 33,
+  "_voice_idx": 32
 }
