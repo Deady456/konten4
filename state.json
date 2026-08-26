@@ -32,7 +32,8 @@
     "misteri-mumi-sokushinbutsu-vs-mumi-patung-liuquan",
     "misteri-bukit-magnet-ladakh-myth-busting",
     "misteri-benteng-bhangarh-paling-berhantu-india",
-    "misteri-pulau-hashima-jepang"
+    "misteri-pulau-hashima-jepang",
+    "misteri-makam-qin-shi-huang-vs-kuil-padmanabhaswamy"
   ],
   "published": [
     {
@@ -364,8 +365,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260826_114658",
+      "topic": "misteri-makam-qin-shi-huang-vs-kuil-padmanabhaswamy",
+      "title": "Makam Qin Shi Huang vs Kuil Padmanabhaswamy: Dua Pintu Terlarang Asia!",
+      "path": "/home/runner/work/konten4/konten4/output/20260826_114658_misteri-makam-qin-shi-huang-vs-kuil-padmanabhaswamy/final.mp4",
+      "video_id": "IfT73At1z_E",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 34,
-  "_voice_idx": 33
+  "_format_idx": 35,
+  "_voice_idx": 34
 }
