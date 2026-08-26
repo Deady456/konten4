@@ -33,7 +33,8 @@
     "misteri-bukit-magnet-ladakh-myth-busting",
     "misteri-benteng-bhangarh-paling-berhantu-india",
     "misteri-pulau-hashima-jepang",
-    "misteri-makam-qin-shi-huang-vs-kuil-padmanabhaswamy"
+    "misteri-makam-qin-shi-huang-vs-kuil-padmanabhaswamy",
+    "misteri-bukit-pasir-bernyanyi-mingsha-shan"
   ],
   "published": [
     {
@@ -375,8 +376,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260826_234654",
+      "topic": "misteri-bukit-pasir-bernyanyi-mingsha-shan",
+      "title": "Misteri Suara Iblis Gurun Dunhuang: Mitos Horor vs Fakta Ilmiah Akustik Pasir",
+      "path": "/home/runner/work/konten4/konten4/output/20260826_234654_misteri-bukit-pasir-bernyanyi-mingsha-shan/final.mp4",
+      "video_id": "ozLzLxF3_mw",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 35,
-  "_voice_idx": 34
+  "_format_idx": 36,
+  "_voice_idx": 35
 }
