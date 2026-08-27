@@ -35,7 +35,8 @@
     "misteri-pulau-hashima-jepang",
     "misteri-makam-qin-shi-huang-vs-kuil-padmanabhaswamy",
     "misteri-bukit-pasir-bernyanyi-mingsha-shan",
-    "misteri-danau-poyang-segitiga-bermuda-tiongkok"
+    "misteri-danau-poyang-segitiga-bermuda-tiongkok",
+    "misteri-bola-api-naga-mekong-thailand"
   ],
   "published": [
     {
@@ -397,8 +398,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260827_114716",
+      "topic": "misteri-bola-api-naga-mekong-thailand",
+      "title": "Misteri Bola Api Naga Mekong: Fenomena Gaib atau Gas Alami?",
+      "path": "/home/runner/work/konten4/konten4/output/20260827_114716_misteri-bola-api-naga-mekong-thailand/final.mp4",
+      "video_id": "SN6ZC1InAvU",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 37,
-  "_voice_idx": 36
+  "_format_idx": 38,
+  "_voice_idx": 37
 }
