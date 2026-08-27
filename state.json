@@ -36,7 +36,8 @@
     "misteri-makam-qin-shi-huang-vs-kuil-padmanabhaswamy",
     "misteri-bukit-pasir-bernyanyi-mingsha-shan",
     "misteri-danau-poyang-segitiga-bermuda-tiongkok",
-    "misteri-bola-api-naga-mekong-thailand"
+    "misteri-bola-api-naga-mekong-thailand",
+    "misteri-kota-hantu-fengdu-vs-dhanushkodi"
   ],
   "published": [
     {
@@ -408,8 +409,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260827_234640",
+      "topic": "misteri-kota-hantu-fengdu-vs-dhanushkodi",
+      "title": "Kota Hantu Neraka vs Kota Mati Pantai! Misteri Fenomena Paling Mencekam di Asia",
+      "path": "/home/runner/work/konten4/konten4/output/20260827_234640_misteri-kota-hantu-fengdu-vs-dhanushkodi/final.mp4",
+      "video_id": "7wDhUOL76GI",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 38,
-  "_voice_idx": 37
+  "_format_idx": 39,
+  "_voice_idx": 38
 }
