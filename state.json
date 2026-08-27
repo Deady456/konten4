@@ -34,7 +34,8 @@
     "misteri-benteng-bhangarh-paling-berhantu-india",
     "misteri-pulau-hashima-jepang",
     "misteri-makam-qin-shi-huang-vs-kuil-padmanabhaswamy",
-    "misteri-bukit-pasir-bernyanyi-mingsha-shan"
+    "misteri-bukit-pasir-bernyanyi-mingsha-shan",
+    "misteri-danau-poyang-segitiga-bermuda-tiongkok"
   ],
   "published": [
     {
@@ -386,8 +387,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260827_094650",
+      "topic": "misteri-danau-poyang-segitiga-bermuda-tiongkok",
+      "title": "Misteri Danau Poyang: Segitiga Bermuda Tiongkok Menelan Ratusan Kapal!",
+      "path": "/home/runner/work/konten4/konten4/output/20260827_094650_misteri-danau-poyang-segitiga-bermuda-tiongkok/final.mp4",
+      "video_id": "qCKp-XEe9UQ",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 36,
-  "_voice_idx": 35
+  "_format_idx": 37,
+  "_voice_idx": 36
 }
