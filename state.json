@@ -37,7 +37,8 @@
     "misteri-bukit-pasir-bernyanyi-mingsha-shan",
     "misteri-danau-poyang-segitiga-bermuda-tiongkok",
     "misteri-bola-api-naga-mekong-thailand",
-    "misteri-kota-hantu-fengdu-vs-dhanushkodi"
+    "misteri-kota-hantu-fengdu-vs-dhanushkodi",
+    "misteri-mumi-putri-xiaohe-myth-busting"
   ],
   "published": [
     {
@@ -419,8 +420,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260828_114655",
+      "topic": "misteri-mumi-putri-xiaohe-myth-busting",
+      "title": "Misteri Mumi Asing di Gurun Tiongkok! Benarkah Bangsa Eropa Kuno?",
+      "path": "/home/runner/work/konten4/konten4/output/20260828_114655_misteri-mumi-putri-xiaohe-myth-busting/final.mp4",
+      "video_id": "FFt49vyit7I",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 39,
-  "_voice_idx": 38
+  "_format_idx": 40,
+  "_voice_idx": 39
 }
