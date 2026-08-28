@@ -38,7 +38,8 @@
     "misteri-danau-poyang-segitiga-bermuda-tiongkok",
     "misteri-bola-api-naga-mekong-thailand",
     "misteri-kota-hantu-fengdu-vs-dhanushkodi",
-    "misteri-mumi-putri-xiaohe-myth-busting"
+    "misteri-mumi-putri-xiaohe-myth-busting",
+    "misteri-desa-boneka-nagoro-jepang"
   ],
   "published": [
     {
@@ -430,8 +431,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260828_234719",
+      "topic": "misteri-desa-boneka-nagoro-jepang",
+      "title": "Misteri Desa Boneka Nagoro: Tempat Mencekam di Jepang yang Dihuni Boneka Manusia!",
+      "path": "/home/runner/work/konten4/konten4/output/20260828_234719_misteri-desa-boneka-nagoro-jepang/final.mp4",
+      "video_id": "gJQ-BRKFAtY",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 40,
-  "_voice_idx": 39
+  "_format_idx": 41,
+  "_voice_idx": 40
 }
