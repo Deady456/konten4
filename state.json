@@ -39,7 +39,8 @@
     "misteri-bola-api-naga-mekong-thailand",
     "misteri-kota-hantu-fengdu-vs-dhanushkodi",
     "misteri-mumi-putri-xiaohe-myth-busting",
-    "misteri-desa-boneka-nagoro-jepang"
+    "misteri-desa-boneka-nagoro-jepang",
+    "misteri-gua-longyou-tiongkok-keajaiban-bawah-tanah"
   ],
   "published": [
     {
@@ -441,8 +442,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260829_114655",
+      "topic": "misteri-gua-longyou-tiongkok-keajaiban-bawah-tanah",
+      "title": "Terkuak! Misteri Gua Longyou: Peradaban Bawah Tanah Raksasa yang Hilang dari Sejarah",
+      "path": "/home/runner/work/konten4/konten4/output/20260829_114655_misteri-gua-longyou-tiongkok-keajaiban-bawah-tanah/final.mp4",
+      "video_id": "ZPadRgcS3wk",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 41,
-  "_voice_idx": 40
+  "_format_idx": 42,
+  "_voice_idx": 41
 }
