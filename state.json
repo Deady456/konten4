@@ -40,7 +40,8 @@
     "misteri-kota-hantu-fengdu-vs-dhanushkodi",
     "misteri-mumi-putri-xiaohe-myth-busting",
     "misteri-desa-boneka-nagoro-jepang",
-    "misteri-gua-longyou-tiongkok-keajaiban-bawah-tanah"
+    "misteri-gua-longyou-tiongkok-keajaiban-bawah-tanah",
+    "misteri-yeti-himalaya-vs-orang-pendek-sumatra"
   ],
   "published": [
     {
@@ -452,8 +453,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260829_234637",
+      "topic": "misteri-yeti-himalaya-vs-orang-pendek-sumatra",
+      "title": "Misteri Yeti Himalaya vs Orang Pendek Sumatra: Siapa Lebih Nyata?",
+      "path": "/home/runner/work/konten4/konten4/output/20260829_234637_misteri-yeti-himalaya-vs-orang-pendek-sumatra/final.mp4",
+      "video_id": "muHbFpz4_i4",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 42,
-  "_voice_idx": 41
+  "_format_idx": 43,
+  "_voice_idx": 42
 }
