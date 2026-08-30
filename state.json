@@ -41,7 +41,8 @@
     "misteri-mumi-putri-xiaohe-myth-busting",
     "misteri-desa-boneka-nagoro-jepang",
     "misteri-gua-longyou-tiongkok-keajaiban-bawah-tanah",
-    "misteri-yeti-himalaya-vs-orang-pendek-sumatra"
+    "misteri-yeti-himalaya-vs-orang-pendek-sumatra",
+    "misteri-danau-kelimutu-myth-busting"
   ],
   "published": [
     {
@@ -463,8 +464,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260830_114639",
+      "topic": "misteri-danau-kelimutu-myth-busting",
+      "title": "Mitos Roh Danau Kelimutu Terbongkar! Ini Penjelasan Sains Sebenarnya",
+      "path": "/home/runner/work/konten4/konten4/output/20260830_114639_misteri-danau-kelimutu-myth-busting/final.mp4",
+      "video_id": "mz4C3cWPVCM",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 43,
-  "_voice_idx": 42
+  "_format_idx": 44,
+  "_voice_idx": 43
 }
