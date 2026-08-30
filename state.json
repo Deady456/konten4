@@ -42,7 +42,8 @@
     "misteri-desa-boneka-nagoro-jepang",
     "misteri-gua-longyou-tiongkok-keajaiban-bawah-tanah",
     "misteri-yeti-himalaya-vs-orang-pendek-sumatra",
-    "misteri-danau-kelimutu-myth-busting"
+    "misteri-danau-kelimutu-myth-busting",
+    "misteri-gunung-kailash-tibet"
   ],
   "published": [
     {
@@ -474,8 +475,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260830_234730",
+      "topic": "misteri-gunung-kailash-tibet",
+      "title": "Misteri Gunung Kailash Tibet: Piramida Raksasa yang Tak Bisa Didaki Manusia?",
+      "path": "/home/runner/work/konten4/konten4/output/20260830_234730_misteri-gunung-kailash-tibet/final.mp4",
+      "video_id": "fUGaNnce8y4",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 44,
-  "_voice_idx": 43
+  "_format_idx": 45,
+  "_voice_idx": 44
 }
