@@ -43,7 +43,8 @@
     "misteri-gua-longyou-tiongkok-keajaiban-bawah-tanah",
     "misteri-yeti-himalaya-vs-orang-pendek-sumatra",
     "misteri-danau-kelimutu-myth-busting",
-    "misteri-gunung-kailash-tibet"
+    "misteri-gunung-kailash-tibet",
+    "misteri-desa-kerdil-yangsi-tiongkok"
   ],
   "published": [
     {
@@ -485,8 +486,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260831_114654",
+      "topic": "misteri-desa-kerdil-yangsi-tiongkok",
+      "title": "Misteri Desa Kerdil Yangsi: Kutukan Kuno atau Fenomena Medis Langka?",
+      "path": "/home/runner/work/konten4/konten4/output/20260831_114654_misteri-desa-kerdil-yangsi-tiongkok/final.mp4",
+      "video_id": "CeEo7p2Zwow",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 45,
-  "_voice_idx": 44
+  "_format_idx": 46,
+  "_voice_idx": 45
 }
