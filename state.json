@@ -44,7 +44,8 @@
     "misteri-yeti-himalaya-vs-orang-pendek-sumatra",
     "misteri-danau-kelimutu-myth-busting",
     "misteri-gunung-kailash-tibet",
-    "misteri-desa-kerdil-yangsi-tiongkok"
+    "misteri-desa-kerdil-yangsi-tiongkok",
+    "misteri-pilar-besi-delhi-vs-pilar-musik-vittala"
   ],
   "published": [
     {
@@ -496,8 +497,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260831_234639",
+      "topic": "misteri-pilar-besi-delhi-vs-pilar-musik-vittala",
+      "title": "Pilar Tahan Karat vs Pilar Bermusik: Mana Misteri Arsitektur Kuno Paling Mustahil?",
+      "path": "/home/runner/work/konten4/konten4/output/20260831_234639_misteri-pilar-besi-delhi-vs-pilar-musik-vittala/final.mp4",
+      "video_id": "pgONk3lApLw",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 46,
-  "_voice_idx": 45
+  "_format_idx": 47,
+  "_voice_idx": 46
 }
