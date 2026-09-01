@@ -46,7 +46,8 @@
     "misteri-gunung-kailash-tibet",
     "misteri-desa-kerdil-yangsi-tiongkok",
     "misteri-pilar-besi-delhi-vs-pilar-musik-vittala",
-    "misteri-kolam-darah-chinoike-jigoku-jepang-myth-busting"
+    "misteri-kolam-darah-chinoike-jigoku-jepang-myth-busting",
+    "misteri-gunung-osore-gerbang-alam-baka-jepang"
   ],
   "published": [
     {
@@ -518,8 +519,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260901_234646",
+      "topic": "misteri-gunung-osore-gerbang-alam-baka-jepang",
+      "title": "Gerbang Alam Baka Nyata di Jepang? Misteri Gunung Osore yang Mencekam!",
+      "path": "/home/runner/work/konten4/konten4/output/20260901_234646_misteri-gunung-osore-gerbang-alam-baka-jepang/final.mp4",
+      "video_id": "78dQ5bU3TpI",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 48,
-  "_voice_idx": 47
+  "_format_idx": 49,
+  "_voice_idx": 48
 }
