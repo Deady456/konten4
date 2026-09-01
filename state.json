@@ -45,7 +45,8 @@
     "misteri-danau-kelimutu-myth-busting",
     "misteri-gunung-kailash-tibet",
     "misteri-desa-kerdil-yangsi-tiongkok",
-    "misteri-pilar-besi-delhi-vs-pilar-musik-vittala"
+    "misteri-pilar-besi-delhi-vs-pilar-musik-vittala",
+    "misteri-kolam-darah-chinoike-jigoku-jepang-myth-busting"
   ],
   "published": [
     {
@@ -507,8 +508,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260901_114713",
+      "topic": "misteri-kolam-darah-chinoike-jigoku-jepang-myth-busting",
+      "title": "Mitos Kolam Darah Neraka di Jepang Terbongkar Secara Ilmiah!",
+      "path": "/home/runner/work/konten4/konten4/output/20260901_114713_misteri-kolam-darah-chinoike-jigoku-jepang-myth-busting/final.mp4",
+      "video_id": "0zgmXUBpRr4",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 47,
-  "_voice_idx": 46
+  "_format_idx": 48,
+  "_voice_idx": 47
 }
