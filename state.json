@@ -47,7 +47,8 @@
     "misteri-desa-kerdil-yangsi-tiongkok",
     "misteri-pilar-besi-delhi-vs-pilar-musik-vittala",
     "misteri-kolam-darah-chinoike-jigoku-jepang-myth-busting",
-    "misteri-gunung-osore-gerbang-alam-baka-jepang"
+    "misteri-gunung-osore-gerbang-alam-baka-jepang",
+    "misteri-mumi-lady-dai-xin-zhui"
   ],
   "published": [
     {
@@ -529,8 +530,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260902_114702",
+      "topic": "misteri-mumi-lady-dai-xin-zhui",
+      "title": "Misteri Mumi Lady Dai: Jasad Utuh Dua Ribu Tahun Yang Membingungkan Ilmuwan",
+      "path": "/home/runner/work/konten4/konten4/output/20260902_114702_misteri-mumi-lady-dai-xin-zhui/final.mp4",
+      "video_id": "aWI11dgPWxo",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 49,
-  "_voice_idx": 48
+  "_format_idx": 50,
+  "_voice_idx": 49
 }
