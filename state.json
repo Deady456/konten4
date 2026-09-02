@@ -48,7 +48,8 @@
     "misteri-pilar-besi-delhi-vs-pilar-musik-vittala",
     "misteri-kolam-darah-chinoike-jigoku-jepang-myth-busting",
     "misteri-gunung-osore-gerbang-alam-baka-jepang",
-    "misteri-mumi-lady-dai-xin-zhui"
+    "misteri-mumi-lady-dai-xin-zhui",
+    "misteri-dataran-bejana-laos-vs-megalit-lembah-bada"
   ],
   "published": [
     {
@@ -540,8 +541,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260902_234655",
+      "topic": "misteri-dataran-bejana-laos-vs-megalit-lembah-bada",
+      "title": "Misteri Batu Raksasa Purba! Dataran Bejana Laos VS Lembah Bada Sulawesi",
+      "path": "/home/runner/work/konten4/konten4/output/20260902_234655_misteri-dataran-bejana-laos-vs-megalit-lembah-bada/final.mp4",
+      "video_id": "geMtVpEtv18",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 50,
-  "_voice_idx": 49
+  "_format_idx": 51,
+  "_voice_idx": 50
 }
