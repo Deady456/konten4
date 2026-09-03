@@ -50,7 +50,8 @@
     "misteri-gunung-osore-gerbang-alam-baka-jepang",
     "misteri-mumi-lady-dai-xin-zhui",
     "misteri-dataran-bejana-laos-vs-megalit-lembah-bada",
-    "misteri-hutan-aokigahara-kompas-mati-myth-busting"
+    "misteri-hutan-aokigahara-kompas-mati-myth-busting",
+    "misteri-segitiga-penghu-taiwan"
   ],
   "published": [
     {
@@ -562,8 +563,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260903_234831",
+      "topic": "misteri-segitiga-penghu-taiwan",
+      "title": "Segitiga Bermuda Taiwan: Misteri Palung Penghu Menelan Puluhan Pesawat",
+      "path": "/home/runner/work/konten4/konten4/output/20260903_234831_misteri-segitiga-penghu-taiwan/final.mp4",
+      "video_id": "urp6I0BLx2I",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 52,
-  "_voice_idx": 51
+  "_format_idx": 53,
+  "_voice_idx": 52
 }
