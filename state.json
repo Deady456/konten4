@@ -51,7 +51,8 @@
     "misteri-mumi-lady-dai-xin-zhui",
     "misteri-dataran-bejana-laos-vs-megalit-lembah-bada",
     "misteri-hutan-aokigahara-kompas-mati-myth-busting",
-    "misteri-segitiga-penghu-taiwan"
+    "misteri-segitiga-penghu-taiwan",
+    "misteri-monumen-yonaguni-jepang"
   ],
   "published": [
     {
@@ -573,8 +574,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260904_115019",
+      "topic": "misteri-monumen-yonaguni-jepang",
+      "title": "Kota Atlantis Jepang? Misteri Piramida Bawah Laut Yonaguni!",
+      "path": "/home/runner/work/konten4/konten4/output/20260904_115019_misteri-monumen-yonaguni-jepang/final.mp4",
+      "video_id": "hWVhYUTBxnI",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 53,
-  "_voice_idx": 52
+  "_format_idx": 54,
+  "_voice_idx": 53
 }
