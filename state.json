@@ -52,7 +52,8 @@
     "misteri-dataran-bejana-laos-vs-megalit-lembah-bada",
     "misteri-hutan-aokigahara-kompas-mati-myth-busting",
     "misteri-segitiga-penghu-taiwan",
-    "misteri-monumen-yonaguni-jepang"
+    "misteri-monumen-yonaguni-jepang",
+    "misteri-batu-al-naslaa-vs-bola-mentega-krishna"
   ],
   "published": [
     {
@@ -584,8 +585,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260904_234633",
+      "topic": "misteri-batu-al-naslaa-vs-bola-mentega-krishna",
+      "title": "Terbelah Laser vs Melawan Gravitasi! Misteri Dua Batu Paling Aneh di Asia",
+      "path": "/home/runner/work/konten4/konten4/output/20260904_234633_misteri-batu-al-naslaa-vs-bola-mentega-krishna/final.mp4",
+      "video_id": "koKryt3lzZQ",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 54,
-  "_voice_idx": 53
+  "_format_idx": 55,
+  "_voice_idx": 54
 }
