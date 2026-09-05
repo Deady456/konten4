@@ -53,7 +53,8 @@
     "misteri-hutan-aokigahara-kompas-mati-myth-busting",
     "misteri-segitiga-penghu-taiwan",
     "misteri-monumen-yonaguni-jepang",
-    "misteri-batu-al-naslaa-vs-bola-mentega-krishna"
+    "misteri-batu-al-naslaa-vs-bola-mentega-krishna",
+    "misteri-burung-bunuh-diri-jatinga-india-myth-busting"
   ],
   "published": [
     {
@@ -595,8 +596,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260905_114735",
+      "topic": "misteri-burung-bunuh-diri-jatinga-india-myth-busting",
+      "title": "Misteri Burung Bunuh Diri di Jatinga India: Mitos atau Sains?",
+      "path": "/home/runner/work/konten4/konten4/output/20260905_114735_misteri-burung-bunuh-diri-jatinga-india-myth-busting/final.mp4",
+      "video_id": "Yhp4E5eGXkQ",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 55,
-  "_voice_idx": 54
+  "_format_idx": 56,
+  "_voice_idx": 55
 }
