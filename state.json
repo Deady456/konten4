@@ -54,7 +54,8 @@
     "misteri-segitiga-penghu-taiwan",
     "misteri-monumen-yonaguni-jepang",
     "misteri-batu-al-naslaa-vs-bola-mentega-krishna",
-    "misteri-burung-bunuh-diri-jatinga-india-myth-busting"
+    "misteri-burung-bunuh-diri-jatinga-india-myth-busting",
+    "misteri-desa-kuldhara-india"
   ],
   "published": [
     {
@@ -606,8 +607,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260905_234655",
+      "topic": "misteri-desa-kuldhara-india",
+      "title": "Misteri Desa Kuldhara India: Ribuan Warga Hilang Misterius Dalam Satu Malam!",
+      "path": "/home/runner/work/konten4/konten4/output/20260905_234655_misteri-desa-kuldhara-india/final.mp4",
+      "video_id": "6zYSyI-hIFo",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 56,
-  "_voice_idx": 55
+  "_format_idx": 57,
+  "_voice_idx": 56
 }
