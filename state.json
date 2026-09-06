@@ -56,7 +56,8 @@
     "misteri-batu-al-naslaa-vs-bola-mentega-krishna",
     "misteri-burung-bunuh-diri-jatinga-india-myth-busting",
     "misteri-desa-kuldhara-india",
-    "misteri-desa-kodinhi-anak-kembar-india"
+    "misteri-desa-kodinhi-anak-kembar-india",
+    "misteri-sekolah-tat-tak-vs-rumah-sakit-clark-air-base"
   ],
   "published": [
     {
@@ -628,8 +629,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260906_234707",
+      "topic": "misteri-sekolah-tat-tak-vs-rumah-sakit-clark-air-base",
+      "title": "Sekolah Berhantu Hong Kong vs Rumah Sakit Horor Filipina!",
+      "path": "/home/runner/work/konten4/konten4/output/20260906_234707_misteri-sekolah-tat-tak-vs-rumah-sakit-clark-air-base/final.mp4",
+      "video_id": "Wc0hTgfXPGY",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 58,
-  "_voice_idx": 57
+  "_format_idx": 59,
+  "_voice_idx": 58
 }
