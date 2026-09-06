@@ -55,7 +55,8 @@
     "misteri-monumen-yonaguni-jepang",
     "misteri-batu-al-naslaa-vs-bola-mentega-krishna",
     "misteri-burung-bunuh-diri-jatinga-india-myth-busting",
-    "misteri-desa-kuldhara-india"
+    "misteri-desa-kuldhara-india",
+    "misteri-desa-kodinhi-anak-kembar-india"
   ],
   "published": [
     {
@@ -617,8 +618,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260906_114757",
+      "topic": "misteri-desa-kodinhi-anak-kembar-india",
+      "title": "Misteri Desa Kodinhi di India: Ratusan Pasang Kembar Tanpa Penjelasan Ilmiah",
+      "path": "/home/runner/work/konten4/konten4/output/20260906_114757_misteri-desa-kodinhi-anak-kembar-india/final.mp4",
+      "video_id": "5XlDud3ZOyo",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 57,
-  "_voice_idx": 56
+  "_format_idx": 58,
+  "_voice_idx": 57
 }
