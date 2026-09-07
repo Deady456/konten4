@@ -57,7 +57,8 @@
     "misteri-burung-bunuh-diri-jatinga-india-myth-busting",
     "misteri-desa-kuldhara-india",
     "misteri-desa-kodinhi-anak-kembar-india",
-    "misteri-sekolah-tat-tak-vs-rumah-sakit-clark-air-base"
+    "misteri-sekolah-tat-tak-vs-rumah-sakit-clark-air-base",
+    "misteri-danau-tengkorak-roopkund-myth-busting"
   ],
   "published": [
     {
@@ -639,8 +640,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260907_114707",
+      "topic": "misteri-danau-tengkorak-roopkund-myth-busting",
+      "title": "Misteri Danau Tengkorak Roopkund Terungkap! Bukan Kutukan Dewi?",
+      "path": "/home/runner/work/konten4/konten4/output/20260907_114707_misteri-danau-tengkorak-roopkund-myth-busting/final.mp4",
+      "video_id": "4HMvB7aC-Ks",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 59,
-  "_voice_idx": 58
+  "_format_idx": 60,
+  "_voice_idx": 59
 }
