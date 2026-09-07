@@ -58,7 +58,8 @@
     "misteri-desa-kuldhara-india",
     "misteri-desa-kodinhi-anak-kembar-india",
     "misteri-sekolah-tat-tak-vs-rumah-sakit-clark-air-base",
-    "misteri-danau-tengkorak-roopkund-myth-busting"
+    "misteri-danau-tengkorak-roopkund-myth-busting",
+    "misteri-sumur-barhout-yaman-sumur-neraka"
   ],
   "published": [
     {
@@ -650,8 +651,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260907_234710",
+      "topic": "misteri-sumur-barhout-yaman-sumur-neraka",
+      "title": "Misteri Sumur Barhout Yaman: Benarkah Penjara Jin di Tengah Gurun?",
+      "path": "/home/runner/work/konten4/konten4/output/20260907_234710_misteri-sumur-barhout-yaman-sumur-neraka/final.mp4",
+      "video_id": "Wc0G8UOnFyo",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 60,
-  "_voice_idx": 59
+  "_format_idx": 61,
+  "_voice_idx": 60
 }
