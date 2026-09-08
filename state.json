@@ -59,7 +59,8 @@
     "misteri-desa-kodinhi-anak-kembar-india",
     "misteri-sekolah-tat-tak-vs-rumah-sakit-clark-air-base",
     "misteri-danau-tengkorak-roopkund-myth-busting",
-    "misteri-sumur-barhout-yaman-sumur-neraka"
+    "misteri-sumur-barhout-yaman-sumur-neraka",
+    "misteri-kuil-kailasa-ellora-pahat-gunung"
   ],
   "published": [
     {
@@ -661,8 +662,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260908_114704",
+      "topic": "misteri-kuil-kailasa-ellora-pahat-gunung",
+      "title": "Misteri Kuil Kailasa Ellora: Keajaiban Pahatan Gunung Utuh Tanpa Bantuan Mesin",
+      "path": "/home/runner/work/konten4/konten4/output/20260908_114704_misteri-kuil-kailasa-ellora-pahat-gunung/final.mp4",
+      "video_id": "NO23E2Y2bJE",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 61,
-  "_voice_idx": 60
+  "_format_idx": 62,
+  "_voice_idx": 61
 }
