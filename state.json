@@ -60,7 +60,8 @@
     "misteri-sekolah-tat-tak-vs-rumah-sakit-clark-air-base",
     "misteri-danau-tengkorak-roopkund-myth-busting",
     "misteri-sumur-barhout-yaman-sumur-neraka",
-    "misteri-kuil-kailasa-ellora-pahat-gunung"
+    "misteri-kuil-kailasa-ellora-pahat-gunung",
+    "misteri-kawah-darvaza-vs-api-biru-kawah-ijen"
   ],
   "published": [
     {
@@ -672,8 +673,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260908_234712",
+      "topic": "misteri-kawah-darvaza-vs-api-biru-kawah-ijen",
+      "title": "Pintu Neraka Turkmenistan vs Api Biru Kawah Ijen Indonesia!",
+      "path": "/home/runner/work/konten4/konten4/output/20260908_234712_misteri-kawah-darvaza-vs-api-biru-kawah-ijen/final.mp4",
+      "video_id": "6uIPqEnnmRA",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 62,
-  "_voice_idx": 61
+  "_format_idx": 63,
+  "_voice_idx": 62
 }
