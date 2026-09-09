@@ -62,7 +62,8 @@
     "misteri-sumur-barhout-yaman-sumur-neraka",
     "misteri-kuil-kailasa-ellora-pahat-gunung",
     "misteri-kawah-darvaza-vs-api-biru-kawah-ijen",
-    "misteri-mumi-sokushinbutsu-jepang-myth-busting"
+    "misteri-mumi-sokushinbutsu-jepang-myth-busting",
+    "misteri-mumi-api-kabayan-filipina"
   ],
   "published": [
     {
@@ -694,8 +695,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260909_234707",
+      "topic": "misteri-mumi-api-kabayan-filipina",
+      "title": "Rahasia Horor Mumi Api Kabayan Filipina Yang Diawetkan Dengan Asap",
+      "path": "/home/runner/work/konten4/konten4/output/20260909_234707_misteri-mumi-api-kabayan-filipina/final.mp4",
+      "video_id": "9eIIyXMORuM",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 64,
-  "_voice_idx": 63
+  "_format_idx": 65,
+  "_voice_idx": 64
 }
