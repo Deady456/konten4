@@ -63,7 +63,8 @@
     "misteri-kuil-kailasa-ellora-pahat-gunung",
     "misteri-kawah-darvaza-vs-api-biru-kawah-ijen",
     "misteri-mumi-sokushinbutsu-jepang-myth-busting",
-    "misteri-mumi-api-kabayan-filipina"
+    "misteri-mumi-api-kabayan-filipina",
+    "misteri-benteng-bhangarh-india-kutukan-penyihir"
   ],
   "published": [
     {
@@ -705,8 +706,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260910_114650",
+      "topic": "misteri-benteng-bhangarh-india-kutukan-penyihir",
+      "title": "Misteri Benteng Bhangarh India: Kota Berhantu yang Dilarang Dikunjungi Malam Hari",
+      "path": "/home/runner/work/konten4/konten4/output/20260910_114650_misteri-benteng-bhangarh-india-kutukan-penyihir/final.mp4",
+      "video_id": "wONA9Mrjlp0",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 65,
-  "_voice_idx": 64
+  "_format_idx": 66,
+  "_voice_idx": 65
 }
