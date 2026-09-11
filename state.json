@@ -64,7 +64,8 @@
     "misteri-kawah-darvaza-vs-api-biru-kawah-ijen",
     "misteri-mumi-sokushinbutsu-jepang-myth-busting",
     "misteri-mumi-api-kabayan-filipina",
-    "misteri-benteng-bhangarh-india-kutukan-penyihir"
+    "misteri-benteng-bhangarh-india-kutukan-penyihir",
+    "misteri-pulau-hashima-vs-kota-hantu-ordos"
   ],
   "published": [
     {
@@ -716,8 +717,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260910_234833",
+      "topic": "misteri-pulau-hashima-vs-kota-hantu-ordos",
+      "title": "Misteri Lautan Beton Hashima vs Kota Hantu Modern Ordos di Asia",
+      "path": "/home/runner/work/konten4/konten4/output/20260910_234833_misteri-pulau-hashima-vs-kota-hantu-ordos/final.mp4",
+      "video_id": "SDH0ka4szfI",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 66,
-  "_voice_idx": 65
+  "_format_idx": 67,
+  "_voice_idx": 66
 }
