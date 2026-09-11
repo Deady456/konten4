@@ -65,7 +65,8 @@
     "misteri-mumi-sokushinbutsu-jepang-myth-busting",
     "misteri-mumi-api-kabayan-filipina",
     "misteri-benteng-bhangarh-india-kutukan-penyihir",
-    "misteri-pulau-hashima-vs-kota-hantu-ordos"
+    "misteri-pulau-hashima-vs-kota-hantu-ordos",
+    "misteri-segitiga-naga-jepang-myth-busting"
   ],
   "published": [
     {
@@ -727,8 +728,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260911_114720",
+      "topic": "misteri-segitiga-naga-jepang-myth-busting",
+      "title": "Mitos Segitiga Naga Jepang Terbongkar! Ini Penyebab Kapal Lenyap",
+      "path": "/home/runner/work/konten4/konten4/output/20260911_114720_misteri-segitiga-naga-jepang-myth-busting/final.mp4",
+      "video_id": "A4eieZQUWH4",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 67,
-  "_voice_idx": 66
+  "_format_idx": 68,
+  "_voice_idx": 67
 }
