@@ -66,7 +66,8 @@
     "misteri-mumi-api-kabayan-filipina",
     "misteri-benteng-bhangarh-india-kutukan-penyihir",
     "misteri-pulau-hashima-vs-kota-hantu-ordos",
-    "misteri-segitiga-naga-jepang-myth-busting"
+    "misteri-segitiga-naga-jepang-myth-busting",
+    "misteri-kuil-karni-mata-india"
   ],
   "published": [
     {
@@ -738,8 +739,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260911_234646",
+      "topic": "misteri-kuil-karni-mata-india",
+      "title": "Misteri Kuil Karni Mata India: Puluhan Ribu Tikus Suci Tanpa Wabah Penyakit!",
+      "path": "/home/runner/work/konten4/konten4/output/20260911_234646_misteri-kuil-karni-mata-india/final.mp4",
+      "video_id": "ouWcHx6pSnY",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 68,
-  "_voice_idx": 67
+  "_format_idx": 69,
+  "_voice_idx": 68
 }
