@@ -67,7 +67,8 @@
     "misteri-benteng-bhangarh-india-kutukan-penyihir",
     "misteri-pulau-hashima-vs-kota-hantu-ordos",
     "misteri-segitiga-naga-jepang-myth-busting",
-    "misteri-kuil-karni-mata-india"
+    "misteri-kuil-karni-mata-india",
+    "misteri-bola-api-naga-sungai-mekong"
   ],
   "published": [
     {
@@ -749,8 +750,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260912_114655",
+      "topic": "misteri-bola-api-naga-sungai-mekong",
+      "title": "Misteri Bola Api Naga Sungai Mekong Thailand yang Keluar dari Dasar Air",
+      "path": "/home/runner/work/konten4/konten4/output/20260912_114655_misteri-bola-api-naga-sungai-mekong/final.mp4",
+      "video_id": "7pHg7HIfL1A",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 69,
-  "_voice_idx": 68
+  "_format_idx": 70,
+  "_voice_idx": 69
 }
