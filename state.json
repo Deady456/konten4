@@ -68,7 +68,8 @@
     "misteri-pulau-hashima-vs-kota-hantu-ordos",
     "misteri-segitiga-naga-jepang-myth-busting",
     "misteri-kuil-karni-mata-india",
-    "misteri-bola-api-naga-sungai-mekong"
+    "misteri-bola-api-naga-sungai-mekong",
+    "misteri-kota-tenggelam-dwarka-vs-shi-cheng"
   ],
   "published": [
     {
@@ -760,8 +761,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260912_234638",
+      "topic": "misteri-kota-tenggelam-dwarka-vs-shi-cheng",
+      "title": "Misteri Kota Tenggelam Asia: Kota Kuno Dwarka vs Shi Cheng",
+      "path": "/home/runner/work/konten4/konten4/output/20260912_234638_misteri-kota-tenggelam-dwarka-vs-shi-cheng/final.mp4",
+      "video_id": "mpcKBWbqUt8",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 70,
-  "_voice_idx": 69
+  "_format_idx": 71,
+  "_voice_idx": 70
 }
