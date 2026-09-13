@@ -69,7 +69,8 @@
     "misteri-segitiga-naga-jepang-myth-busting",
     "misteri-kuil-karni-mata-india",
     "misteri-bola-api-naga-sungai-mekong",
-    "misteri-kota-tenggelam-dwarka-vs-shi-cheng"
+    "misteri-kota-tenggelam-dwarka-vs-shi-cheng",
+    "misteri-bukit-magnet-ladakh-myth-busting"
   ],
   "published": [
     {
@@ -771,8 +772,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260913_114712",
+      "topic": "misteri-bukit-magnet-ladakh-myth-busting",
+      "title": "Misteri Bukit Magnet Ladakh: Mitos Kekuatan Gaib Penarik Mobil Terbongkar!",
+      "path": "/home/runner/work/konten4/konten4/output/20260913_114712_misteri-bukit-magnet-ladakh-myth-busting/final.mp4",
+      "video_id": "OpCA7NkB-C8",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 71,
-  "_voice_idx": 70
+  "_format_idx": 72,
+  "_voice_idx": 71
 }
