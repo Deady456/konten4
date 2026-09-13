@@ -70,7 +70,8 @@
     "misteri-kuil-karni-mata-india",
     "misteri-bola-api-naga-sungai-mekong",
     "misteri-kota-tenggelam-dwarka-vs-shi-cheng",
-    "misteri-bukit-magnet-ladakh-myth-busting"
+    "misteri-bukit-magnet-ladakh-myth-busting",
+    "misteri-boneka-okiku-jepang-rambut-tumbuhan"
   ],
   "published": [
     {
@@ -782,8 +783,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260913_234708",
+      "topic": "misteri-boneka-okiku-jepang-rambut-tumbuhan",
+      "title": "Fakta Mengerikan Boneka Okiku Jepang: Rambut Manusia yang Terus Tumbuh!",
+      "path": "/home/runner/work/konten4/konten4/output/20260913_234708_misteri-boneka-okiku-jepang-rambut-tumbuhan/final.mp4",
+      "video_id": "Wvesfoe1zIE",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 72,
-  "_voice_idx": 71
+  "_format_idx": 73,
+  "_voice_idx": 72
 }
