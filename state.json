@@ -71,7 +71,8 @@
     "misteri-bola-api-naga-sungai-mekong",
     "misteri-kota-tenggelam-dwarka-vs-shi-cheng",
     "misteri-bukit-magnet-ladakh-myth-busting",
-    "misteri-boneka-okiku-jepang-rambut-tumbuhan"
+    "misteri-boneka-okiku-jepang-rambut-tumbuhan",
+    "misteri-mumi-tarim-basin-loulan-tiongkok"
   ],
   "published": [
     {
@@ -793,8 +794,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260914_114641",
+      "topic": "misteri-mumi-tarim-basin-loulan-tiongkok",
+      "title": "Misteri Mumi Berambut Pirang di Gurun Tiongkok! Siapa Mereka?",
+      "path": "/home/runner/work/konten4/konten4/output/20260914_114641_misteri-mumi-tarim-basin-loulan-tiongkok/final.mp4",
+      "video_id": "vwSgFNQwp9o",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 73,
-  "_voice_idx": 72
+  "_format_idx": 74,
+  "_voice_idx": 73
 }
