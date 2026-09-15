@@ -73,7 +73,8 @@
     "misteri-bukit-magnet-ladakh-myth-busting",
     "misteri-boneka-okiku-jepang-rambut-tumbuhan",
     "misteri-mumi-tarim-basin-loulan-tiongkok",
-    "misteri-desa-shani-shingnapur-vs-desa-nagoro"
+    "misteri-desa-shani-shingnapur-vs-desa-nagoro",
+    "misteri-yeti-himalaya-myth-busting"
   ],
   "published": [
     {
@@ -815,8 +816,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260915_114653",
+      "topic": "misteri-yeti-himalaya-myth-busting",
+      "title": "Mitos Yeti Himalaya Terbongkar! Sains Ungkap Identitas Aslinya",
+      "path": "/home/runner/work/konten4/konten4/output/20260915_114653_misteri-yeti-himalaya-myth-busting/final.mp4",
+      "video_id": "8v3W6EDdYVo",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 75,
-  "_voice_idx": 74
+  "_format_idx": 76,
+  "_voice_idx": 75
 }
