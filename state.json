@@ -72,7 +72,8 @@
     "misteri-kota-tenggelam-dwarka-vs-shi-cheng",
     "misteri-bukit-magnet-ladakh-myth-busting",
     "misteri-boneka-okiku-jepang-rambut-tumbuhan",
-    "misteri-mumi-tarim-basin-loulan-tiongkok"
+    "misteri-mumi-tarim-basin-loulan-tiongkok",
+    "misteri-desa-shani-shingnapur-vs-desa-nagoro"
   ],
   "published": [
     {
@@ -804,8 +805,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260914_234659",
+      "topic": "misteri-desa-shani-shingnapur-vs-desa-nagoro",
+      "title": "Desa Tanpa Pintu vs Desa Boneka Manusia: Fenomena Aneh Asia!",
+      "path": "/home/runner/work/konten4/konten4/output/20260914_234659_misteri-desa-shani-shingnapur-vs-desa-nagoro/final.mp4",
+      "video_id": "F86GKOVfbFQ",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 74,
-  "_voice_idx": 73
+  "_format_idx": 75,
+  "_voice_idx": 74
 }
