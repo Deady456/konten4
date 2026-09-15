@@ -74,7 +74,8 @@
     "misteri-boneka-okiku-jepang-rambut-tumbuhan",
     "misteri-mumi-tarim-basin-loulan-tiongkok",
     "misteri-desa-shani-shingnapur-vs-desa-nagoro",
-    "misteri-yeti-himalaya-myth-busting"
+    "misteri-yeti-himalaya-myth-busting",
+    "misteri-pintu-vault-b-kuil-padmanabhaswamy-india"
   ],
   "published": [
     {
@@ -826,8 +827,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260915_234633",
+      "topic": "misteri-pintu-vault-b-kuil-padmanabhaswamy-india",
+      "title": "Misteri Pintu Kuno Bersegel Mantra Naga Bandham di Kuil Padmanabhaswamy",
+      "path": "/home/runner/work/konten4/konten4/output/20260915_234633_misteri-pintu-vault-b-kuil-padmanabhaswamy-india/final.mp4",
+      "video_id": "dIfQ5TV43Pc",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 76,
-  "_voice_idx": 75
+  "_format_idx": 77,
+  "_voice_idx": 76
 }
