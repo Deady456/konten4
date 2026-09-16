@@ -75,7 +75,8 @@
     "misteri-mumi-tarim-basin-loulan-tiongkok",
     "misteri-desa-shani-shingnapur-vs-desa-nagoro",
     "misteri-yeti-himalaya-myth-busting",
-    "misteri-pintu-vault-b-kuil-padmanabhaswamy-india"
+    "misteri-pintu-vault-b-kuil-padmanabhaswamy-india",
+    "misteri-desa-yangsi-tiongkok-desa-katai"
   ],
   "published": [
     {
@@ -837,8 +838,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260916_114647",
+      "topic": "misteri-desa-yangsi-tiongkok-desa-katai",
+      "title": "Misteri Desa Yangsi Tiongkok: Mengapa Warganya Berhenti Tumbuh?",
+      "path": "/home/runner/work/konten4/konten4/output/20260916_114647_misteri-desa-yangsi-tiongkok-desa-katai/final.mp4",
+      "video_id": "6xCFrUGeUbg",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 77,
-  "_voice_idx": 76
+  "_format_idx": 78,
+  "_voice_idx": 77
 }
