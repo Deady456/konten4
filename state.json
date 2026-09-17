@@ -77,7 +77,8 @@
     "misteri-yeti-himalaya-myth-busting",
     "misteri-pintu-vault-b-kuil-padmanabhaswamy-india",
     "misteri-desa-yangsi-tiongkok-desa-katai",
-    "misteri-piramida-koh-ker-vs-candi-sukuh"
+    "misteri-piramida-koh-ker-vs-candi-sukuh",
+    "misteri-hujan-darah-kerala-india-myth-busting"
   ],
   "published": [
     {
@@ -859,8 +860,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260917_114741",
+      "topic": "misteri-hujan-darah-kerala-india-myth-busting",
+      "title": "Misteri Hujan Darah Kerala India: Pertanda Gaib atau Spora Alga?",
+      "path": "/home/runner/work/konten4/konten4/output/20260917_114741_misteri-hujan-darah-kerala-india-myth-busting/final.mp4",
+      "video_id": "Tdexf2kZzkk",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 79,
-  "_voice_idx": 78
+  "_format_idx": 80,
+  "_voice_idx": 79
 }
