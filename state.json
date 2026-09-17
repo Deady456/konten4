@@ -76,7 +76,8 @@
     "misteri-desa-shani-shingnapur-vs-desa-nagoro",
     "misteri-yeti-himalaya-myth-busting",
     "misteri-pintu-vault-b-kuil-padmanabhaswamy-india",
-    "misteri-desa-yangsi-tiongkok-desa-katai"
+    "misteri-desa-yangsi-tiongkok-desa-katai",
+    "misteri-piramida-koh-ker-vs-candi-sukuh"
   ],
   "published": [
     {
@@ -848,8 +849,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260916_234635",
+      "topic": "misteri-piramida-koh-ker-vs-candi-sukuh",
+      "title": "Piramida Maya Ada di Asia Tenggara? Rahasia Koh Ker vs Candi Sukuh",
+      "path": "/home/runner/work/konten4/konten4/output/20260916_234635_misteri-piramida-koh-ker-vs-candi-sukuh/final.mp4",
+      "video_id": "NAS1Bw1Ktnw",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 78,
-  "_voice_idx": 77
+  "_format_idx": 79,
+  "_voice_idx": 78
 }
