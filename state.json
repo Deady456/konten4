@@ -78,7 +78,8 @@
     "misteri-pintu-vault-b-kuil-padmanabhaswamy-india",
     "misteri-desa-yangsi-tiongkok-desa-katai",
     "misteri-piramida-koh-ker-vs-candi-sukuh",
-    "misteri-hujan-darah-kerala-india-myth-busting"
+    "misteri-hujan-darah-kerala-india-myth-busting",
+    "misteri-mumi-lady-dai-xin-zhui"
   ],
   "published": [
     {
@@ -870,8 +871,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260917_234651",
+      "topic": "misteri-mumi-lady-dai-xin-zhui",
+      "title": "Misteri Mumi Lady Dai: Jasad Utuh dua ribu Tahun dan Darah Masih Cair!",
+      "path": "/home/runner/work/konten4/konten4/output/20260917_234651_misteri-mumi-lady-dai-xin-zhui/final.mp4",
+      "video_id": "ddBcCBsS1E8",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 80,
-  "_voice_idx": 79
+  "_format_idx": 81,
+  "_voice_idx": 80
 }
