@@ -79,7 +79,8 @@
     "misteri-desa-yangsi-tiongkok-desa-katai",
     "misteri-piramida-koh-ker-vs-candi-sukuh",
     "misteri-hujan-darah-kerala-india-myth-busting",
-    "misteri-mumi-lady-dai-xin-zhui"
+    "misteri-mumi-lady-dai-xin-zhui",
+    "misteri-dataran-tempayan-plain-of-jars-laos"
   ],
   "published": [
     {
@@ -881,8 +882,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260920_120220",
+      "topic": "misteri-dataran-tempayan-plain-of-jars-laos",
+      "title": "Misteri Ribuan Tempayan Raksasa Laos: Buatan Raksasa Purba?",
+      "path": "/home/runner/work/konten4/konten4/output/20260920_120220_misteri-dataran-tempayan-plain-of-jars-laos/final.mp4",
+      "video_id": "XS2jm4_N9sU",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 81,
-  "_voice_idx": 80
+  "_format_idx": 82,
+  "_voice_idx": 81
 }
