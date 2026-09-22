@@ -81,7 +81,8 @@
     "misteri-hujan-darah-kerala-india-myth-busting",
     "misteri-mumi-lady-dai-xin-zhui",
     "misteri-dataran-tempayan-plain-of-jars-laos",
-    "segitiga-misteri-asia-perbandingan"
+    "segitiga-misteri-asia-perbandingan",
+    "misteri-danau-kelimutu-perubahan-warna-myth-busting"
   ],
   "published": [
     {
@@ -903,8 +904,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260922_120139",
+      "topic": "misteri-danau-kelimutu-perubahan-warna-myth-busting",
+      "title": "Misteri Danau Tiga Warna Kelimutu! Tempat Arwah atau Reaksi Kimia?",
+      "path": "/home/runner/work/konten4/konten4/output/20260922_120139_misteri-danau-kelimutu-perubahan-warna-myth-busting/final.mp4",
+      "video_id": "mYFOgHzy73E",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 83,
-  "_voice_idx": 82
+  "_format_idx": 84,
+  "_voice_idx": 83
 }
