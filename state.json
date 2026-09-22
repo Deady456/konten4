@@ -80,7 +80,8 @@
     "misteri-piramida-koh-ker-vs-candi-sukuh",
     "misteri-hujan-darah-kerala-india-myth-busting",
     "misteri-mumi-lady-dai-xin-zhui",
-    "misteri-dataran-tempayan-plain-of-jars-laos"
+    "misteri-dataran-tempayan-plain-of-jars-laos",
+    "segitiga-misteri-asia-perbandingan"
   ],
   "published": [
     {
@@ -892,8 +893,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260922_000112",
+      "topic": "segitiga-misteri-asia-perbandingan",
+      "title": "Segitiga Selat Malaka vs Segitiga Laut China Selatan: Mana yang Lebih Misterius?",
+      "path": "/home/runner/work/konten4/konten4/output/20260922_000112_segitiga-misteri-asia-perbandingan/final.mp4",
+      "video_id": "u5RHV_bHc08",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 82,
-  "_voice_idx": 81
+  "_format_idx": 83,
+  "_voice_idx": 82
 }
