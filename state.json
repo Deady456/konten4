@@ -82,7 +82,8 @@
     "misteri-mumi-lady-dai-xin-zhui",
     "misteri-dataran-tempayan-plain-of-jars-laos",
     "segitiga-misteri-asia-perbandingan",
-    "misteri-danau-kelimutu-perubahan-warna-myth-busting"
+    "misteri-danau-kelimutu-perubahan-warna-myth-busting",
+    "misteri-rumah-sakit-jiwa-gonjiam-korea-selatan"
   ],
   "published": [
     {
@@ -914,8 +915,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260925_120133",
+      "topic": "misteri-rumah-sakit-jiwa-gonjiam-korea-selatan",
+      "title": "Fakta Mencekam Rumah Sakit Jiwa Gonjiam Korea Selatan yang Bikin Merinding",
+      "path": "/home/runner/work/konten4/konten4/output/20260925_120133_misteri-rumah-sakit-jiwa-gonjiam-korea-selatan/final.mp4",
+      "video_id": "J3jR-ChEqqs",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 84,
-  "_voice_idx": 83
+  "_format_idx": 85,
+  "_voice_idx": 84
 }
