@@ -83,7 +83,8 @@
     "misteri-dataran-tempayan-plain-of-jars-laos",
     "segitiga-misteri-asia-perbandingan",
     "misteri-danau-kelimutu-perubahan-warna-myth-busting",
-    "misteri-rumah-sakit-jiwa-gonjiam-korea-selatan"
+    "misteri-rumah-sakit-jiwa-gonjiam-korea-selatan",
+    "misteri-gua-hang-son-doong"
   ],
   "published": [
     {
@@ -925,8 +926,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260925_170837",
+      "topic": "misteri-gua-hang-son-doong",
+      "title": "Mengungkap Misteri Gua Hang Son Doong, Gua Terbesar di Dunia",
+      "path": "/home/runner/work/konten4/konten4/output/20260925_170837_misteri-gua-hang-son-doong/final.mp4",
+      "video_id": "rvceI2MpJls",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 85,
-  "_voice_idx": 84
+  "_format_idx": 86,
+  "_voice_idx": 85
 }
