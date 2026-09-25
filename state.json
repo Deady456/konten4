@@ -84,7 +84,8 @@
     "segitiga-misteri-asia-perbandingan",
     "misteri-danau-kelimutu-perubahan-warna-myth-busting",
     "misteri-rumah-sakit-jiwa-gonjiam-korea-selatan",
-    "misteri-gua-hang-son-doong"
+    "misteri-gua-hang-son-doong",
+    "misteri-kuil-borobudur-vs-kuil-angkor-wat"
   ],
   "published": [
     {
@@ -936,8 +937,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260925_234659",
+      "topic": "misteri-kuil-borobudur-vs-kuil-angkor-wat",
+      "title": "Misteri Arsitektur: Borobudur vs Angkor Wat",
+      "path": "/home/runner/work/konten4/konten4/output/20260925_234659_misteri-kuil-borobudur-vs-kuil-angkor-wat/final.mp4",
+      "video_id": "WPK-eGWzfI8",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 86,
-  "_voice_idx": 85
+  "_format_idx": 87,
+  "_voice_idx": 86
 }
