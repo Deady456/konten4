@@ -86,7 +86,8 @@
     "misteri-rumah-sakit-jiwa-gonjiam-korea-selatan",
     "misteri-gua-hang-son-doong",
     "misteri-kuil-borobudur-vs-kuil-angkor-wat",
-    "misteri-lampu-mengambang-danau-inle-myanmar"
+    "misteri-lampu-mengambang-danau-inle-myanmar",
+    "misteri-malaikat-hutan-borneo"
   ],
   "published": [
     {
@@ -958,8 +959,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260926_234732",
+      "topic": "misteri-malaikat-hutan-borneo",
+      "title": "Misteri Penampakan \u2018Malaikat Hutan\u2019 di Borneo: Fakta yang Membuat Merinding",
+      "path": "/home/runner/work/konten4/konten4/output/20260926_234732_misteri-malaikat-hutan-borneo/final.mp4",
+      "video_id": "p-s5y-QMBWY",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 88,
-  "_voice_idx": 87
+  "_format_idx": 89,
+  "_voice_idx": 88
 }
