@@ -85,7 +85,8 @@
     "misteri-danau-kelimutu-perubahan-warna-myth-busting",
     "misteri-rumah-sakit-jiwa-gonjiam-korea-selatan",
     "misteri-gua-hang-son-doong",
-    "misteri-kuil-borobudur-vs-kuil-angkor-wat"
+    "misteri-kuil-borobudur-vs-kuil-angkor-wat",
+    "misteri-lampu-mengambang-danau-inle-myanmar"
   ],
   "published": [
     {
@@ -947,8 +948,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260926_114833",
+      "topic": "misteri-lampu-mengambang-danau-inle-myanmar",
+      "title": "Misteri Lampu Biru Mengambang di Danau Inle: Portal Dunia Lain atau Ilusi Alam?",
+      "path": "/home/runner/work/konten4/konten4/output/20260926_114833_misteri-lampu-mengambang-danau-inle-myanmar/final.mp4",
+      "video_id": "TAHWadVIfR4",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 87,
-  "_voice_idx": 86
+  "_format_idx": 88,
+  "_voice_idx": 87
 }
