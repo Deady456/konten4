@@ -87,7 +87,8 @@
     "misteri-gua-hang-son-doong",
     "misteri-kuil-borobudur-vs-kuil-angkor-wat",
     "misteri-lampu-mengambang-danau-inle-myanmar",
-    "misteri-malaikat-hutan-borneo"
+    "misteri-malaikat-hutan-borneo",
+    "misteri-derinkuyu-kota-bawah-tanah-turki"
   ],
   "published": [
     {
@@ -969,8 +970,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260927_114805",
+      "topic": "misteri-derinkuyu-kota-bawah-tanah-turki",
+      "title": "Misteri Kota Bawah Tanah Derinkuyu: Rahasia Tersembunyi di Kedalaman Kapadokya",
+      "path": "/home/runner/work/konten4/konten4/output/20260927_114805_misteri-derinkuyu-kota-bawah-tanah-turki/final.mp4",
+      "video_id": "MM32Eyspw_c",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 89,
-  "_voice_idx": 88
+  "_format_idx": 90,
+  "_voice_idx": 89
 }
