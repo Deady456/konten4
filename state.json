@@ -89,7 +89,8 @@
     "misteri-lampu-mengambang-danau-inle-myanmar",
     "misteri-malaikat-hutan-borneo",
     "misteri-derinkuyu-kota-bawah-tanah-turki",
-    "misteri-danau-baikal-yonaguni-jepang"
+    "misteri-danau-baikal-yonaguni-jepang",
+    "misteri-cahaya-biru-himalaya-aurora-2016"
   ],
   "published": [
     {
@@ -965,7 +966,7 @@
     {
       "ts": "20260926_234732",
       "topic": "misteri-malaikat-hutan-borneo",
-      "title": "Misteri Penampakan \u2018Malaikat Hutan\u2019 di Borneo: Fakta yang Membuat Merinding",
+      "title": "Misteri Penampakan ‘Malaikat Hutan’ di Borneo: Fakta yang Membuat Merinding",
       "path": "/home/runner/work/konten4/konten4/output/20260926_234732_misteri-malaikat-hutan-borneo/final.mp4",
       "video_id": "p-s5y-QMBWY",
       "publish_at": null,
@@ -991,8 +992,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260928_114728",
+      "topic": "misteri-cahaya-biru-himalaya-aurora-2016",
+      "title": "Misteri Cahaya Biru di Puncak Himalaya Terungkap: Aurora Langka Dua Ribu Enam Belas",
+      "path": "/home/runner/work/konten4/konten4/output/20260928_114728_misteri-cahaya-biru-himalaya-aurora-2016/final.mp4",
+      "video_id": "oAwP5aEXb0Y",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 91,
-  "_voice_idx": 90
+  "_format_idx": 92,
+  "_voice_idx": 91
 }
