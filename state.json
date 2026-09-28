@@ -88,7 +88,8 @@
     "misteri-kuil-borobudur-vs-kuil-angkor-wat",
     "misteri-lampu-mengambang-danau-inle-myanmar",
     "misteri-malaikat-hutan-borneo",
-    "misteri-derinkuyu-kota-bawah-tanah-turki"
+    "misteri-derinkuyu-kota-bawah-tanah-turki",
+    "misteri-danau-baikal-yonaguni-jepang"
   ],
   "published": [
     {
@@ -980,8 +981,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260927_234801",
+      "topic": "misteri-danau-baikal-yonaguni-jepang",
+      "title": "Misteri Suara Raksasa di Danau Baikal vs Batu Ajaib Yonaguni: Apa yang Lebih Menakutkan?",
+      "path": "/home/runner/work/konten4/konten4/output/20260927_234801_misteri-danau-baikal-yonaguni-jepang/final.mp4",
+      "video_id": "NqyaPh65msA",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 90,
-  "_voice_idx": 89
+  "_format_idx": 91,
+  "_voice_idx": 90
 }
