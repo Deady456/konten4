@@ -92,7 +92,8 @@
     "misteri-danau-baikal-yonaguni-jepang",
     "misteri-cahaya-biru-himalaya-aurora-2016",
     "misteri-danau-lugu-suara-aneh",
-    "misteri-batu-peta-bintang-gobi"
+    "misteri-batu-peta-bintang-gobi",
+    "aokigahara-vs-phong-nha"
   ],
   "published": [
     {
@@ -1024,8 +1025,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260929_234718",
+      "topic": "aokigahara-vs-phong-nha",
+      "title": "Aokigahara vs Phong Nha: Hutan Sunyi vs Gua Bersinar \u2013 Mana Lebih Menyeramkan?",
+      "path": "/home/runner/work/konten4/konten4/output/20260929_234718_aokigahara-vs-phong-nha/final.mp4",
+      "video_id": "KAdXf-jjp4I",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 94,
-  "_voice_idx": 93
+  "_format_idx": 95,
+  "_voice_idx": 94
 }
