@@ -90,7 +90,8 @@
     "misteri-malaikat-hutan-borneo",
     "misteri-derinkuyu-kota-bawah-tanah-turki",
     "misteri-danau-baikal-yonaguni-jepang",
-    "misteri-cahaya-biru-himalaya-aurora-2016"
+    "misteri-cahaya-biru-himalaya-aurora-2016",
+    "misteri-danau-lugu-suara-aneh"
   ],
   "published": [
     {
@@ -966,7 +967,7 @@
     {
       "ts": "20260926_234732",
       "topic": "misteri-malaikat-hutan-borneo",
-      "title": "Misteri Penampakan ‘Malaikat Hutan’ di Borneo: Fakta yang Membuat Merinding",
+      "title": "Misteri Penampakan \u2018Malaikat Hutan\u2019 di Borneo: Fakta yang Membuat Merinding",
       "path": "/home/runner/work/konten4/konten4/output/20260926_234732_misteri-malaikat-hutan-borneo/final.mp4",
       "video_id": "p-s5y-QMBWY",
       "publish_at": null,
@@ -1002,8 +1003,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260928_234818",
+      "topic": "misteri-danau-lugu-suara-aneh",
+      "title": "Misteri Danau Lugu: Suara Aneh yang Membuat Ilmu dan Legenda Bertabrakan",
+      "path": "/home/runner/work/konten4/konten4/output/20260928_234818_misteri-danau-lugu-suara-aneh/final.mp4",
+      "video_id": "K2N0LgbNORk",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 92,
-  "_voice_idx": 91
+  "_format_idx": 93,
+  "_voice_idx": 92
 }
