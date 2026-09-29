@@ -91,7 +91,8 @@
     "misteri-derinkuyu-kota-bawah-tanah-turki",
     "misteri-danau-baikal-yonaguni-jepang",
     "misteri-cahaya-biru-himalaya-aurora-2016",
-    "misteri-danau-lugu-suara-aneh"
+    "misteri-danau-lugu-suara-aneh",
+    "misteri-batu-peta-bintang-gobi"
   ],
   "published": [
     {
@@ -1013,8 +1014,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260929_114651",
+      "topic": "misteri-batu-peta-bintang-gobi",
+      "title": "Misteri Batu Berukir di Gurun Gobi: Peta Bintang Kuno yang Mengguncang Sejarah",
+      "path": "/home/runner/work/konten4/konten4/output/20260929_114651_misteri-batu-peta-bintang-gobi/final.mp4",
+      "video_id": "g5VyM4RrMvA",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 93,
-  "_voice_idx": 92
+  "_format_idx": 94,
+  "_voice_idx": 93
 }
