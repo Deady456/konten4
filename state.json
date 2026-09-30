@@ -93,7 +93,8 @@
     "misteri-cahaya-biru-himalaya-aurora-2016",
     "misteri-danau-lugu-suara-aneh",
     "misteri-batu-peta-bintang-gobi",
-    "aokigahara-vs-phong-nha"
+    "aokigahara-vs-phong-nha",
+    "misteri-bola-api-gobi"
   ],
   "published": [
     {
@@ -1035,8 +1036,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20260930_114757",
+      "topic": "misteri-bola-api-gobi",
+      "title": "Bola Api Biru Gobi: Mitos Alien atau Fenomena Plasma Alam?",
+      "path": "/home/runner/work/konten4/konten4/output/20260930_114757_misteri-bola-api-gobi/final.mp4",
+      "video_id": "bTHVfkyAua8",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 95,
-  "_voice_idx": 94
+  "_format_idx": 96,
+  "_voice_idx": 95
 }
