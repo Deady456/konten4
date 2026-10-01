@@ -96,7 +96,8 @@
     "aokigahara-vs-phong-nha",
     "misteri-bola-api-gobi",
     "misteri-gua-cahaya-biru-bhutan",
-    "misteri-lubang-hitam-danau-poyang"
+    "misteri-lubang-hitam-danau-poyang",
+    "menara-lijiang-vs-kalyan-bukhara"
   ],
   "published": [
     {
@@ -1068,8 +1069,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261001_234711",
+      "topic": "menara-lijiang-vs-kalyan-bukhara",
+      "title": "Menara Lijiang vs Kalyan Bukhara: Bunyi Melengking yang Buka Portal Waktu?",
+      "path": "/home/runner/work/konten4/konten4/output/20261001_234711_menara-lijiang-vs-kalyan-bukhara/final.mp4",
+      "video_id": "ynGfvUk1pzw",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 98,
-  "_voice_idx": 97
+  "_format_idx": 99,
+  "_voice_idx": 98
 }
