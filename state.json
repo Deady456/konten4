@@ -97,7 +97,8 @@
     "misteri-bola-api-gobi",
     "misteri-gua-cahaya-biru-bhutan",
     "misteri-lubang-hitam-danau-poyang",
-    "menara-lijiang-vs-kalyan-bukhara"
+    "menara-lijiang-vs-kalyan-bukhara",
+    "misteri-desa-nagoro-jepang-patung-hantu"
   ],
   "published": [
     {
@@ -1079,8 +1080,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261002_114721",
+      "topic": "misteri-desa-nagoro-jepang-patung-hantu",
+      "title": "MISTERI DESA NAGORO JEPANG: RIBUAN PATUNG HIDUP ATAU HANYA SENI YANG MENGGUGAT?",
+      "path": "/home/runner/work/konten4/konten4/output/20261002_114721_misteri-desa-nagoro-jepang-patung-hantu/final.mp4",
+      "video_id": "OBq445NsZNA",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 99,
-  "_voice_idx": 98
+  "_format_idx": 100,
+  "_voice_idx": 99
 }
