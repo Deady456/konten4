@@ -98,7 +98,8 @@
     "misteri-gua-cahaya-biru-bhutan",
     "misteri-lubang-hitam-danau-poyang",
     "menara-lijiang-vs-kalyan-bukhara",
-    "misteri-desa-nagoro-jepang-patung-hantu"
+    "misteri-desa-nagoro-jepang-patung-hantu",
+    "misteri-api-biru-kawah-ijen"
   ],
   "published": [
     {
@@ -1090,8 +1091,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261002_234657",
+      "topic": "misteri-api-biru-kawah-ijen",
+      "title": "Misteri Api Biru Kawah Ijen: Mengapa Nyala Biru Menyala Setiap Malam?",
+      "path": "/home/runner/work/konten4/konten4/output/20261002_234657_misteri-api-biru-kawah-ijen/final.mp4",
+      "video_id": "KFaOjVTqtng",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 100,
-  "_voice_idx": 99
+  "_format_idx": 101,
+  "_voice_idx": 100
 }
