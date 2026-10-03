@@ -100,7 +100,8 @@
     "menara-lijiang-vs-kalyan-bukhara",
     "misteri-desa-nagoro-jepang-patung-hantu",
     "misteri-api-biru-kawah-ijen",
-    "misteri-benteng-bhangarh-hantu-india"
+    "misteri-benteng-bhangarh-hantu-india",
+    "misteri-jembatan-berhantu-asia-perbandingan"
   ],
   "published": [
     {
@@ -976,7 +977,7 @@
     {
       "ts": "20260926_234732",
       "topic": "misteri-malaikat-hutan-borneo",
-      "title": "Misteri Penampakan ‘Malaikat Hutan’ di Borneo: Fakta yang Membuat Merinding",
+      "title": "Misteri Penampakan \u2018Malaikat Hutan\u2019 di Borneo: Fakta yang Membuat Merinding",
       "path": "/home/runner/work/konten4/konten4/output/20260926_234732_misteri-malaikat-hutan-borneo/final.mp4",
       "video_id": "p-s5y-QMBWY",
       "publish_at": null,
@@ -1036,7 +1037,7 @@
     {
       "ts": "20260929_234718",
       "topic": "aokigahara-vs-phong-nha",
-      "title": "Aokigahara vs Phong Nha: Hutan Sunyi vs Gua Bersinar – Mana Lebih Menyeramkan?",
+      "title": "Aokigahara vs Phong Nha: Hutan Sunyi vs Gua Bersinar \u2013 Mana Lebih Menyeramkan?",
       "path": "/home/runner/work/konten4/konten4/output/20260929_234718_aokigahara-vs-phong-nha/final.mp4",
       "video_id": "KAdXf-jjp4I",
       "publish_at": null,
@@ -1112,8 +1113,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261003_234757",
+      "topic": "misteri-jembatan-berhantu-asia-perbandingan",
+      "title": "Misteri Jembatan Singsing Malaysia vs Jembatan Hantu T\u014dkaid\u014d Jepang: Mana Lebih Menyeramkan?",
+      "path": "/home/runner/work/konten4/konten4/output/20261003_234757_misteri-jembatan-berhantu-asia-perbandingan/final.mp4",
+      "video_id": "9E5y8vXna4Q",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 102,
-  "_voice_idx": 101
+  "_format_idx": 103,
+  "_voice_idx": 102
 }
