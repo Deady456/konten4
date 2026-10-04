@@ -101,7 +101,8 @@
     "misteri-desa-nagoro-jepang-patung-hantu",
     "misteri-api-biru-kawah-ijen",
     "misteri-benteng-bhangarh-hantu-india",
-    "misteri-jembatan-berhantu-asia-perbandingan"
+    "misteri-jembatan-berhantu-asia-perbandingan",
+    "misteri-gunung-padang-piramida-alam"
   ],
   "published": [
     {
@@ -1123,8 +1124,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261004_114704",
+      "topic": "misteri-gunung-padang-piramida-alam",
+      "title": "Misteri Gunung Padang: Piramida Raksasa atau Formasi Alam? \u2013 Myth Busters Asia",
+      "path": "/home/runner/work/konten4/konten4/output/20261004_114704_misteri-gunung-padang-piramida-alam/final.mp4",
+      "video_id": "SiaGqdL2uvc",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 103,
-  "_voice_idx": 102
+  "_format_idx": 104,
+  "_voice_idx": 103
 }
