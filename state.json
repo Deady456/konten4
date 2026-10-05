@@ -103,7 +103,8 @@
     "misteri-benteng-bhangarh-hantu-india",
     "misteri-jembatan-berhantu-asia-perbandingan",
     "misteri-gunung-padang-piramida-alam",
-    "misteri-gua-batu-berbisik-palawan"
+    "misteri-gua-batu-berbisik-palawan",
+    "misteri-batu-emas-kyaiktiyo"
   ],
   "published": [
     {
@@ -1145,8 +1146,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261005_114718",
+      "topic": "misteri-batu-emas-kyaiktiyo",
+      "title": "Misteri Batu Emas Kyaiktiyo: Mengapa Batu Raksasa Itu Tak Jatuh di Myanmar Selama Berabad-abad",
+      "path": "/home/runner/work/konten4/konten4/output/20261005_114718_misteri-batu-emas-kyaiktiyo/final.mp4",
+      "video_id": "nfGoJIlnLtM",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 105,
-  "_voice_idx": 104
+  "_format_idx": 106,
+  "_voice_idx": 105
 }
