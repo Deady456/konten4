@@ -106,7 +106,8 @@
     "misteri-gua-batu-berbisik-palawan",
     "misteri-batu-emas-kyaiktiyo",
     "gobekli-tepe-vs-lempuyang-mystery",
-    "misteri-penunggu-laut-sumbawa"
+    "misteri-penunggu-laut-sumbawa",
+    "misteri-pasir-bernyanyi-taklamakan"
   ],
   "published": [
     {
@@ -1178,8 +1179,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261006_234802",
+      "topic": "misteri-pasir-bernyanyi-taklamakan",
+      "title": "Pasir Bersenandung di Gurun Taklamakan: Fenomena Suara Aneh yang Membuat Tercengang",
+      "path": "/home/runner/work/konten4/konten4/output/20261006_234802_misteri-pasir-bernyanyi-taklamakan/final.mp4",
+      "video_id": "TBC-w3Lq32E",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 108,
-  "_voice_idx": 107
+  "_format_idx": 109,
+  "_voice_idx": 108
 }
