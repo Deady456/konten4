@@ -108,7 +108,8 @@
     "gobekli-tepe-vs-lempuyang-mystery",
     "misteri-penunggu-laut-sumbawa",
     "misteri-pasir-bernyanyi-taklamakan",
-    "misteri-pasir-bernyanyi-badain-jaran"
+    "misteri-pasir-bernyanyi-badain-jaran",
+    "firefly-vs-bioluminescent-bay-asia"
   ],
   "published": [
     {
@@ -1200,8 +1201,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261007_234649",
+      "topic": "firefly-vs-bioluminescent-bay-asia",
+      "title": "Api Bintang di Asia: Firefly Malaysia vs Teluk Biru Filipina, Mana Lebih Memukau?",
+      "path": "/home/runner/work/konten4/konten4/output/20261007_234649_firefly-vs-bioluminescent-bay-asia/final.mp4",
+      "video_id": "i9vZ8_scAaI",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 110,
-  "_voice_idx": 109
+  "_format_idx": 111,
+  "_voice_idx": 110
 }
