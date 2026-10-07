@@ -107,7 +107,8 @@
     "misteri-batu-emas-kyaiktiyo",
     "gobekli-tepe-vs-lempuyang-mystery",
     "misteri-penunggu-laut-sumbawa",
-    "misteri-pasir-bernyanyi-taklamakan"
+    "misteri-pasir-bernyanyi-taklamakan",
+    "misteri-pasir-bernyanyi-badain-jaran"
   ],
   "published": [
     {
@@ -1189,8 +1190,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261007_114707",
+      "topic": "misteri-pasir-bernyanyi-badain-jaran",
+      "title": "Misteri Pasir Berbisik di Badain Jaran: Dunes yang Bernyanyi di Tengah Gurun Asia",
+      "path": "/home/runner/work/konten4/konten4/output/20261007_114707_misteri-pasir-bernyanyi-badain-jaran/final.mp4",
+      "video_id": "vrmwf24imp0",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 109,
-  "_voice_idx": 108
+  "_format_idx": 110,
+  "_voice_idx": 109
 }
