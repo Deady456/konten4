@@ -111,7 +111,8 @@
     "misteri-pasir-bernyanyi-badain-jaran",
     "firefly-vs-bioluminescent-bay-asia",
     "misteri-lampu-berkelip-jembatan-lonceng",
-    "misteri-pulau-gading-hantu-myanmar"
+    "misteri-pulau-gading-hantu-myanmar",
+    "misteri-peti-gantung-sagada"
   ],
   "published": [
     {
@@ -1233,8 +1234,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261009_114707",
+      "topic": "misteri-peti-gantung-sagada",
+      "title": "Misteri Peti Gantung di Sagada: Mayat Menggantung di Tebing Tinggi yang Membingungkan",
+      "path": "/home/runner/work/konten4/konten4/output/20261009_114707_misteri-peti-gantung-sagada/final.mp4",
+      "video_id": "9YIl0PsWs3Q",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 113,
-  "_voice_idx": 112
+  "_format_idx": 114,
+  "_voice_idx": 113
 }
