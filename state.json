@@ -112,7 +112,8 @@
     "firefly-vs-bioluminescent-bay-asia",
     "misteri-lampu-berkelip-jembatan-lonceng",
     "misteri-pulau-gading-hantu-myanmar",
-    "misteri-peti-gantung-sagada"
+    "misteri-peti-gantung-sagada",
+    "gua-es-bromo-vs-fuji"
   ],
   "published": [
     {
@@ -1244,8 +1245,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261009_234919",
+      "topic": "gua-es-bromo-vs-fuji",
+      "title": "Misteri Gua Es Bromo vs Gua Es Fuji: Rahasia Es yang Berbeda!",
+      "path": "/home/runner/work/konten4/konten4/output/20261009_234919_gua-es-bromo-vs-fuji/final.mp4",
+      "video_id": "Wp5KtK8PovI",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 114,
-  "_voice_idx": 113
+  "_format_idx": 115,
+  "_voice_idx": 114
 }
