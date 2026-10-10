@@ -114,7 +114,8 @@
     "misteri-pulau-gading-hantu-myanmar",
     "misteri-peti-gantung-sagada",
     "gua-es-bromo-vs-fuji",
-    "misteri-lingkaran-es-biru-kinabalu"
+    "misteri-lingkaran-es-biru-kinabalu",
+    "misteri-danau-toba-suara-misterius"
   ],
   "published": [
     {
@@ -1266,8 +1267,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261010_204635",
+      "topic": "misteri-danau-toba-suara-misterius",
+      "title": "Misteri Suara Menggema di Danau Toba: Apa yang Tersembunyi di Kedalaman?",
+      "path": "/home/runner/work/konten4/konten4/output/20261010_204635_misteri-danau-toba-suara-misterius/final.mp4",
+      "video_id": "wu20umyR9p4",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 116,
-  "_voice_idx": 115
+  "_format_idx": 117,
+  "_voice_idx": 116
 }
