@@ -115,7 +115,8 @@
     "misteri-peti-gantung-sagada",
     "gua-es-bromo-vs-fuji",
     "misteri-lingkaran-es-biru-kinabalu",
-    "misteri-danau-toba-suara-misterius"
+    "misteri-danau-toba-suara-misterius",
+    "misteri-pasir-bernyanyi-tottori"
   ],
   "published": [
     {
@@ -1277,8 +1278,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261010_234656",
+      "topic": "misteri-pasir-bernyanyi-tottori",
+      "title": "Misteri Pasir Bernyanyi di Pantai Tottori, Jepang: Suara Hantu yang Memukau",
+      "path": "/home/runner/work/konten4/konten4/output/20261010_234656_misteri-pasir-bernyanyi-tottori/final.mp4",
+      "video_id": "SZZgfi7Uy4Q",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 117,
-  "_voice_idx": 116
+  "_format_idx": 118,
+  "_voice_idx": 117
 }
