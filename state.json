@@ -113,7 +113,8 @@
     "misteri-lampu-berkelip-jembatan-lonceng",
     "misteri-pulau-gading-hantu-myanmar",
     "misteri-peti-gantung-sagada",
-    "gua-es-bromo-vs-fuji"
+    "gua-es-bromo-vs-fuji",
+    "misteri-lingkaran-es-biru-kinabalu"
   ],
   "published": [
     {
@@ -1255,8 +1256,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261010_114702",
+      "topic": "misteri-lingkaran-es-biru-kinabalu",
+      "title": "Misteri Lingkaran Es Biru di Puncak Kinabalu: Portal Roh atau Fenomena Alam?",
+      "path": "/home/runner/work/konten4/konten4/output/20261010_114702_misteri-lingkaran-es-biru-kinabalu/final.mp4",
+      "video_id": "mwm-Ad_MUIs",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 115,
-  "_voice_idx": 114
+  "_format_idx": 116,
+  "_voice_idx": 115
 }
