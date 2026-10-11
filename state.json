@@ -116,7 +116,8 @@
     "gua-es-bromo-vs-fuji",
     "misteri-lingkaran-es-biru-kinabalu",
     "misteri-danau-toba-suara-misterius",
-    "misteri-pasir-bernyanyi-tottori"
+    "misteri-pasir-bernyanyi-tottori",
+    "misteri-gua-hang-diu-vs-tham-luang"
   ],
   "published": [
     {
@@ -1288,8 +1289,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261011_114713",
+      "topic": "misteri-gua-hang-diu-vs-tham-luang",
+      "title": "Gua Hang Diu vs Tham Luang: Misteri Suara, Cahaya, dan Gerbang Dunia Lain",
+      "path": "/home/runner/work/konten4/konten4/output/20261011_114713_misteri-gua-hang-diu-vs-tham-luang/final.mp4",
+      "video_id": "mz8hmAckq04",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 118,
-  "_voice_idx": 117
+  "_format_idx": 119,
+  "_voice_idx": 118
 }
