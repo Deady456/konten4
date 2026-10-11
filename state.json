@@ -117,7 +117,8 @@
     "misteri-lingkaran-es-biru-kinabalu",
     "misteri-danau-toba-suara-misterius",
     "misteri-pasir-bernyanyi-tottori",
-    "misteri-gua-hang-diu-vs-tham-luang"
+    "misteri-gua-hang-diu-vs-tham-luang",
+    "misteri-cahaya-biru-merapi"
   ],
   "published": [
     {
@@ -1299,8 +1300,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261011_234718",
+      "topic": "misteri-cahaya-biru-merapi",
+      "title": "MISTERI CAHAYA BIRU MERAPI: Mitos Api Neraka atau Fenomena Alam?",
+      "path": "/home/runner/work/konten4/konten4/output/20261011_234718_misteri-cahaya-biru-merapi/final.mp4",
+      "video_id": "_93tCKsGzt0",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 119,
-  "_voice_idx": 118
+  "_format_idx": 120,
+  "_voice_idx": 119
 }
