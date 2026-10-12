@@ -119,7 +119,8 @@
     "misteri-pasir-bernyanyi-tottori",
     "misteri-gua-hang-diu-vs-tham-luang",
     "misteri-cahaya-biru-merapi",
-    "misteri-hutan-hantu-borneo"
+    "misteri-hutan-hantu-borneo",
+    "misteri-patung-berkedip-kuil-angkor-thom"
   ],
   "published": [
     {
@@ -1321,8 +1322,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261012_234715",
+      "topic": "misteri-patung-berkedip-kuil-angkor-thom",
+      "title": "Misteri Patung Berkedip di Kuil Angkor Thom: Fenomena yang Tak Terjelaskan",
+      "path": "/home/runner/work/konten4/konten4/output/20261012_234715_misteri-patung-berkedip-kuil-angkor-thom/final.mp4",
+      "video_id": "JdWfArBhLrE",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 121,
-  "_voice_idx": 120
+  "_format_idx": 122,
+  "_voice_idx": 121
 }
