@@ -118,7 +118,8 @@
     "misteri-danau-toba-suara-misterius",
     "misteri-pasir-bernyanyi-tottori",
     "misteri-gua-hang-diu-vs-tham-luang",
-    "misteri-cahaya-biru-merapi"
+    "misteri-cahaya-biru-merapi",
+    "misteri-hutan-hantu-borneo"
   ],
   "published": [
     {
@@ -1310,8 +1311,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261012_114719",
+      "topic": "misteri-hutan-hantu-borneo",
+      "title": "Misteri Hutan Hantu Borneo: Jejak Raksasa, Suara Anak, Cahaya Hijau yang Tak Terjelaskan",
+      "path": "/home/runner/work/konten4/konten4/output/20261012_114719_misteri-hutan-hantu-borneo/final.mp4",
+      "video_id": "aYz2cZcNz88",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 120,
-  "_voice_idx": 119
+  "_format_idx": 121,
+  "_voice_idx": 120
 }
