@@ -120,7 +120,8 @@
     "misteri-gua-hang-diu-vs-tham-luang",
     "misteri-cahaya-biru-merapi",
     "misteri-hutan-hantu-borneo",
-    "misteri-patung-berkedip-kuil-angkor-thom"
+    "misteri-patung-berkedip-kuil-angkor-thom",
+    "misteri-gua-sita-vs-hutan-yushan"
   ],
   "published": [
     {
@@ -1332,8 +1333,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261013_114716",
+      "topic": "misteri-gua-sita-vs-hutan-yushan",
+      "title": "Gua Sita Nepal vs Hutan Yushan Taiwan: Suara Hantu atau Bisikan Misterius?",
+      "path": "/home/runner/work/konten4/konten4/output/20261013_114716_misteri-gua-sita-vs-hutan-yushan/final.mp4",
+      "video_id": "YEQwMIVAFJk",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 122,
-  "_voice_idx": 121
+  "_format_idx": 123,
+  "_voice_idx": 122
 }
