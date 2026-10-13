@@ -121,7 +121,8 @@
     "misteri-cahaya-biru-merapi",
     "misteri-hutan-hantu-borneo",
     "misteri-patung-berkedip-kuil-angkor-thom",
-    "misteri-gua-sita-vs-hutan-yushan"
+    "misteri-gua-sita-vs-hutan-yushan",
+    "misteri-bisikan-danau-lugu"
   ],
   "published": [
     {
@@ -1343,8 +1344,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261013_234713",
+      "topic": "misteri-bisikan-danau-lugu",
+      "title": "MISTERI BISINGAN MALAM DI DANAU LUGU: LEGENDAR ATAU FENOMENA AKUSTIK?",
+      "path": "/home/runner/work/konten4/konten4/output/20261013_234713_misteri-bisikan-danau-lugu/final.mp4",
+      "video_id": "38hGSik1kb0",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 123,
-  "_voice_idx": 122
+  "_format_idx": 124,
+  "_voice_idx": 123
 }
