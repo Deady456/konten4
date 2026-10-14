@@ -123,7 +123,8 @@
     "misteri-patung-berkedip-kuil-angkor-thom",
     "misteri-gua-sita-vs-hutan-yushan",
     "misteri-bisikan-danau-lugu",
-    "misteri-desa-menghilang-asia"
+    "misteri-desa-menghilang-asia",
+    "misteri-suara-berdengung-gunung-agung"
   ],
   "published": [
     {
@@ -1365,8 +1366,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261014_234740",
+      "topic": "misteri-suara-berdengung-gunung-agung",
+      "title": "Misteri Suara Berdengung di Puncak Gunung Agung yang Tak Terpecahkan",
+      "path": "/home/runner/work/konten4/konten4/output/20261014_234740_misteri-suara-berdengung-gunung-agung/final.mp4",
+      "video_id": "QRwqIAWJJp0",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 125,
-  "_voice_idx": 124
+  "_format_idx": 126,
+  "_voice_idx": 125
 }
