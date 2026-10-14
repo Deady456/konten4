@@ -122,7 +122,8 @@
     "misteri-hutan-hantu-borneo",
     "misteri-patung-berkedip-kuil-angkor-thom",
     "misteri-gua-sita-vs-hutan-yushan",
-    "misteri-bisikan-danau-lugu"
+    "misteri-bisikan-danau-lugu",
+    "misteri-desa-menghilang-asia"
   ],
   "published": [
     {
@@ -1354,8 +1355,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261014_114751",
+      "topic": "misteri-desa-menghilang-asia",
+      "title": "Desa Misterius di Myanmar Menghilang Saat Kabut: Fenomena yang Membingungkan",
+      "path": "/home/runner/work/konten4/konten4/output/20261014_114751_misteri-desa-menghilang-asia/final.mp4",
+      "video_id": "dy0HeBvIb50",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 124,
-  "_voice_idx": 123
+  "_format_idx": 125,
+  "_voice_idx": 124
 }
