@@ -125,7 +125,8 @@
     "misteri-bisikan-danau-lugu",
     "misteri-desa-menghilang-asia",
     "misteri-suara-berdengung-gunung-agung",
-    "misteri-hujan-merah-borneo-jepang"
+    "misteri-hujan-merah-borneo-jepang",
+    "misteri-patung-bambu-bercahaya-borneo"
   ],
   "published": [
     {
@@ -1387,8 +1388,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261015_234728",
+      "topic": "misteri-patung-bambu-bercahaya-borneo",
+      "title": "Misteri Patung Bambu yang Menyala di Hutan Borneo: Fakta Ilmiah di Balik Cahaya Biru",
+      "path": "/home/runner/work/konten4/konten4/output/20261015_234728_misteri-patung-bambu-bercahaya-borneo/final.mp4",
+      "video_id": "20F0M0ypNmM",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 127,
-  "_voice_idx": 126
+  "_format_idx": 128,
+  "_voice_idx": 127
 }
