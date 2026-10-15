@@ -124,7 +124,8 @@
     "misteri-gua-sita-vs-hutan-yushan",
     "misteri-bisikan-danau-lugu",
     "misteri-desa-menghilang-asia",
-    "misteri-suara-berdengung-gunung-agung"
+    "misteri-suara-berdengung-gunung-agung",
+    "misteri-hujan-merah-borneo-jepang"
   ],
   "published": [
     {
@@ -1376,8 +1377,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261015_114815",
+      "topic": "misteri-hujan-merah-borneo-jepang",
+      "title": "Misteri Hujan Merah: Alga di Borneo vs Abu Vulkanik di Jepang",
+      "path": "/home/runner/work/konten4/konten4/output/20261015_114815_misteri-hujan-merah-borneo-jepang/final.mp4",
+      "video_id": "Siv8eeQ-3os",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 126,
-  "_voice_idx": 125
+  "_format_idx": 127,
+  "_voice_idx": 126
 }
