@@ -127,7 +127,8 @@
     "misteri-suara-berdengung-gunung-agung",
     "misteri-hujan-merah-borneo-jepang",
     "misteri-patung-bambu-bercahaya-borneo",
-    "misteri-gua-bercahaya-himalaya"
+    "misteri-gua-bercahaya-himalaya",
+    "misteri-patung-bergetar-jeju"
   ],
   "published": [
     {
@@ -1409,8 +1410,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261016_234651",
+      "topic": "misteri-patung-bergetar-jeju",
+      "title": "Misteri Patung Bergetar di Pulau Jeju: Rahasia Angin Laut yang Mengguncang",
+      "path": "/home/runner/work/konten4/konten4/output/20261016_234651_misteri-patung-bergetar-jeju/final.mp4",
+      "video_id": "z5lvL8-Y2w0",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 129,
-  "_voice_idx": 128
+  "_format_idx": 130,
+  "_voice_idx": 129
 }
