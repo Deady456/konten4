@@ -126,7 +126,8 @@
     "misteri-desa-menghilang-asia",
     "misteri-suara-berdengung-gunung-agung",
     "misteri-hujan-merah-borneo-jepang",
-    "misteri-patung-bambu-bercahaya-borneo"
+    "misteri-patung-bambu-bercahaya-borneo",
+    "misteri-gua-bercahaya-himalaya"
   ],
   "published": [
     {
@@ -1398,8 +1399,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261016_114704",
+      "topic": "misteri-gua-bercahaya-himalaya",
+      "title": "Misteri Gua Nila: Cahaya Biru Menguak Rahasia Tersembunyi di Himalaya",
+      "path": "/home/runner/work/konten4/konten4/output/20261016_114704_misteri-gua-bercahaya-himalaya/final.mp4",
+      "video_id": "gtlqhUFMbUk",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 128,
-  "_voice_idx": 127
+  "_format_idx": 129,
+  "_voice_idx": 128
 }
