@@ -129,7 +129,8 @@
     "misteri-patung-bambu-bercahaya-borneo",
     "misteri-gua-bercahaya-himalaya",
     "misteri-patung-bergetar-jeju",
-    "misteri-hujan-merah-kerala-vs-salju-merah-hokkaido"
+    "misteri-hujan-merah-kerala-vs-salju-merah-hokkaido",
+    "misteri-bisikan-kinkakuji-jepang"
   ],
   "published": [
     {
@@ -1431,8 +1432,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261017_234708",
+      "topic": "misteri-bisikan-kinkakuji-jepang",
+      "title": "Misteri Bisikan di Kinkaku-ji: Hantu atau Angin? \u2013 Fakta Ilmiah Mengejutkan",
+      "path": "/home/runner/work/konten4/konten4/output/20261017_234708_misteri-bisikan-kinkakuji-jepang/final.mp4",
+      "video_id": "U5whQjXs8Sc",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 131,
-  "_voice_idx": 130
+  "_format_idx": 132,
+  "_voice_idx": 131
 }
