@@ -128,7 +128,8 @@
     "misteri-hujan-merah-borneo-jepang",
     "misteri-patung-bambu-bercahaya-borneo",
     "misteri-gua-bercahaya-himalaya",
-    "misteri-patung-bergetar-jeju"
+    "misteri-patung-bergetar-jeju",
+    "misteri-hujan-merah-kerala-vs-salju-merah-hokkaido"
   ],
   "published": [
     {
@@ -1420,8 +1421,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261017_114711",
+      "topic": "misteri-hujan-merah-kerala-vs-salju-merah-hokkaido",
+      "title": "Hujan Merah Kerala vs Salju Merah Hokkaido: Fenomena Langka di Asia yang Membingungkan",
+      "path": "/home/runner/work/konten4/konten4/output/20261017_114711_misteri-hujan-merah-kerala-vs-salju-merah-hokkaido/final.mp4",
+      "video_id": "yzycSeXfD9k",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 130,
-  "_voice_idx": 129
+  "_format_idx": 131,
+  "_voice_idx": 130
 }
