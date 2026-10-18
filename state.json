@@ -131,7 +131,8 @@
     "misteri-patung-bergetar-jeju",
     "misteri-hujan-merah-kerala-vs-salju-merah-hokkaido",
     "misteri-bisikan-kinkakuji-jepang",
-    "misteri-sungai-biru-hinatuan"
+    "misteri-sungai-biru-hinatuan",
+    "misteri-gua-biru-phong-nha"
   ],
   "published": [
     {
@@ -1453,8 +1454,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261018_234709",
+      "topic": "misteri-gua-biru-phong-nha",
+      "title": "Misteri Gua Biru Phong Nha: Cahaya Ajaib yang Memanggil dari Kedalaman",
+      "path": "/home/runner/work/konten4/konten4/output/20261018_234709_misteri-gua-biru-phong-nha/final.mp4",
+      "video_id": "Ibm_Y8no5D4",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 133,
-  "_voice_idx": 132
+  "_format_idx": 134,
+  "_voice_idx": 133
 }
