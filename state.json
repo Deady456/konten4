@@ -130,7 +130,8 @@
     "misteri-gua-bercahaya-himalaya",
     "misteri-patung-bergetar-jeju",
     "misteri-hujan-merah-kerala-vs-salju-merah-hokkaido",
-    "misteri-bisikan-kinkakuji-jepang"
+    "misteri-bisikan-kinkakuji-jepang",
+    "misteri-sungai-biru-hinatuan"
   ],
   "published": [
     {
@@ -1442,8 +1443,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261018_114702",
+      "topic": "misteri-sungai-biru-hinatuan",
+      "title": "Misteri Sungai Biru Hinatuan: Air Jernih Tanpa Sumber yang Terungkap?",
+      "path": "/home/runner/work/konten4/konten4/output/20261018_114702_misteri-sungai-biru-hinatuan/final.mp4",
+      "video_id": "Exf5wmIfkzE",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 132,
-  "_voice_idx": 131
+  "_format_idx": 133,
+  "_voice_idx": 132
 }
