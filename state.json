@@ -133,7 +133,8 @@
     "misteri-bisikan-kinkakuji-jepang",
     "misteri-sungai-biru-hinatuan",
     "misteri-gua-biru-phong-nha",
-    "misteri-lampu-mengambang-danau-poyang-vs-suara-kriuk-gua-sumatran"
+    "misteri-lampu-mengambang-danau-poyang-vs-suara-kriuk-gua-sumatran",
+    "misteri-suara-naga-yangtze"
   ],
   "published": [
     {
@@ -1475,8 +1476,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261019_234654",
+      "topic": "misteri-suara-naga-yangtze",
+      "title": "MISTERI SUARA NAGA DI SUNGAI YANGTZE: MITOS ATAU ILMU?",
+      "path": "/home/runner/work/konten4/konten4/output/20261019_234654_misteri-suara-naga-yangtze/final.mp4",
+      "video_id": "X82r6kRiA3o",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 135,
-  "_voice_idx": 134
+  "_format_idx": 136,
+  "_voice_idx": 135
 }
