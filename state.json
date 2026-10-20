@@ -134,7 +134,8 @@
     "misteri-sungai-biru-hinatuan",
     "misteri-gua-biru-phong-nha",
     "misteri-lampu-mengambang-danau-poyang-vs-suara-kriuk-gua-sumatran",
-    "misteri-suara-naga-yangtze"
+    "misteri-suara-naga-yangtze",
+    "misteri-suara-tertawa-jembatan-gantung-mekong"
   ],
   "published": [
     {
@@ -1486,8 +1487,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261020_114733",
+      "topic": "misteri-suara-tertawa-jembatan-gantung-mekong",
+      "title": "Mengungkap Misteri Suara Tertawa di Jembatan Gantung Lembah Mekong yang Membuat Penjelajah M...",
+      "path": "/home/runner/work/konten4/konten4/output/20261020_114733_misteri-suara-tertawa-jembatan-gantung-mekong/final.mp4",
+      "video_id": "f5Lu9wFqBc8",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 136,
-  "_voice_idx": 135
+  "_format_idx": 137,
+  "_voice_idx": 136
 }
