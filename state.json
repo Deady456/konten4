@@ -135,7 +135,8 @@
     "misteri-gua-biru-phong-nha",
     "misteri-lampu-mengambang-danau-poyang-vs-suara-kriuk-gua-sumatran",
     "misteri-suara-naga-yangtze",
-    "misteri-suara-tertawa-jembatan-gantung-mekong"
+    "misteri-suara-tertawa-jembatan-gantung-mekong",
+    "misteri-patung-berbisik-son-doong"
   ],
   "published": [
     {
@@ -1497,8 +1498,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261020_234711",
+      "topic": "misteri-patung-berbisik-son-doong",
+      "title": "Patung Batu Berbisik di Gua Son Doong: Misteri Gerakan yang Menggetarkan",
+      "path": "/home/runner/work/konten4/konten4/output/20261020_234711_misteri-patung-berbisik-son-doong/final.mp4",
+      "video_id": "HLLfGklvVNs",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 137,
-  "_voice_idx": 136
+  "_format_idx": 138,
+  "_voice_idx": 137
 }
