@@ -136,7 +136,8 @@
     "misteri-lampu-mengambang-danau-poyang-vs-suara-kriuk-gua-sumatran",
     "misteri-suara-naga-yangtze",
     "misteri-suara-tertawa-jembatan-gantung-mekong",
-    "misteri-patung-berbisik-son-doong"
+    "misteri-patung-berbisik-son-doong",
+    "misteri-hutan-aokigahara-hutan-mati-sumba"
   ],
   "published": [
     {
@@ -1508,8 +1509,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261021_114706",
+      "topic": "misteri-hutan-aokigahara-hutan-mati-sumba",
+      "title": "Aokigahara vs Hutan Mati Sumba: Mana yang Lebih Menyeramkan? Misteri Hutan Terlarang Asia",
+      "path": "/home/runner/work/konten4/konten4/output/20261021_114706_misteri-hutan-aokigahara-hutan-mati-sumba/final.mp4",
+      "video_id": "gPEa7rtXOb0",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 138,
-  "_voice_idx": 137
+  "_format_idx": 139,
+  "_voice_idx": 138
 }
