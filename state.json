@@ -137,7 +137,8 @@
     "misteri-suara-naga-yangtze",
     "misteri-suara-tertawa-jembatan-gantung-mekong",
     "misteri-patung-berbisik-son-doong",
-    "misteri-hutan-aokigahara-hutan-mati-sumba"
+    "misteri-hutan-aokigahara-hutan-mati-sumba",
+    "misteri-suara-langkah-benteng-gua-tua"
   ],
   "published": [
     {
@@ -1519,8 +1520,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261021_234707",
+      "topic": "misteri-suara-langkah-benteng-gua-tua",
+      "title": "MISTERI SUARA LANGKAH DI BENTENG GUA TUA: HANTU ATAU FENOMENA ALAM?",
+      "path": "/home/runner/work/konten4/konten4/output/20261021_234707_misteri-suara-langkah-benteng-gua-tua/final.mp4",
+      "video_id": "ZTopDMLYkEw",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 139,
-  "_voice_idx": 138
+  "_format_idx": 140,
+  "_voice_idx": 139
 }
