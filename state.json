@@ -139,7 +139,8 @@
     "misteri-patung-berbisik-son-doong",
     "misteri-hutan-aokigahara-hutan-mati-sumba",
     "misteri-suara-langkah-benteng-gua-tua",
-    "gunung-menghilang-asia-misteri"
+    "gunung-menghilang-asia-misteri",
+    "misteri-kilat-biru-langkawi"
   ],
   "published": [
     {
@@ -1541,8 +1542,18 @@
       "publish_at": null,
       "format": "list",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261022_234716",
+      "topic": "misteri-kilat-biru-langkawi",
+      "title": "Misteri Kilat Biru di Langkawi: Fenomena Langit yang Menantang Ilmu",
+      "path": "/home/runner/work/konten4/konten4/output/20261022_234716_misteri-kilat-biru-langkawi/final.mp4",
+      "video_id": "xLWUYWAyX1o",
+      "publish_at": null,
+      "format": "story",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 141,
-  "_voice_idx": 140
+  "_format_idx": 142,
+  "_voice_idx": 141
 }
