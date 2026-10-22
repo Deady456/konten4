@@ -138,7 +138,8 @@
     "misteri-suara-tertawa-jembatan-gantung-mekong",
     "misteri-patung-berbisik-son-doong",
     "misteri-hutan-aokigahara-hutan-mati-sumba",
-    "misteri-suara-langkah-benteng-gua-tua"
+    "misteri-suara-langkah-benteng-gua-tua",
+    "gunung-menghilang-asia-misteri"
   ],
   "published": [
     {
@@ -1530,8 +1531,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261022_114702",
+      "topic": "gunung-menghilang-asia-misteri",
+      "title": "Misteri Gunung Batur yang Menghilang Setiap Fajar: Fenomena Aneh di Bali yang Membuat Peneli...",
+      "path": "/home/runner/work/konten4/konten4/output/20261022_114702_gunung-menghilang-asia-misteri/final.mp4",
+      "video_id": "VmyRkF8afoQ",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 140,
-  "_voice_idx": 139
+  "_format_idx": 141,
+  "_voice_idx": 140
 }
