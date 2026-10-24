@@ -141,7 +141,8 @@
     "misteri-suara-langkah-benteng-gua-tua",
     "gunung-menghilang-asia-misteri",
     "misteri-kilat-biru-langkawi",
-    "misteri-labirin-bawah-tanah-asia"
+    "misteri-labirin-bawah-tanah-asia",
+    "misteri-warna-merah-gobi"
   ],
   "published": [
     {
@@ -1563,8 +1564,18 @@
       "publish_at": null,
       "format": "comparison",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261024_234709",
+      "topic": "misteri-warna-merah-gobi",
+      "title": "Misteri Gurun Gobi Merah: Kutukan Kuno atau Reaksi Besi Alami?",
+      "path": "/home/runner/work/konten4/konten4/output/20261024_234709_misteri-warna-merah-gobi/final.mp4",
+      "video_id": "cuWm4nec5HE",
+      "publish_at": null,
+      "format": "myth_busting",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 143,
-  "_voice_idx": 142
+  "_format_idx": 144,
+  "_voice_idx": 143
 }
