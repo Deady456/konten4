@@ -140,7 +140,8 @@
     "misteri-hutan-aokigahara-hutan-mati-sumba",
     "misteri-suara-langkah-benteng-gua-tua",
     "gunung-menghilang-asia-misteri",
-    "misteri-kilat-biru-langkawi"
+    "misteri-kilat-biru-langkawi",
+    "misteri-labirin-bawah-tanah-asia"
   ],
   "published": [
     {
@@ -1552,8 +1553,18 @@
       "publish_at": null,
       "format": "story",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261024_114658",
+      "topic": "misteri-labirin-bawah-tanah-asia",
+      "title": "Labirin Bawah Tanah Asia: Suara Hantu vs Cahaya Hijau, Mana yang Lebih Misterius?",
+      "path": "/home/runner/work/konten4/konten4/output/20261024_114658_misteri-labirin-bawah-tanah-asia/final.mp4",
+      "video_id": "OQMq3N72-so",
+      "publish_at": null,
+      "format": "comparison",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 142,
-  "_voice_idx": 141
+  "_format_idx": 143,
+  "_voice_idx": 142
 }
