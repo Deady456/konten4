@@ -142,7 +142,8 @@
     "gunung-menghilang-asia-misteri",
     "misteri-kilat-biru-langkawi",
     "misteri-labirin-bawah-tanah-asia",
-    "misteri-warna-merah-gobi"
+    "misteri-warna-merah-gobi",
+    "misteri-bisikan-hantu-benteng-trowulan"
   ],
   "published": [
     {
@@ -1574,8 +1575,18 @@
       "publish_at": null,
       "format": "myth_busting",
       "voice": "unknown"
+    },
+    {
+      "ts": "20261025_114702",
+      "topic": "misteri-bisikan-hantu-benteng-trowulan",
+      "title": "Misteri Bisikan Hantu di Benteng Trowulan: Suara Apa yang Tersimpan di Tanah Majapahit?",
+      "path": "/home/runner/work/konten4/konten4/output/20261025_114702_misteri-bisikan-hantu-benteng-trowulan/final.mp4",
+      "video_id": "bSehBfeLqZ0",
+      "publish_at": null,
+      "format": "list",
+      "voice": "unknown"
     }
   ],
-  "_format_idx": 144,
-  "_voice_idx": 143
+  "_format_idx": 145,
+  "_voice_idx": 144
 }
